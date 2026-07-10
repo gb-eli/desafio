@@ -1,0 +1,42 @@
+DESAFIO DS — v14 Bancos por Área
+
+Senhas atuais:
+- Modo Desafio: desafio2026
+- Modo Prova: prova2026
+- Modo Professor/Teste: ModoDeus-DS#AGV-2026!
+- Recuperação do professor: Resgate-Professor#DS@2026!
+
+Novidade da v14:
+- As perguntas foram separadas em bancos protegidos por área, dentro de js/bank-chunks/.
+- O arquivo js/bank-manifest.js mostra apenas o índice dos módulos, sem gabaritos.
+- Ao escolher um módulo específico, o jogo carrega somente o chunk daquela área.
+- No desafio geral, o jogo sorteia perguntas de todas as áreas.
+- Modo Desafio geral: sorteia até 10 perguntas por área.
+- Modo Desafio específico: sorteia até 15 perguntas da área escolhida.
+- Modo Prova geral: sorteia até 4 perguntas por área.
+- Modo Prova específico: sorteia até 8 perguntas da área escolhida.
+- Modo Professor carrega tudo para auditoria/teste das perguntas.
+
+Áreas disponíveis:
+- Computação e Hardware
+- CMD / Terminal / Organização de Arquivos
+- Análise e Métodos de Sistemas
+- Inovação Tecnológica e Empreendedorismo
+- Banco de Dados / SQL
+- Front-end / HTML / CSS / JavaScript
+- Python / Programação
+- Back-end / APIs / Cloud / Virtualização
+- Computação Gráfica / UX / UI
+- Inglês Técnico — Bônus
+- Ciência de Dados / Dados
+
+Observação de segurança:
+Este projeto ainda é front-end estático. Os bancos estão criptografados/ofuscados por área para dificultar cópia e uso direto em IA, mas segurança total só existe com validação em servidor/API.
+
+Ao subir no GitHub Pages:
+- Envie index.html, css/, js/, validador_token_professor.html e alerta.aac se for usar som.
+- Apague arquivos antigos como js/banks-secure.js e a pasta antiga js/banks/, se existirem.
+- Mantenha a pasta js/bank-chunks/ completa.
+
+
+Versão v15: banco diagnóstico DS revisado com alternativas plausíveis, dificuldade equilibrada e bancos por área.
