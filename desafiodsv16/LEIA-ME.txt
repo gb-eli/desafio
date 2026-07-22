@@ -1,0 +1,36 @@
+DESAFIO DS — v16 GitHub Pages Hardened
+
+Publicação:
+- Publique somente o conteúdo desta pasta no GitHub Pages.
+- Preserve index.html, css/, js/ e o validador do professor.
+- Não publique documentos externos que contenham senhas em texto aberto.
+- Troque as senhas antes de cada aplicação quando houver risco de compartilhamento entre turmas.
+
+Proteção aplicada:
+- bancos cifrados e separados por área;
+- carregamento apenas dos módulos necessários;
+- descarte do bloco cifrado e da senha após montar a missão;
+- alternativas reidentificadas a cada exibição;
+- provas de resposta com sal individual, sem gabarito em texto no banco;
+- mapas de relacionar, classificar e ordenar removidos do pacote aberto em memória;
+- identificação discreta da sessão;
+- eventos de integridade graduais, com redução de falsos positivos;
+- ausência de coleta de IP e geolocalização.
+
+Limite técnico:
+Este é um site estático. As medidas dificultam cópia casual, mas não tornam o
+gabarito inviolável. Quem controla o navegador também pode analisar o código em
+execução. O comprovante final é um registro local e não uma assinatura antifraude.
+
+Áreas disponíveis:
+- Análise e Métodos de Sistemas
+- Back-end / APIs / Cloud / Virtualização
+- Banco de Dados / SQL
+- CMD / Terminal / Organização de Arquivos
+- Ciência de Dados / Dados
+- Computação e Hardware
+- Computação Gráfica / UX / UI
+- Front-end / HTML / CSS / JavaScript
+- Inglês Técnico — Bônus
+- Inovação Tecnológica e Empreendedorismo
+- Python / Programação
