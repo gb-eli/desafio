@@ -1,0 +1,33 @@
+DESAFIO DS — v18.1
+
+PUBLICAÇÃO
+1. Apague os arquivos da versão anterior no repositório.
+2. Envie todo o conteúdo desta pasta para a raiz.
+3. Confirme que index.html está na raiz.
+4. Aguarde o GitHub Pages concluir a publicação.
+5. Abra em aba anônima para evitar cache antigo.
+
+TURMAS
+- 1º DS — Manhã
+- 2º DS — Manhã
+- 3º DS — Manhã
+- 2º DS — Noite
+
+REVISÃO V18.1
+- segurança XSS e sanitização revisadas;
+- CSP reforçada com bloqueio de scripts em atributos;
+- 234 perguntas e 15 laboratórios auditados;
+- 13 perguntas fundamentais reescritas com alternativas técnicas próximas;
+- outras questões com pistas por tamanho ou enunciados curtos revisadas;
+- alternativas embaralhadas por fonte criptográfica;
+- relatórios por área, competência, tecnologia, programação e idioma;
+- trilhas de Front-end, Back-end, Banco de Dados, Dados, Segurança, Infraestrutura,
+  UX/UI, Engenharia de Software, Análise de Sistemas e Análise de Software;
+- temas Escuro, Claro, Aparelho e Contraste;
+- correção de tema da turma 2º DS Noite;
+- dock de aparência reposicionado durante o jogo;
+- cache atualizado para v18.1.
+
+LIMITE
+É um site estático. A proteção é operacional e pedagógica, não equivale a um
+servidor com autenticação, assinatura digital e armazenamento centralizado.

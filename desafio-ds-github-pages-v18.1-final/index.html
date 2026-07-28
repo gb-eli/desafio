@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; connect-src 'none'; font-src 'self'; frame-src 'self' data: blob:; worker-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none';" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Desafio DS</title>
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="Diagnóstico gamificado de Desenvolvimento de Sistemas." />
+  <link rel="stylesheet" href="css/style.css?v=18.1" />
+</head>
+<body class="class-ds1">
+  <nav class="theme-dock" aria-label="Aparência e acessibilidade">
+    <button class="theme-btn" type="button" data-theme="dark" aria-pressed="false" title="Usar tema escuro">Escuro</button>
+    <button class="theme-btn" type="button" data-theme="light" aria-pressed="false" title="Usar tema claro">Claro</button>
+    <button class="theme-btn" type="button" data-theme="system" aria-pressed="false" title="Seguir tema do aparelho">Aparelho</button>
+    <button id="contrastToggle" class="theme-btn" type="button" aria-pressed="false" title="Ativar contraste elevado">Contraste</button>
+  </nav>
+  <main id="startScreen" class="screen screen-start active">
+    <div class="start-bg" aria-hidden="true"></div>
+    <section class="start-card">
+      <div class="start-left">
+        <div class="terminal-label"><span class="pulse-dot"></span> SISTEMA DE MISSÃO</div>
+        <h1>Desafio DS</h1>
+        <p class="start-subtitle">Responda perguntas, conclua laboratórios e descubra quais habilidades de tecnologia você já domina.</p>
+        <div class="mini-terminal" aria-label="Resumo da missão">
+          <p><span>&gt;</span> escolha o modo liberado pela senha</p>
+          <p><span>&gt;</span> acertos rápidos carregam power-up</p>
+          <p><span>&gt;</span> laboratórios concluídos dão bônus</p>
+          <p><span>&gt;</span> ao final, envie o comprovante no Classroom</p>
+        </div>
+      </div>
+      <form id="startForm" class="start-form" autocomplete="off">
+        <h2>Entrar na missão</h2>
+        <div id="modeBadge" class="mode-badge locked">Modo bloqueado</div>
+        <label for="modePassword">Senha da missão</label>
+        <div class="mode-unlock-row"><input id="modePassword" name="modePassword" type="password" placeholder="Digite a senha" autocomplete="off" /><button id="unlockModeBtn" class="btn secondary" type="button">Liberar</button></div>
+        <p id="modeUnlockStatus" class="mode-status">Libere o modo para iniciar.</p>
+        <div id="moduleSelectWrap" class="module-select-wrap hidden">
+          <label for="moduleSelect">Módulo da missão</label>
+          <select id="moduleSelect" name="moduleSelect">
+            <option value="__all__">Desafio geral — todas as áreas</option>
+          </select>
+          <p class="module-help">Você pode jogar o diagnóstico geral ou focar em uma área específica.</p>
+        </div>
+        <label for="playerName">Nome do jogador</label>
+        <input id="playerName" name="playerName" required maxlength="80" placeholder="Digite seu nome" />
+        <label for="playerClass">Turma</label>
+        <select id="playerClass" name="playerClass" required>
+          <option value="1DS">1º DS — Manhã</option>
+          <option value="2DS">2º DS — Manhã</option>
+          <option value="3DS">3º DS — Manhã</option>
+          <option value="2DS Noite">2º DS — Noite</option>
+        </select>
+        <div class="class-color-preview" aria-hidden="true"></div>
+        <button id="startBtn" class="btn primary full" type="submit" disabled>Iniciar Missão</button>
+        <p class="start-note">Conteúdo educacional autoral. A tentativa usa uma identificação visual discreta e registra apenas eventos necessários à atividade.</p>
+        <section id="teacherPanel" class="teacher-panel hidden" aria-live="polite"></section>
+      </form>
+    </section>
+  </main>
+
+  <main id="gameScreen" class="screen screen-game" aria-live="polite">
+    <header class="hud">
+      <div class="hud-brand">
+        <div class="brand-mark"><span>DS</span></div>
+        <div>
+          <strong>Desafio DS</strong>
+          <span id="playerHud">Jogador</span>
+          <small id="modeHud" class="mode-hud">Modo</small>
+        </div>
+      </div>
+      <div class="hud-score">
+        <span>Pontuação</span>
+        <strong id="scoreHud">0</strong>
+        <div class="score-bar"><i id="scoreBar"></i></div>
+      </div>
+      <div class="hud-status">
+        <div class="hud-pill"><span>Vidas</span><b id="livesHud" class="hearts">♥ ♥ ♥</b></div>
+        <div class="hud-pill"><span>Dicas</span><b id="hintsHud">10</b></div>
+        <div class="hud-pill"><span>Combo</span><b id="comboHud">0x</b></div>
+      </div>
+      <div class="hud-power">
+        <div class="power-head"><span>Power-up</span><button id="activatePowerBtn" class="btn tiny" disabled>Ativar</button></div>
+        <div class="power-bar"><i id="powerBar"></i></div>
+        <small id="powerStatus">Carregando...</small>
+      </div>
+    </header>
+
+    <section class="mission-grid">
+      <article class="mission-panel">
+        <div class="question-head">
+          <div>
+            <div class="tags"><span id="areaTag" class="tag">Área</span><span id="typeTag" class="tag muted-tag">Tipo</span><span id="difficultyTag" class="tag difficulty-tag">Nível</span><span id="skillTag" class="tag skill-tag">Habilidade</span></div>
+            <h2 id="questionTitle">Carregando missão...</h2>
+            <p id="questionDesc"></p>
+          </div>
+          <div class="timer-box"><span>Tempo</span><strong id="timerHud">00:00</strong></div>
+        </div>
+        <div id="questionBody" class="question-body"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <footer class="question-actions">
+          <button id="hintBtn" class="btn secondary" type="button">Usar dica</button>
+          <button id="reportBugBtn" class="btn ghost" type="button">Informar bug</button>
+          <button id="skipLabBtn" class="btn ghost hidden" type="button">Pular</button>
+          <button id="checkBtn" class="btn primary" type="button">Confirmar</button>
+          <button id="nextBtn" class="btn primary hidden" type="button">Continuar</button>
+        </footer>
+      </article>
+
+      <button id="sideToggle" class="side-toggle btn ghost" type="button" aria-expanded="false" aria-controls="sidePanel">Detalhes da missão</button>
+      <aside id="sidePanel" class="side-panel" aria-label="Detalhes da missão">
+        <section class="side-card">
+          <h3>Progresso</h3>
+          <div class="progress-line"><i id="missionProgress"></i></div>
+          <p id="progressText">0/0 fases</p>
+        </section>
+        <section class="side-card log-card">
+          <h3>Eventos</h3>
+          <div id="eventLog" class="event-log"></div>
+        </section>
+        <section class="side-card">
+          <h3>Área atual</h3>
+          <p id="areaHint">A missão muda o visual conforme o assunto.</p>
+        </section>
+      </aside>
+    </section>
+    <div id="sessionWatermark" class="session-watermark" aria-hidden="true"></div>
+  </main>
+
+  <main id="resultScreen" class="screen screen-result">
+    <section class="result-card">
+      <div class="result-head">
+        <div>
+          <div class="terminal-label"><span class="pulse-dot"></span> RELATÓRIO FINAL</div>
+          <h1 id="resultTitle">Missão finalizada</h1>
+          <p id="resultMessage"></p>
+        </div>
+        <div class="final-score"><span>Pontuação</span><strong id="finalScore">0</strong></div>
+      </div>
+      <div id="resultStats" class="result-stats"></div>
+      <h2>Desempenho por área</h2>
+      <div id="areaReport" class="area-report"></div>
+      <section id="proficiencyOverview" class="proficiency-overview" aria-label="Síntese de proficiência"></section>
+      <section id="competencyReport" class="competency-report" aria-label="Proficiência por trilha e tecnologia"></section>
+      <section id="learningReport" class="learning-report" aria-label="Diagnóstico por dificuldade e habilidade"></section>
+      <section id="achievementPanel" class="achievement-panel" aria-live="polite"></section>
+      <section id="rewardGames" class="reward-games hidden" aria-live="polite"></section>
+      <h2>Comprovante para entrega</h2>
+      <p class="token-info">Copie o comprovante abaixo ou baixe o arquivo e envie na atividade do Classroom. Em um site estático, ele serve como registro da tentativa, não como assinatura antifraude.</p>
+      <div class="result-scroll-reminder">⬇ Baixe o comprovante/resultado e anexe na atividade. Em telas menores, role até o final para ver todos os botões.</div>
+      <textarea id="tokenBox" class="token-box" readonly></textarea>
+      <pre id="tokenPrintBox" class="token-print-box" aria-hidden="true"></pre>
+      <div class="result-actions">
+        <button id="copyTokenBtn" class="btn primary" type="button">Copiar comprovante</button>
+        <button id="downloadResultBtn" class="btn secondary" type="button">Baixar comprovante .TXT</button>
+        <button id="printResultBtn" class="btn secondary" type="button">Baixar PDF resultado</button>
+        <button id="restartBtn" class="btn ghost" type="button">Reiniciar</button>
+      </div>
+    </section>
+  </main>
+
+
+  <div id="bugModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="bugModalTitle">
+    <div class="modal-card">
+      <h2 id="bugModalTitle">Informar problema nesta fase</h2>
+      <p>Descreva rapidamente o que aconteceu. O registro será anexado ao resultado final.</p>
+      <label for="bugType">Tipo de problema</label>
+      <select id="bugType" class="bug-type">
+        <option value="erro_pergunta">Erro na pergunta ou gabarito</option>
+        <option value="travamento">Jogo travou / não consigo continuar</option>
+        <option value="botao">Botão não funcionou</option>
+        <option value="laboratorio">Laboratório com problema</option>
+        <option value="layout">Problema visual / tela cortada</option>
+        <option value="outro">Outro problema</option>
+      </select>
+      <textarea id="bugText" class="bug-text" maxlength="600" placeholder="Ex.: a pergunta travou, não consegui mover o item, o botão não funcionou..."></textarea>
+      <div class="modal-actions">
+        <button id="cancelBugBtn" class="btn ghost" type="button">Cancelar</button>
+        <button id="saveBugBtn" class="btn primary" type="button">Registrar bug</button>
+        <button id="finishByBugBtn" class="btn danger" type="button">Encerrar por bug</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="rescueModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="rescueModalTitle">
+    <div class="modal-card rescue-card">
+      <h2 id="rescueModalTitle">Solicite auxílio do professor</h2>
+      <p>Foram detectados alertas de integridade no Modo Prova. O professor pode liberar a continuação com a senha de recuperação.</p>
+      <label for="rescueTeacherName">Identificação do professor</label>
+      <input id="rescueTeacherName" type="text" autocomplete="off" maxlength="80" placeholder="Nome ou identificação do professor" />
+      <label for="rescueReason">Justificativa da liberação</label>
+      <textarea id="rescueReason" class="bug-text rescue-reason" maxlength="500" placeholder="Explique por que a prova foi liberada. Ex.: erro de navegador, problema no teclado, troca de equipamento..."></textarea>
+      <label for="rescuePassword">Senha de recuperação</label>
+      <input id="rescuePassword" type="password" autocomplete="off" placeholder="Senha de recuperação" />
+      <p id="rescueStatus" class="mode-status"></p>
+      <div class="modal-actions">
+        <button id="confirmRescueBtn" class="btn primary" type="button">Liberar prova</button>
+        <button id="forceFinishBtn" class="btn danger" type="button">Encerrar prova</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="levelTransition" class="level-transition hidden" aria-live="polite" aria-atomic="true">
+    <div class="level-transition-card">
+      <span id="levelTransitionKicker">NOVA FASE</span>
+      <strong id="levelTransitionTitle">Nível 2</strong>
+      <p id="levelTransitionMessage">Os desafios agora exigem mais análise.</p>
+      <div class="level-transition-bar"><i></i></div>
+    </div>
+  </div>
+
+  <div id="securityOverlay" class="security-overlay hidden">
+    <div>
+      <strong>⚠ ALERTA DE INTEGRIDADE</strong>
+      <p id="securityMessage">O evento foi registrado para conferência.</p>
+      <span id="securityCount" class="security-count">1/4</span>
+    </div>
+  </div>
+
+  <script src="js/config.js?v=18.1"></script>
+  <script src="js/random.js?v=18.1"></script>
+  <script src="js/sanitize.js?v=18.1"></script>
+  <script src="js/assessment.js?v=18.1"></script>
+  <script src="js/proficiency.js?v=18.1"></script>
+  <script src="js/bank-manifest.js?v=18.1"></script>
+  <script src="js/questions.js?v=18.1"></script>
+  <script src="js/crypto.js?v=18.1"></script>
+  <script src="js/security.js?v=18.1"></script>
+  <script src="js/labs.js?v=18.1"></script>
+  <script src="js/app.js?v=18.1"></script>
+  <script src="js/extras.js?v=18.1"></script>
+  <div id="powerToast" class="power-toast hidden">POWER-UP DISPONÍVEL</div>
+</body>
+</html>

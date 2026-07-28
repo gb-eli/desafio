@@ -1,0 +1,61 @@
+{
+  "version": "v18.1-validacao-seguranca",
+  "questions": 234,
+  "labs": 15,
+  "areas": {
+    "Análise e Métodos de Sistemas": 18,
+    "Back-end / APIs / Cloud / Virtualização": 18,
+    "Banco de Dados / SQL": 18,
+    "CMD / Terminal / Organização de Arquivos": 18,
+    "Ciência de Dados / Dados": 18,
+    "Computação Gráfica / UX / UI": 18,
+    "Computação e Hardware": 18,
+    "Front-end / HTML / CSS / JavaScript": 18,
+    "Inglês Técnico — Bônus": 18,
+    "Inovação Tecnológica e Empreendedorismo": 18,
+    "Python / Programação": 18,
+    "Segurança de Aplicações / Criptografia": 18,
+    "Espanhol Técnico — Bônus": 18
+  },
+  "difficulties": {
+    "1": 13,
+    "2": 52,
+    "3": 104,
+    "4": 52,
+    "5": 13
+  },
+  "types": {
+    "multipla_escolha": 172,
+    "completar_frase": 13,
+    "relacionar": 13,
+    "arrastar_e_soltar": 13,
+    "ordenar_etapas": 13,
+    "completar_codigo": 8,
+    "completar_comando": 2
+  },
+  "lab_difficulties": {
+    "3": 9,
+    "4": 5,
+    "5": 1
+  },
+  "lab_areas": {
+    "Análise e Métodos de Sistemas": 2,
+    "Back-end / APIs / Cloud / Virtualização": 2,
+    "Banco de Dados / SQL": 1,
+    "CMD / Terminal / Organização de Arquivos": 1,
+    "Ciência de Dados / Dados": 1,
+    "Computação Gráfica / UX / UI": 1,
+    "Computação e Hardware": 1,
+    "Front-end / HTML / CSS / JavaScript": 1,
+    "Inglês Técnico — Bônus": 1,
+    "Inovação Tecnológica e Empreendedorismo": 1,
+    "Python / Programação": 1,
+    "Segurança de Aplicações / Criptografia": 1,
+    "Espanhol Técnico — Bônus": 1
+  },
+  "encrypted_chunks": 13,
+  "encrypted_packets_verified": 39,
+  "errors": [],
+  "warnings": [],
+  "warning_count": 0
+}
