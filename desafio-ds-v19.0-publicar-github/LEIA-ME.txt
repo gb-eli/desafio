@@ -1,0 +1,35 @@
+DESAFIO DS — v19.0
+
+PUBLICAÇÃO
+1. Apague os arquivos da versão anterior no repositório.
+2. Envie todo o conteúdo desta pasta para a raiz.
+3. Confirme que index.html está na raiz.
+4. Aguarde o GitHub Pages concluir a publicação.
+5. Abra em aba anônima para evitar cache antigo.
+
+NOVO: MODO GUIADO
+- 86 aulas organizadas por turma e disciplina;
+- código curto por aula;
+- explicações extras A–J;
+- laboratórios e ferramentas;
+- tempo mínimo de 25 minutos ativos;
+- inatividade registrada;
+- liberação antecipada pelo professor;
+- exportação da evidência;
+- botão para o Google Classroom.
+
+TURMAS
+- 1º DS — Manhã — A
+- 2º DS — Manhã — A
+- 3º DS — Manhã — C
+- 2º Semestre — Noite — A
+
+PROFESSOR
+Consulte o guia localizado na pasta separada PROFESSOR_PRIVADO_NAO_PUBLICAR.
+Essa pasta não deve ser enviada ao GitHub.
+
+CLASSROOM
+Leia CONFIGURAR_CLASSROOM.md para substituir o endereço geral pelos links específicos das atividades.
+
+LIMITE
+É um site estático. A proteção é operacional e pedagógica, não equivale a um servidor com autenticação, assinatura digital e armazenamento centralizado.

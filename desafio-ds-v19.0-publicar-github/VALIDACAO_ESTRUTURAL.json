@@ -1,0 +1,63 @@
+{
+  "version": "v19.0-modo-guiado",
+  "challenge": {
+    "questions": 234,
+    "labs": 15,
+    "areas": {
+      "Análise e Métodos de Sistemas": 18,
+      "Back-end / APIs / Cloud / Virtualização": 18,
+      "Banco de Dados / SQL": 18,
+      "CMD / Terminal / Organização de Arquivos": 18,
+      "Ciência de Dados / Dados": 18,
+      "Computação Gráfica / UX / UI": 18,
+      "Computação e Hardware": 18,
+      "Front-end / HTML / CSS / JavaScript": 18,
+      "Inglês Técnico — Bônus": 18,
+      "Inovação Tecnológica e Empreendedorismo": 18,
+      "Python / Programação": 18,
+      "Segurança de Aplicações / Criptografia": 18,
+      "Espanhol Técnico — Bônus": 18
+    },
+    "encrypted_chunks": 13
+  },
+  "guided": {
+    "lessons": 86,
+    "courses": 4,
+    "disciplines": 7,
+    "lessons_by_track": {
+      "1º DS — Manhã — A — Introdução à Programação": 14,
+      "1º DS — Manhã — A — Análise e Método para Sistemas": 16,
+      "2º DS — Manhã — A — Programação Front-End": 12,
+      "2º DS — Manhã — A — Inovação Tecnológica e Empreendedorismo": 10,
+      "3º DS — Manhã — C — Programação no Desenvolvimento de Sistemas": 10,
+      "2º Semestre — Noite — A — Programação Front-End": 12,
+      "2º Semestre — Noite — A — Programação Mobile I": 12
+    },
+    "minimum_active_seconds": 1500,
+    "idle_warning_seconds": [
+      180,
+      240,
+      300
+    ],
+    "max_idle_episodes": 4,
+    "hashed_lesson_codes": 86,
+    "plain_lesson_codes_in_data": 0
+  },
+  "validation": {
+    "javascript_syntax": "passed",
+    "html_duplicate_ids": 0,
+    "missing_static_resources": 0,
+    "lesson_schema_errors": 0,
+    "duplicate_lesson_ids": 0,
+    "invalid_code_hashes": 0,
+    "public_teacher_password_plaintext": false
+  },
+  "limitations": [
+    "GitHub Pages é estático.",
+    "Progresso fica no navegador.",
+    "Entrega no Classroom não é confirmada sem API autenticada.",
+    "Códigos são uma trava pedagógica, não autenticação de servidor."
+  ],
+  "errors": [],
+  "warnings": []
+}
