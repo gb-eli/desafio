@@ -1,0 +1,166 @@
+{
+  "version": "22.0.0",
+  "date": "2026-07-29",
+  "total": 31,
+  "passed": 31,
+  "failed": 0,
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "index.html existe",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "IDs HTML sem duplicação",
+      "ok": true,
+      "detail": "179 IDs"
+    },
+    {
+      "check": "Referências de scripts e estilos existem",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Sintaxe JavaScript",
+      "ok": true,
+      "detail": "38 arquivos; falhas=[]"
+    },
+    {
+      "check": "88 aulas preservadas",
+      "ok": true,
+      "detail": "88"
+    },
+    {
+      "check": "Códigos permanentes removidos das aulas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Senha docente fixa removida do banco guiado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Chaves HMAC pública/validador compatíveis",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Chave pública de assinatura compatível",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Nenhuma chave privada no público",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Senhas e hashes estáticos legados ausentes",
+      "ok": true,
+      "detail": "{'DESAFIO2026': [], 'PROFDS26': [], 'teacherPasswordHash': [], 'rescuePasswordHash': [], 'codeHash': [], 'passwordHash': []}"
+    },
+    {
+      "check": "Nenhum arquivo .env no público",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Aviso de chave de desenvolvimento presente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Arquivos de retorno obrigatórios",
+      "ok": true,
+      "detail": "['eduauth-platform-manifest.json', 'eduauth-action-registry.json', 'eduauth-integration-report.md', 'eduauth-test-vectors.json', 'eduauth-provisioning-template.json']"
+    },
+    {
+      "check": "Manifest EduAuth coerente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Ações classificadas por risco e modalidade",
+      "ok": true,
+      "detail": "8"
+    },
+    {
+      "check": "Pontos reais de integração documentados",
+      "ok": true,
+      "detail": "8"
+    },
+    {
+      "check": "Vetores de teste completos",
+      "ok": true,
+      "detail": "22"
+    },
+    {
+      "check": "PIN coletivo determinístico",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "PIN individual exclusivo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Solicitação anterior invalidada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Autorização individual de uso único",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Autorização assinada validada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Checksum validado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Banco modular recriptografado e legível",
+      "ok": true,
+      "detail": "perguntas=234, labs=15, erros=[]"
+    },
+    {
+      "check": "QR Code opcional e licenciado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Prompt EduAuth arquivado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Validador privado separado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Validador privado não está no público",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "Versão 22 registrada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "CSS estruturalmente equilibrado",
+      "ok": true,
+      "detail": "{=1347 }=1347"
+    }
+  ],
+  "browserVisualTest": "não executado: Chromium do ambiente ficou bloqueado por política administrativa; validação visual herdada da v21 e CSS/HTML verificados estruturalmente"
+}

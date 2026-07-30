@@ -1,0 +1,1 @@
+A validação visual automatizada da v22 não foi concluída porque o Chromium deste ambiente ficou bloqueado por política administrativa. A interface base responsiva da v21 foi preservada. O componente EduAuth foi validado estruturalmente em HTML/CSS/JavaScript e deve receber uma conferência visual final na URL publicada.

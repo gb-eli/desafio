@@ -1,0 +1,317 @@
+{
+  "schema": "eduauth-platform-manifest",
+  "schemaVersion": 1,
+  "protocolVersion": 1,
+  "platform": {
+    "id": "desafio-ds",
+    "name": "Desafio DS",
+    "version": "22.0.0",
+    "repository": "CONFIGURAR",
+    "origin": "CONFIGURAR"
+  },
+  "integration": {
+    "status": "complete-development",
+    "coreVersion": "1.0.0",
+    "offlineSupported": true,
+    "githubPagesSupported": true,
+    "productionProvisioned": false
+  },
+  "requestCode": {
+    "prefix": "EA1",
+    "encoding": "BASE32_CROCKFORD",
+    "checksum": "CRC32C",
+    "caseInsensitive": true,
+    "ignoreSeparators": true
+  },
+  "identifierRegistry": {
+    "platformCode": "01",
+    "classes": {
+      "__all__": 1,
+      "1DS": 2,
+      "2DS": 3,
+      "3DS": 4,
+      "2DS Noite": 5
+    },
+    "subjects": {
+      "desafio-ds": 1,
+      "prova-ds": 2,
+      "auditoria-docente": 3,
+      "1DS:intro-programacao": 4,
+      "1DS:analise-metodo": 5,
+      "2DS:front-end": 6,
+      "2DS:inovacao": 7,
+      "3DS:programacao-ds": 8,
+      "2DS Noite:front-end-sub": 9,
+      "2DS Noite:mobile-1": 10
+    },
+    "lessons": {
+      "diagnostico-geral": 1,
+      "prova-geral": 2,
+      "painel-professor": 3,
+      "perfil-local": 4,
+      "1DS-intro-programacao-01": 5,
+      "1DS-intro-programacao-02": 6,
+      "1DS-intro-programacao-03": 7,
+      "1DS-intro-programacao-04": 8,
+      "1DS-intro-programacao-05": 9,
+      "1DS-intro-programacao-06": 10,
+      "1DS-intro-programacao-07": 11,
+      "1DS-intro-programacao-08": 12,
+      "1DS-intro-programacao-09": 13,
+      "1DS-intro-programacao-10": 14,
+      "1DS-intro-programacao-11": 15,
+      "1DS-intro-programacao-12": 16,
+      "1DS-intro-programacao-13": 17,
+      "1DS-intro-programacao-14": 18,
+      "1DS-analise-metodo-01": 19,
+      "1DS-analise-metodo-02": 20,
+      "1DS-analise-metodo-03": 21,
+      "1DS-analise-metodo-04": 22,
+      "1DS-analise-metodo-05": 23,
+      "1DS-analise-metodo-06": 24,
+      "1DS-analise-metodo-07": 25,
+      "1DS-analise-metodo-08": 26,
+      "1DS-analise-metodo-09": 27,
+      "1DS-analise-metodo-10": 28,
+      "1DS-analise-metodo-11": 29,
+      "1DS-analise-metodo-12": 30,
+      "1DS-analise-metodo-13": 31,
+      "1DS-analise-metodo-14": 32,
+      "1DS-analise-metodo-15": 33,
+      "1DS-analise-metodo-16": 34,
+      "2DS-front-end-01": 35,
+      "2DS-front-end-02": 36,
+      "2DS-front-end-03": 37,
+      "2DS-front-end-04": 38,
+      "2DS-front-end-05": 39,
+      "2DS-front-end-06": 40,
+      "2DS-front-end-07": 41,
+      "2DS-front-end-08": 42,
+      "2DS-front-end-09": 43,
+      "2DS-front-end-10": 44,
+      "2DS-front-end-11": 45,
+      "2DS-front-end-12": 46,
+      "2DS-inovacao-01": 47,
+      "2DS-inovacao-02": 48,
+      "2DS-inovacao-03": 49,
+      "2DS-inovacao-04": 50,
+      "2DS-inovacao-05": 51,
+      "2DS-inovacao-06": 52,
+      "2DS-inovacao-07": 53,
+      "2DS-inovacao-08": 54,
+      "2DS-inovacao-09": 55,
+      "2DS-inovacao-10": 56,
+      "3DS-programacao-ds-01": 57,
+      "3DS-programacao-ds-02": 58,
+      "3DS-programacao-ds-03": 59,
+      "3DS-programacao-ds-04": 60,
+      "3DS-programacao-ds-05": 61,
+      "3DS-programacao-ds-06": 62,
+      "3DS-programacao-ds-07": 63,
+      "3DS-programacao-ds-08": 64,
+      "3DS-programacao-ds-09": 65,
+      "3DS-programacao-ds-10": 66,
+      "2DS Noite-front-end-sub-01": 67,
+      "2DS Noite-front-end-sub-02": 68,
+      "2DS Noite-front-end-sub-03": 69,
+      "2DS Noite-front-end-sub-04": 70,
+      "2DS Noite-front-end-sub-05": 71,
+      "2DS Noite-front-end-sub-06": 72,
+      "2DS Noite-front-end-sub-07": 73,
+      "2DS Noite-front-end-sub-08": 74,
+      "2DS Noite-front-end-sub-09": 75,
+      "2DS Noite-front-end-sub-10": 76,
+      "2DS Noite-front-end-sub-11": 77,
+      "2DS Noite-front-end-sub-12": 78,
+      "2DS Noite-mobile-1-01": 79,
+      "2DS Noite-mobile-1-02": 80,
+      "2DS Noite-mobile-1-03": 81,
+      "2DS Noite-mobile-1-04": 82,
+      "2DS Noite-mobile-1-05": 83,
+      "2DS Noite-mobile-1-06": 84,
+      "2DS Noite-mobile-1-07": 85,
+      "2DS Noite-mobile-1-08": 86,
+      "2DS Noite-mobile-1-09": 87,
+      "2DS Noite-mobile-1-10": 88,
+      "2DS Noite-mobile-1-11": 89,
+      "2DS Noite-mobile-1-12": 90,
+      "2DS Noite-mobile-1-13": 91,
+      "2DS Noite-mobile-1-14": 92
+    },
+    "activities": {
+      "principal": 1,
+      "modo-inicial": 2,
+      "aula-guiada": 3,
+      "perfil": 4,
+      "resultado": 5
+    },
+    "actions": {
+      "challenge-start": 1,
+      "assessment-start": 2,
+      "lesson-start": 3,
+      "early-completion": 4,
+      "prova-rescue": 5,
+      "teacher-audit": 6,
+      "profile-recovery": 7,
+      "profile-recovery-reset": 8
+    }
+  },
+  "keyConfiguration": {
+    "classKeyId": "desafio-ds-class-01",
+    "sessionKeyId": "desafio-ds-session-01",
+    "signingPublicKeyId": "teacher-signing-dev-01",
+    "recoveryPublicKeyId": "profile-generated-locally",
+    "environment": "development"
+  },
+  "timePolicy": {
+    "useUtc": true,
+    "classWindowSeconds": 900,
+    "sessionWindowSeconds": 300,
+    "highRiskWindowSeconds": 180,
+    "allowedClockDriftSlots": 1
+  },
+  "contextSources": {
+    "classId": {
+      "source": "runtime",
+      "path": "turma selecionada/perfil"
+    },
+    "subjectId": {
+      "source": "runtime",
+      "path": "modo ou disciplina"
+    },
+    "lessonId": {
+      "source": "runtime",
+      "path": "modo/aula"
+    },
+    "activityId": {
+      "source": "runtime",
+      "path": "ação atual"
+    },
+    "profileIdHash": {
+      "source": "runtime-optional",
+      "path": "perfil local"
+    },
+    "sessionId": {
+      "source": "generated",
+      "storage": "sessionStorage"
+    }
+  },
+  "actions": [
+    {
+      "id": "challenge-start",
+      "label": "Iniciar Desafio DS",
+      "risk": "LOW",
+      "preferredMode": "CLASS_SHARED_PIN",
+      "pinLength": 8,
+      "ttlSeconds": 900,
+      "singleUse": false,
+      "requireReason": false
+    },
+    {
+      "id": "assessment-start",
+      "label": "Iniciar Modo Prova",
+      "risk": "MEDIUM",
+      "preferredMode": "SESSION_SCOPED_PIN",
+      "pinLength": 8,
+      "ttlSeconds": 300,
+      "singleUse": true,
+      "requireReason": false
+    },
+    {
+      "id": "lesson-start",
+      "label": "Iniciar aula guiada",
+      "risk": "LOW",
+      "preferredMode": "CLASS_SHARED_PIN",
+      "pinLength": 8,
+      "ttlSeconds": 900,
+      "singleUse": false,
+      "requireReason": false
+    },
+    {
+      "id": "early-completion",
+      "label": "Autorizar conclusão antecipada",
+      "risk": "HIGH",
+      "preferredMode": "SESSION_SCOPED_PIN",
+      "pinLength": 10,
+      "ttlSeconds": 180,
+      "singleUse": true,
+      "requireReason": true
+    },
+    {
+      "id": "prova-rescue",
+      "label": "Liberar continuação da prova",
+      "risk": "HIGH",
+      "preferredMode": "SESSION_SCOPED_PIN",
+      "pinLength": 10,
+      "ttlSeconds": 180,
+      "singleUse": true,
+      "requireReason": true
+    },
+    {
+      "id": "teacher-audit",
+      "label": "Abrir auditoria docente",
+      "risk": "CRITICAL",
+      "preferredMode": "SIGNED_GRANT",
+      "pinLength": 0,
+      "ttlSeconds": 120,
+      "singleUse": true,
+      "requireReason": true
+    },
+    {
+      "id": "profile-recovery",
+      "label": "Abrir recuperação de perfil",
+      "risk": "CRITICAL",
+      "preferredMode": "SIGNED_GRANT",
+      "pinLength": 0,
+      "ttlSeconds": 120,
+      "singleUse": true,
+      "requireReason": true
+    },
+    {
+      "id": "profile-recovery-reset",
+      "label": "Redefinir senha do perfil",
+      "risk": "CRITICAL",
+      "preferredMode": "SIGNED_GRANT",
+      "pinLength": 0,
+      "ttlSeconds": 120,
+      "singleUse": true,
+      "requireReason": true
+    }
+  ],
+  "storage": {
+    "sessionStore": "sessionStorage",
+    "authorizationStore": "sessionStorage",
+    "auditStore": "IndexedDB"
+  },
+  "security": {
+    "maximumAttempts": 5,
+    "progressiveDelay": true,
+    "staticPasswordPresent": false,
+    "staticMasterPasswordPresent": false,
+    "privateKeyPresent": false
+  },
+  "ui": {
+    "publicRequestCode": true,
+    "copyButton": true,
+    "manualEntry": true,
+    "qrOptional": true,
+    "cameraRequired": false,
+    "reducedMotion": true,
+    "keyboardAccessible": true
+  },
+  "compatibility": {
+    "chromeAndroid": "structural-tested",
+    "chromeChromebook": "structural-tested",
+    "edgeWindows": "structural-tested",
+    "offline": "structural-tested"
+  },
+  "limitations": [
+    "Chaves HMAC de desenvolvimento no frontend são extraíveis.",
+    "Sem backend não existe revogação ou auditoria central.",
+    "O ambiente ainda precisa receber provisionamento de produção pelo EduAuth Professor."
+  ],
+  "pendingItems": [
+    "Provisionar chaves de produção e publicar nova versão antes do uso real.",
+    "Configurar repository e origin no manifest."
+  ]
+}

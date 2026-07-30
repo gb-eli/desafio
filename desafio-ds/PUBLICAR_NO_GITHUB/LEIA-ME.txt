@@ -1,0 +1,7 @@
+DESAFIO DS v22.0 — EDUAUTH OFFLINE
+
+Pasta pronta para GitHub Pages.
+
+ATENÇÃO: esta integração está em ambiente de desenvolvimento. As chaves são de teste. Antes do uso com alunos, provisione chaves de produção no EduAuth Professor e publique nova versão.
+
+Não envie a pasta privada ao GitHub.

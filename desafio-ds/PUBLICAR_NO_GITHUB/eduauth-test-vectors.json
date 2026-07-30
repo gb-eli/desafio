@@ -1,0 +1,145 @@
+{
+  "schema": "eduauth-test-vectors",
+  "schemaVersion": 1,
+  "environment": "development",
+  "warning": "DEVELOPMENT TEST KEY — DO NOT USE IN PRODUCTION",
+  "vectors": [
+    {
+      "id": "class-valid",
+      "test": "validar código coletivo e PIN",
+      "context": {
+        "classId": "2DS",
+        "subjectId": "desafio-ds",
+        "lessonId": "diagnostico-geral",
+        "actionId": "challenge-start",
+        "timeSlot": 2000000
+      },
+      "payloadHex": "01010101030100010201001e848001",
+      "requestCode": "EA1-C1-K01-040G-2083-0400-20G1-00F8-9001-MWSA-1C8",
+      "hmacHex": "8d872c3c87297bcfd6fb2f07c62b07a5bd5fecd0864ad63530abc44940595102",
+      "pin": "42164265",
+      "expected": "valid"
+    },
+    {
+      "id": "class-expired",
+      "basedOn": "class-valid",
+      "mutation": "timeSlot antigo",
+      "expected": "expired"
+    },
+    {
+      "id": "wrong-class",
+      "basedOn": "class-valid",
+      "mutation": "classCode",
+      "expected": "invalid"
+    },
+    {
+      "id": "wrong-lesson",
+      "basedOn": "class-valid",
+      "mutation": "lessonCode",
+      "expected": "invalid"
+    },
+    {
+      "id": "wrong-platform",
+      "basedOn": "class-valid",
+      "mutation": "platformCode",
+      "expected": "invalid"
+    },
+    {
+      "id": "typing-error",
+      "basedOn": "class-valid",
+      "mutation": "um caractere Base32",
+      "expected": "checksum-error"
+    },
+    {
+      "id": "checksum-invalid",
+      "requestCode": "EA1-C1-K01-040G-2083-0400-20G1-00F8-9001-MWSA-1C0",
+      "expected": "checksum-error"
+    },
+    {
+      "id": "session-valid",
+      "test": "validar PIN de sessão",
+      "payloadHex": "01020101030200020202001e848001102030406b49d32ca1b2c3d4d5e6f708",
+      "requestCode": "EA1-S1-K01-0410-2083-0800-40G2-00F8-9001-20G3-0G3B-979J-S8DJ-RFAD-BSQQ-107X-8MRC",
+      "hmacHex": "9924ed2944e619d15531b9b852e04af4c5049117cf9aa472f6875be9d7c52e3d",
+      "pin": "15525061",
+      "expected": "valid"
+    },
+    {
+      "id": "session-wrong-session",
+      "basedOn": "session-valid",
+      "mutation": "sessionTag",
+      "expected": "invalid"
+    },
+    {
+      "id": "session-wrong-resource",
+      "basedOn": "session-valid",
+      "mutation": "resourceTag",
+      "expected": "invalid"
+    },
+    {
+      "id": "session-expired",
+      "basedOn": "session-valid",
+      "mutation": "expiresAt passado",
+      "expected": "expired"
+    },
+    {
+      "id": "session-reused",
+      "basedOn": "session-valid",
+      "firstUse": "valid",
+      "secondUse": "consumed"
+    },
+    {
+      "id": "five-wrong-attempts",
+      "maximumAttempts": 5,
+      "expected": "new-request-required"
+    },
+    {
+      "id": "page-refresh",
+      "basedOn": "session-valid",
+      "expectation": "tentativas persistem em sessionStorage; nova solicitação invalida a anterior"
+    },
+    {
+      "id": "session-close",
+      "basedOn": "session-valid",
+      "expectation": "sessionStorage encerra vínculo; PIN anterior não é aceito no novo sessionTag"
+    },
+    {
+      "id": "clock-drift",
+      "basedOn": "class-valid",
+      "allowedClockDriftSlots": 1,
+      "expected": "policy-dependent"
+    },
+    {
+      "id": "unknown-registry",
+      "mutation": "lessonCode=65535",
+      "expected": "unknown-registry"
+    },
+    {
+      "id": "incompatible-version",
+      "mutation": "protocolVersion=2",
+      "expected": "incompatible"
+    },
+    {
+      "id": "unauthorized-action",
+      "mutation": "actionCode diferente",
+      "expected": "invalid"
+    },
+    {
+      "id": "signed-grant-request",
+      "payloadHex": "01030101010300030106001e8480018899aabb6b49d2781122334455667788",
+      "requestCode": "EA1-G1-K01-041G-2081-0C00-6086-00F8-9001-H2CT-NEVB-9797-G492-6D25-ASKQ-H1EX-52ZB",
+      "expected": "signed-token-required"
+    },
+    {
+      "id": "signed-token-valid",
+      "basedOn": "signed-grant-request",
+      "expected": "valid-after-signature"
+    },
+    {
+      "id": "signed-token-tampered",
+      "basedOn": "signed-grant-request",
+      "mutation": "payload ou assinatura",
+      "expected": "signature-invalid"
+    }
+  ]
+}

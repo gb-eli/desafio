@@ -1,0 +1,212 @@
+{
+  "version": "21.0.0",
+  "generatedAt": "2026-07-29T11:25:00-03:00",
+  "checks": {
+    "javascript_syntax": {
+      "ok": true,
+      "detail": "18/18 arquivos válidos"
+    },
+    "html_unique_ids": {
+      "ok": true,
+      "detail": "duplicados: []"
+    },
+    "local_references_exist": {
+      "ok": true,
+      "detail": "ausentes: []"
+    },
+    "no_inline_event_attributes": {
+      "ok": true,
+      "detail": "atributos: []"
+    },
+    "css_brace_balance": {
+      "ok": true,
+      "detail": "{=1327 }=1327"
+    },
+    "guided_lessons_count": {
+      "ok": true,
+      "detail": "88 aulas"
+    },
+    "guided_code_hashes_present": {
+      "ok": true,
+      "detail": "todos os hashes SHA-256"
+    },
+    "guided_no_plain_codes": {
+      "ok": true,
+      "detail": "nenhum campo code em texto puro"
+    },
+    "guided_unique_ids": {
+      "ok": true,
+      "detail": "88 IDs únicos"
+    },
+    "private_codes_count": {
+      "ok": true,
+      "detail": "88 códigos privados"
+    },
+    "private_codes_match_public_hashes": {
+      "ok": true,
+      "detail": "privados=88 públicos=88"
+    },
+    "private_passwords_absent_from_public": {
+      "ok": true,
+      "detail": "encontradas: []"
+    },
+    "no_env_files": {
+      "ok": true,
+      "detail": "[]"
+    },
+    "profile_security_markers": {
+      "ok": true,
+      "detail": "ausentes: []"
+    },
+    "profile_uses_indexeddb": {
+      "ok": true,
+      "detail": "IndexedDB.open presente"
+    },
+    "profile_expiration_six_days": {
+      "ok": true,
+      "detail": "expiração 6 dias"
+    },
+    "profile_autolock": {
+      "ok": true,
+      "detail": "bloqueio 10 minutos"
+    },
+    "localstorage_limited_to_preferences_and_migration": {
+      "ok": true,
+      "detail": "extras.js:13, extras.js:22, extras.js:27, extras.js:28, guided-data.js:3, profile-store.js:201"
+    },
+    "csp_connect_none": {
+      "ok": true,
+      "detail": "sem API remota"
+    },
+    "version_21_assets": {
+      "ok": true,
+      "detail": "assets versionados"
+    },
+    "required_new_modules": {
+      "ok": true,
+      "detail": "módulos presentes"
+    },
+    "cryptographic_roundtrip": {
+      "ok": true,
+      "detail": "{\"aes\": true, \"rsa\": true}"
+    },
+    "visual_desktop_no_horizontal_overflow": {
+      "ok": true,
+      "detail": "True"
+    },
+    "visual_mobile_no_horizontal_overflow": {
+      "ok": true,
+      "detail": "True"
+    },
+    "visual_new_components_present": {
+      "ok": true,
+      "detail": "{'profile_panel': 1, 'schedule_badge': 1, 'utility_dock': 1, 'overflow_desktop': True, 'about_visible': True, 'guided_form_visible': True, 'overflow_mobile': True}"
+    },
+    "documentation_present": {
+      "ok": true,
+      "detail": "README.md, ANALISE_IMPLEMENTACAO_PROMPT_MESTRE_V21.md, CHANGELOG_V21.md, GUIA_PERFIS_LOCAIS_V21.md"
+    }
+  },
+  "warnings": [
+    "O teste visual usou HTML empacotado em memória; localStorage/IndexedDB ficam bloqueados na origem opaca do teste."
+  ],
+  "errors": [],
+  "javascript": [
+    {
+      "file": "app.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "assessment.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "bank-manifest.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "config.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "crypto.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "extras.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "guided-data.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "guided.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "labs.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "platform-shell.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "proficiency.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "profile-store.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "questions.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "random.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "sanitize.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "schedule.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "security.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "validator.js",
+      "ok": true,
+      "stderr": ""
+    }
+  ],
+  "summary": {
+    "passed": 26,
+    "total": 26,
+    "errors": 0,
+    "warnings": 1
+  }
+}

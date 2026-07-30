@@ -1,0 +1,7 @@
+EduAuth Professor — DESENVOLVIMENTO
+
+1. Não publique esta pasta.
+2. Abra index.html em um navegador moderno.
+3. Cole o código-base mostrado no dispositivo do aluno.
+4. Gere o PIN ou autorização assinada.
+5. Use somente para testes. Antes do uso real, gere chaves de produção.

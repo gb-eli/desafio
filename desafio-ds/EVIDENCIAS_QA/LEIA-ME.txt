@@ -1,0 +1,11 @@
+EVIDÊNCIAS DE TESTE — DESAFIO DS v20.0
+
+01-start.png: tela inicial em desktop.
+02-diag-desktop.png: Diagnóstico Completo em desktop.
+03-diag-mobile.png: Diagnóstico Completo em celular.
+04-catalog.png: catálogo do Modo Guiado em celular.
+05-emu-mobile.png: laboratório emulador de dispositivos em celular.
+06-emu-desktop.png: laboratório emulador de dispositivos em desktop.
+07-competitive.png: Desafio Competitivo em 1024 × 768.
+
+Os testes automatizados não encontraram estouro horizontal nem erros de console nos estados registrados.

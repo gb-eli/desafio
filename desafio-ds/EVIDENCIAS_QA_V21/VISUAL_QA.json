@@ -1,0 +1,15 @@
+{
+  "errors": [
+    "pageerror:Failed to read the 'sessionStorage' property from 'Window': Access is denied for this document.",
+    "pageerror:Failed to read the 'localStorage' property from 'Window': Access is denied for this document."
+  ],
+  "checks": {
+    "profile_panel": 1,
+    "schedule_badge": 1,
+    "utility_dock": 1,
+    "overflow_desktop": true,
+    "about_visible": true,
+    "guided_form_visible": true,
+    "overflow_mobile": true
+  }
+}

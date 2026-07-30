@@ -1,0 +1,9 @@
+EVIDÊNCIAS DE QA — DESAFIO DS v21.0
+
+- Teste visual empacotado em memória: 1440 × 1000 e 390 × 844.
+- Sem rolagem horizontal nas duas larguras.
+- Painel de perfil, indicador escolar, dock de ajuda e área Sobre renderizados.
+- O ambiente de construção bloqueou navegação HTTP/file local por política administrativa.
+- Por isso, IndexedDB e localStorage não puderam ser exercitados na origem opaca do teste visual.
+- A criptografia foi validada separadamente por teste automatizado PBKDF2 + AES-GCM + RSA-OAEP.
+- Consulte PUBLICAR_NO_GITHUB/VALIDACAO_ESTRUTURAL_V21.json.

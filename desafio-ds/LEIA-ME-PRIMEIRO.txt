@@ -1,0 +1,7 @@
+DESAFIO DS v22.0
+
+- PUBLICAR_NO_GITHUB: conteúdo público, ainda com chaves EduAuth de DESENVOLVIMENTO.
+- PROFESSOR_PRIVADO_NAO_PUBLICAR: validador privado de teste.
+- DOCUMENTOS_DE_REFERENCIA: prompts mestres.
+
+Não utilize a configuração de desenvolvimento em atividade real.
