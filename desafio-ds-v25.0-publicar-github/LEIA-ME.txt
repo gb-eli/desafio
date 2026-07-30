@@ -1,0 +1,11 @@
+DESAFIO DS v25.0 — PUBLICAÇÃO GITHUB PAGES
+
+1. Extraia este ZIP.
+2. Envie todo o conteúdo para a raiz do repositório.
+3. Confirme que index.html ficou na raiz.
+4. Aguarde a publicação do GitHub Pages.
+5. Teste em janela anônima no celular e no computador.
+
+NÃO publique chaves privadas, arquivos administrativos, senhas, tokens ou a pasta privada do professor.
+
+A versão funciona totalmente no front-end. Classroom, GitHub e VS Code são integrações assistidas por links e tutoriais. A plataforma não confirma automaticamente a entrega no Classroom.

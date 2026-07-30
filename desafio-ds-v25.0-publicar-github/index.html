@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; connect-src 'none'; font-src 'self'; frame-src 'self' data: blob:; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none';" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Desafio DS — Segurança, Diagnóstico e Modo Guiado</title>
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="Desafio gamificado e Modo Guiado para aulas de Desenvolvimento de Sistemas." />
+  <link rel="stylesheet" href="css/style.css?v=25.0" />
+  <link rel="manifest" href="manifest.webmanifest" />
+</head>
+<body class="class-ds1">
+  <nav class="theme-dock" aria-label="Aparência e acessibilidade">
+    <button class="theme-btn" type="button" data-theme="dark" aria-pressed="false" title="Usar tema escuro">Escuro</button>
+    <button class="theme-btn" type="button" data-theme="light" aria-pressed="false" title="Usar tema claro">Claro</button>
+    <button class="theme-btn" type="button" data-theme="system" aria-pressed="false" title="Seguir tema do aparelho">Aparelho</button>
+    <button id="contrastToggle" class="theme-btn" type="button" aria-pressed="false" title="Ativar contraste elevado">Contraste</button>
+  </nav>
+  <main id="startScreen" class="screen screen-start active">
+    <div class="start-bg" aria-hidden="true"></div>
+    <section class="start-card">
+      <div class="experience-switch" role="tablist" aria-label="Escolha o modo de uso">
+        <button id="experienceChallengeBtn" class="experience-tab active" type="button" role="tab" aria-selected="true">🎮 Desafio DS</button>
+        <button id="experienceGuidedBtn" class="experience-tab" type="button" role="tab" aria-selected="false">🧭 Modo Guiado</button>
+      </div>
+      <div class="start-left">
+        <div class="terminal-label"><span class="pulse-dot"></span> SISTEMA DE MISSÃO</div>
+        <h1>Desafio DS</h1>
+        <p class="start-subtitle">Responda perguntas, conclua laboratórios e descubra quais habilidades de tecnologia você já domina.</p>
+        <div class="mini-terminal" aria-label="Resumo da missão">
+          <p><span>&gt;</span> escolha o modo e solicite uma autorização EduAuth temporária</p>
+          <p><span>&gt;</span> acertos rápidos carregam power-up</p>
+          <p><span>&gt;</span> laboratórios concluídos dão bônus</p>
+          <p><span>&gt;</span> ao final, envie o comprovante no Classroom</p>
+        </div>
+      </div>
+      <form id="startForm" class="start-form" autocomplete="off">
+        <h2>Entrar na missão</h2>
+        <div id="modeBadge" class="mode-badge locked">Modo bloqueado</div>
+        <label for="modeSelect">Modo solicitado</label>
+        <select id="modeSelect" name="modeSelect"><option value="desafio">Modo Desafio</option><option value="prova">Modo Prova</option><option value="professor">Auditoria do professor</option></select>
+        <input id="modePassword" name="modePassword" type="hidden" />
+        <button id="unlockModeBtn" class="btn secondary full" type="button">Solicitar autorização EduAuth</button>
+        <p id="modeUnlockStatus" class="mode-status">A autorização é temporária e vinculada ao modo, turma e horário.</p>
+        <div id="moduleSelectWrap" class="module-select-wrap hidden">
+          <label for="moduleSelect">Módulo da missão</label>
+          <select id="moduleSelect" name="moduleSelect">
+            <option value="__all__">Desafio geral — todas as áreas</option>
+          </select>
+          <p class="module-help">Você pode jogar o diagnóstico geral ou focar em uma área específica.</p>
+        </div>
+        <fieldset id="playStyleWrap" class="play-style-wrap hidden">
+          <legend>Como você quer realizar?</legend>
+          <label class="play-style-card selected" data-style-card="competitivo">
+            <input type="radio" name="playStyle" value="competitivo" checked />
+            <span class="play-style-icon">🏆</span>
+            <span><strong>Competitivo</strong><small>5 vidas, tempo, XP, combo, cartas e ranking. Ao perder, você pode migrar para o diagnóstico completo.</small></span>
+          </label>
+          <label class="play-style-card" data-style-card="diagnostico">
+            <input type="radio" name="playStyle" value="diagnostico" />
+            <span class="play-style-icon">🧭</span>
+            <span><strong>Diagnóstico completo</strong><small>Sem eliminação por tempo ou vidas. O foco é concluir todas as áreas e receber um relatório pedagógico, sem XP competitivo.</small></span>
+          </label>
+        </fieldset>
+        <label for="playerName">Nome do jogador</label>
+        <input id="playerName" name="playerName" required maxlength="80" placeholder="Digite seu nome" />
+        <label for="playerClass">Turma</label>
+        <select id="playerClass" name="playerClass" required>
+          <option value="1DS">1º DS — Manhã</option>
+          <option value="2DS">2º DS — Manhã</option>
+          <option value="3DS">3º DS — Manhã</option>
+          <option value="2DS Noite">2º DS — Noite</option>
+        </select>
+        <div class="class-color-preview" aria-hidden="true"></div>
+        <button id="startBtn" class="btn primary full" type="submit" disabled>Iniciar Missão</button>
+        <p class="start-note">Conteúdo educacional autoral. A tentativa usa uma identificação visual discreta e registra apenas eventos necessários à atividade.</p>
+        <details class="assessment-brief"><summary>Como funciona a avaliação e o diagnóstico?</summary><p>A leitura considera respostas, dificuldade, evidências e cobertura das áreas. XP, vidas, cartas e recompensas pertencem somente à gamificação e não determinam a nota. Resultados com amostra insuficiente não recebem nível, cargo ou indicação profissional.</p></details>
+        <section id="teacherPanel" class="teacher-panel hidden" aria-live="polite"></section>
+      </form>
+
+      <form id="guidedStartForm" class="start-form guided-start-form hidden" autocomplete="off">
+        <div class="guided-kicker">MODO GUIADO</div>
+        <h2>Entrar nas aulas</h2>
+        <p class="guided-entry-help">Informe seu nome, selecione a turma e a disciplina. As aulas aparecem na sequência, mas cada uma exige o código curto fornecido pelo professor.</p>
+        <label for="guidedPlayerName">Nome do estudante</label>
+        <input id="guidedPlayerName" required maxlength="80" placeholder="Digite seu nome completo" />
+        <label for="guidedPlayerClass">Turma</label>
+        <select id="guidedPlayerClass" required>
+          <option value="1DS">1º DS — Manhã — A</option>
+          <option value="2DS">2º DS — Manhã — A</option>
+          <option value="3DS">3º DS — Manhã — C</option>
+          <option value="2DS Noite">Técnico Subsequente — 2º Semestre — Noite — A</option>
+        </select>
+        <label for="guidedDiscipline">Disciplina</label>
+        <select id="guidedDiscipline" required></select>
+
+        <details class="guided-support-details">
+          <summary>Recursos de acessibilidade e apoio (opcional)</summary>
+          <label class="guided-check"><input id="guidedSupportEnabled" type="checkbox" /> Ativar recursos de apoio nesta sessão</label>
+          <div id="guidedSupportOptions" class="guided-support-options hidden">
+            <p>Selecione o que ajuda você a aprender melhor:</p>
+            <label class="guided-check"><input type="checkbox" name="guidedSupport" value="focus" /> Uma etapa por vez e menos distrações</label>
+            <label class="guided-check"><input type="checkbox" name="guidedSupport" value="reading" /> Textos menores, exemplos e glossário</label>
+            <label class="guided-check"><input type="checkbox" name="guidedSupport" value="vision" /> Fonte maior e contraste reforçado</label>
+            <label class="guided-check"><input type="checkbox" name="guidedSupport" value="pace" /> Mais dicas e explicações passo a passo</label>
+            <label class="guided-check"><input type="checkbox" name="guidedSupport" value="advanced" /> Desafios de aprofundamento</label>
+            <label for="guidedSupportTeacher">Professor de apoio (quando houver)</label>
+            <input id="guidedSupportTeacher" maxlength="80" placeholder="Nome do professor de apoio" />
+            <label for="guidedSupportNote">Observação de apoio (opcional)</label>
+            <textarea id="guidedSupportNote" maxlength="240" placeholder="Ex.: preciso de instruções mais curtas ou de mais tempo para leitura."></textarea>
+          </div>
+        </details>
+        <button id="guidedEnterBtn" class="btn primary full" type="submit">Ver aulas disponíveis</button>
+        <p class="start-note">Seu progresso e suas preferências ficam salvos neste navegador. Não informe diagnósticos ou dados de saúde desnecessários.</p>
+      </form>
+    </section>
+  </main>
+
+  <main id="gameScreen" class="screen screen-game" aria-live="polite">
+    <header class="hud">
+      <div class="hud-brand">
+        <div class="brand-mark"><span>DS</span></div>
+        <div>
+          <strong>Desafio DS</strong>
+          <span id="playerHud">Jogador</span>
+          <small id="modeHud" class="mode-hud">Modo</small>
+        </div>
+        <button id="switchExperienceBtn" class="btn ghost hud-switch-btn" type="button" title="Voltar ao início e escolher outro modo">Trocar modo</button>
+      </div>
+      <div class="hud-score">
+        <span id="scoreHudLabel">Pontuação XP</span>
+        <strong id="scoreHud">0</strong>
+        <div class="score-bar"><i id="scoreBar"></i></div>
+      </div>
+      <div class="hud-status">
+        <div class="hud-pill"><span>Vidas</span><b id="livesHud" class="hearts">♥ ♥ ♥ ♥ ♥</b></div>
+        <div class="hud-pill"><span>Dicas</span><b id="hintsHud">5</b></div>
+        <div class="hud-pill"><span>Pulos</span><b id="skipsHud">0/5</b></div>
+        <div class="hud-pill"><span>Combo</span><b id="comboHud">0x</b></div>
+      </div>
+      <div class="hud-power">
+        <div class="power-head"><span>Power-up</span><div class="power-actions"><button id="xpLedgerBtn" class="btn tiny ghost" type="button">Extrato XP</button><button id="extraCardBtn" class="btn tiny secondary" type="button">Carta extra ×1</button><button id="activatePowerBtn" class="btn tiny" disabled>Ativar</button></div></div>
+        <div class="power-bar"><i id="powerBar"></i></div>
+        <small id="powerStatus">Carregando...</small>
+      </div>
+    </header>
+
+    <section class="mission-grid">
+      <article class="mission-panel">
+        <div class="question-head">
+          <div>
+            <div class="tags"><span id="areaTag" class="tag">Área</span><span id="typeTag" class="tag muted-tag">Tipo</span><span id="difficultyTag" class="tag difficulty-tag">Nível</span><span id="skillTag" class="tag skill-tag">Habilidade</span></div>
+            <h2 id="questionTitle">Carregando missão...</h2>
+            <p id="questionDesc"></p>
+          </div>
+          <div class="timer-box"><span id="timerLabel">Tempo recomendado</span><strong id="timerHud">00:00</strong></div>
+        </div>
+        <div id="questionBody" class="question-body"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <footer class="question-actions">
+          <button id="hintBtn" class="btn secondary" type="button">Usar dica</button>
+          <button id="reportBugBtn" class="btn ghost" type="button">Informar bug</button>
+          <button id="skipLabBtn" class="btn ghost hidden" type="button">Pular</button>
+          <button id="checkBtn" class="btn primary" type="button">Confirmar</button>
+          <button id="nextBtn" class="btn primary hidden" type="button">Continuar</button>
+        </footer>
+      </article>
+
+      <button id="sideToggle" class="side-toggle btn ghost" type="button" aria-expanded="false" aria-controls="sidePanel">Detalhes da missão</button>
+      <aside id="sidePanel" class="side-panel" aria-label="Detalhes da missão">
+        <section class="side-card">
+          <h3>Progresso</h3>
+          <div class="progress-line"><i id="missionProgress"></i></div>
+          <p id="progressText">0/0 fases</p>
+        </section>
+        <section class="side-card log-card">
+          <h3>Eventos</h3>
+          <div id="eventLog" class="event-log"></div>
+        </section>
+        <section class="side-card">
+          <h3>Área atual</h3>
+          <p id="areaHint">A missão muda o visual conforme o assunto.</p>
+        </section>
+      </aside>
+    </section>
+    <div id="sessionWatermark" class="session-watermark" aria-hidden="true"></div>
+  </main>
+
+  <main id="resultScreen" class="screen screen-result">
+    <section class="result-card">
+      <div class="result-head">
+        <div>
+          <div class="terminal-label"><span class="pulse-dot"></span> RELATÓRIO FINAL</div>
+          <h1 id="resultTitle">Missão finalizada</h1>
+          <p id="resultMessage"></p>
+        </div>
+        <div class="final-score"><span>Pontuação</span><strong id="finalScore">0</strong></div>
+      </div>
+      <section id="resultModeNotice" class="result-mode-notice" aria-live="polite"></section>
+      <div id="resultStats" class="result-stats"></div>
+      <h2>Desempenho por área</h2>
+      <div id="areaReport" class="area-report"></div>
+      <section id="proficiencyOverview" class="proficiency-overview" aria-label="Síntese de proficiência"></section>
+      <section id="competencyReport" class="competency-report" aria-label="Proficiência por trilha e tecnologia"></section>
+      <section id="learningReport" class="learning-report" aria-label="Diagnóstico por dificuldade e habilidade"></section>
+      <section id="achievementPanel" class="achievement-panel" aria-live="polite"></section>
+      <section id="rewardGames" class="reward-games hidden" aria-live="polite"></section>
+      <h2>Comprovante para entrega</h2>
+      <p class="token-info">Copie o comprovante abaixo ou baixe o arquivo e envie na atividade do Classroom. Em um site estático, ele serve como registro da tentativa, não como assinatura antifraude.</p>
+      <div class="result-scroll-reminder">⬇ Baixe o comprovante/resultado e anexe na atividade. Em telas menores, role até o final para ver todos os botões.</div>
+      <textarea id="tokenBox" class="token-box" readonly></textarea>
+      <pre id="tokenPrintBox" class="token-print-box" aria-hidden="true"></pre>
+      <div class="result-actions">
+        <button id="copyTokenBtn" class="btn primary" type="button">Copiar comprovante</button>
+        <button id="downloadResultBtn" class="btn secondary" type="button">Baixar comprovante .TXT</button>
+        <button id="printResultBtn" class="btn secondary" type="button">Baixar PDF resultado</button>
+        <button id="openClassroomResultBtn" class="btn secondary" type="button">Abrir Google Classroom</button>
+        <button id="restartBtn" class="btn ghost" type="button">Reiniciar diagnóstico</button>
+        <button id="resultHubBtn" class="btn ghost" type="button">Escolher outro modo</button>
+      </div>
+      <section class="result-delivery-hub">
+        <h2>Central de conclusão e entrega</h2>
+        <p>Baixe o resultado, localize o arquivo e abra a atividade correta. A plataforma não confirma a entrega sem integração oficial com o Classroom.</p>
+        <div class="guided-delivery-status"><span id="resultExportStatus">Resultado ainda não exportado</span><span id="resultClassroomStatus">Classroom ainda não aberto</span></div>
+        <button id="resultDeliveryHelpBtn" class="btn ghost" type="button">Ver ajuda de entrega</button>
+      </section>
+    </section>
+  </main>
+
+
+  <main id="guidedCatalogScreen" class="screen guided-screen guided-catalog-screen" aria-live="polite">
+    <header class="guided-topbar">
+      <div class="guided-brand">
+        <div class="brand-mark"><span>DS</span></div>
+        <div><strong>Modo Guiado</strong><span id="guidedCatalogIdentity">Estudante</span></div>
+      </div>
+      <div class="guided-top-actions">
+        <button id="guidedToChallengeBtn" class="btn secondary" type="button">Ir para Desafio DS</button>
+        <button id="guidedTeacherPanelBtn" class="btn ghost" type="button">Painel do professor</button>
+        <button id="guidedChangeProfileBtn" class="btn ghost" type="button">Trocar turma</button>
+      </div>
+    </header>
+    <section class="guided-catalog-shell">
+      <div class="guided-catalog-head">
+        <div>
+          <span class="guided-kicker">TRILHA DA DISCIPLINA</span>
+          <h1 id="guidedCatalogTitle">Minhas aulas</h1>
+          <p id="guidedCatalogDescription"></p>
+        </div>
+        <div class="guided-summary-card">
+          <span>Progresso geral</span>
+          <strong id="guidedOverallProgress">0%</strong>
+          <div class="guided-progress-track"><i id="guidedOverallProgressBar"></i></div>
+        </div>
+      </div>
+      <div id="guidedResumeBanner" class="guided-resume-banner hidden"></div>
+      <div id="guidedLessonList" class="guided-lesson-list"></div>
+    </section>
+  </main>
+
+  <main id="guidedLessonScreen" class="screen guided-screen guided-lesson-screen" aria-live="polite">
+    <header class="guided-lesson-header">
+      <div class="guided-lesson-nav"><button id="guidedBackToCatalogBtn" class="btn ghost" type="button">← Minhas aulas</button><button id="guidedLessonHubBtn" class="btn ghost" type="button">Trocar modo</button></div>
+      <div class="guided-lesson-identity">
+        <strong id="guidedLessonTitle">Aula</strong>
+        <span id="guidedLessonMeta"></span>
+      </div>
+      <div class="guided-session-indicators">
+        <span id="guidedActiveTime">Ativo 00:00</span>
+        <span id="guidedStepIndicator">Etapa 1/10</span>
+        <button id="guidedSupportMenuBtn" class="btn tiny" type="button">Apoio</button>
+      </div>
+    </header>
+    <div class="guided-lesson-progress"><i id="guidedLessonProgressBar"></i></div>
+    <section class="guided-lesson-layout">
+      <article class="guided-content-card">
+        <div id="guidedStepContent" class="guided-step-content"></div>
+        <div id="guidedStepFeedback" class="guided-step-feedback hidden"></div>
+        <footer class="guided-step-actions">
+          <button id="guidedPrevStepBtn" class="btn ghost" type="button">Voltar</button>
+          <button id="guidedExtraBtn" class="btn secondary" type="button">Explicação extra</button>
+          <button id="guidedTeacherReleaseBtn" class="btn ghost" type="button">Liberação do professor</button>
+          <button id="guidedNextStepBtn" class="btn primary" type="button">Continuar</button>
+        </footer>
+      </article>
+      <aside class="guided-side-panel">
+        <section class="guided-side-card">
+          <h3>Roteiro</h3>
+          <ol id="guidedStepList" class="guided-step-list"></ol>
+        </section>
+        <section class="guided-side-card">
+          <h3>Sessão</h3>
+          <p id="guidedSessionStatus">Em andamento</p>
+          <p id="guidedIdleCount">Ocorrências de inatividade: 0/4</p>
+        </section>
+        <section class="guided-side-card">
+          <h3>Ferramentas da aula</h3>
+          <div id="guidedToolShortcuts" class="guided-tool-shortcuts"></div>
+        </section>
+      </aside>
+    </section>
+    <div id="guidedWatermark" class="session-watermark" aria-hidden="true"></div>
+  </main>
+
+  <div id="guidedUnlockModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="guidedUnlockTitle">
+    <div class="modal-card guided-modal-card">
+      <h2 id="guidedUnlockTitle">Liberar aula</h2>
+      <p id="guidedUnlockDescription">Solicite a autorização temporária ao professor pelo EduAuth Offline.</p>
+      <input id="guidedLessonCode" type="hidden" />
+      <p id="guidedUnlockStatus" class="mode-status"></p>
+      <div class="modal-actions">
+        <button id="guidedUnlockCancelBtn" class="btn ghost" type="button">Cancelar</button>
+        <button id="guidedUnlockConfirmBtn" class="btn primary" type="button">Solicitar EduAuth</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="guidedExtraModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="guidedExtraTitle">
+    <div class="modal-card guided-extra-modal-card">
+      <div class="guided-extra-head">
+        <div><span class="guided-kicker">ENTENDA DE OUTRO JEITO</span><h2 id="guidedExtraTitle">Explicações extras</h2></div>
+        <button id="guidedExtraCloseBtn" class="btn ghost" type="button">Fechar</button>
+      </div>
+      <div id="guidedExtraOptions" class="guided-extra-options"></div>
+      <div id="guidedExtraContent" class="guided-extra-content">Escolha uma opção para abrir somente a explicação desejada.</div>
+    </div>
+  </div>
+
+  <div id="guidedTeacherModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="guidedTeacherTitle">
+    <div class="modal-card guided-modal-card">
+      <h2 id="guidedTeacherTitle">Ação do professor</h2>
+      <p>O EduAuth gera uma autorização limitada ao painel ou à conclusão antecipada. A ação ficará registrada.</p>
+      <label for="guidedTeacherName">Professor</label>
+      <input id="guidedTeacherName" maxlength="80" placeholder="Identificação do professor" />
+      <input id="guidedTeacherPassword" type="hidden" />
+      <label for="guidedTeacherReason">Motivo</label>
+      <select id="guidedTeacherReason">
+        <option value="dominio">Domínio demonstrado</option>
+        <option value="iniciada">Atividade iniciada anteriormente</option>
+        <option value="tecnico">Problema técnico ou troca de equipamento</option>
+        <option value="adaptacao">Adaptação ou necessidade educacional</option>
+        <option value="evento">Evento ou organização escolar</option>
+        <option value="grupo">Atividade realizada em grupo</option>
+        <option value="plataforma">Erro da plataforma</option>
+        <option value="outro">Outro motivo</option>
+      </select>
+      <label for="guidedTeacherNote">Observação</label>
+      <textarea id="guidedTeacherNote" maxlength="400" placeholder="Descreva brevemente a autorização ou o objetivo do acesso."></textarea>
+      <p id="guidedTeacherStatus" class="mode-status"></p>
+      <div class="modal-actions">
+        <button id="guidedTeacherCancelBtn" class="btn ghost" type="button">Cancelar</button>
+        <button id="guidedTeacherConfirmBtn" class="btn primary" type="button">Confirmar ação</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="guidedSupportDrawer" class="guided-support-drawer hidden" aria-live="polite">
+    <div class="guided-support-drawer-head"><strong>Preferências de apoio</strong><button id="guidedSupportDrawerClose" class="btn tiny" type="button">Fechar</button></div>
+    <label class="guided-check"><input id="guidedFontLarge" type="checkbox" /> Fonte ampliada</label>
+    <label class="guided-check"><input id="guidedFocusMode" type="checkbox" /> Uma etapa por vez</label>
+    <label class="guided-check"><input id="guidedReducedMotion" type="checkbox" /> Reduzir animações</label>
+    <label class="guided-check"><input id="guidedDetailedDefault" type="checkbox" /> Priorizar explicações detalhadas</label>
+  </div>
+
+  <div id="guidedIdleOverlay" class="guided-idle-overlay hidden" role="alertdialog" aria-modal="true">
+    <div class="guided-idle-card">
+      <span class="guided-kicker">ATENÇÃO À SESSÃO</span>
+      <h2 id="guidedIdleTitle">Você está entrando no modo ocioso</h2>
+      <p id="guidedIdleMessage">Realize uma ação para continuar.</p>
+      <button id="guidedIdleContinueBtn" class="btn primary" type="button">Continuar atividade</button>
+    </div>
+  </div>
+
+
+  <div id="competitiveExitModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="competitiveExitTitle">
+    <div class="modal-card competitive-exit-card">
+      <span class="modal-kicker">MODO COMPETITIVO</span>
+      <h2 id="competitiveExitTitle">Sua rodada competitiva terminou</h2>
+      <p id="competitiveExitMessage">Você ficou sem vidas ou o tempo recomendado terminou.</p>
+      <div class="competitive-choice-grid">
+        <button id="continueDiagnosticBtn" class="competitive-choice continue" type="button"><strong>Continuar o diagnóstico</strong><span>Conclua todas as perguntas e receba o relatório pedagógico. XP, ranking e cargo competitivo serão desativados.</span></button>
+        <button id="endCompetitiveBtn" class="competitive-choice restart" type="button"><strong>Encerrar competitivo</strong><span>Gere o relatório parcial desta tentativa e depois reinicie uma nova rodada.</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="extraCardModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="extraCardTitle">
+    <div class="modal-card extra-card-modal-card">
+      <span class="modal-kicker">CARTA CORINGA</span>
+      <h2 id="extraCardTitle">Escolha um benefício</h2>
+      <p>Você possui uma carta extra por tentativa. Ela pode ser utilizada uma única vez.</p>
+      <div class="extra-card-options">
+        <button type="button" data-card-action="tempo"><strong>+60 segundos</strong><span>Amplia o tempo da pergunta atual.</span></button>
+        <button type="button" data-card-action="escudo"><strong>Escudo</strong><span>Protege uma vida no próximo erro.</span></button>
+        <button type="button" data-card-action="eliminar"><strong>Eliminar opções</strong><span>Remove até duas alternativas incorretas.</span></button>
+      </div>
+      <button id="extraCardCancelBtn" class="btn ghost full" type="button">Guardar para depois</button>
+    </div>
+  </div>
+
+  <div id="bugModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="bugModalTitle">
+    <div class="modal-card">
+      <h2 id="bugModalTitle">Informar problema nesta fase</h2>
+      <p>Descreva rapidamente o que aconteceu. O registro será anexado ao resultado final.</p>
+      <label for="bugType">Tipo de problema</label>
+      <select id="bugType" class="bug-type">
+        <option value="erro_pergunta">Erro na pergunta ou gabarito</option>
+        <option value="travamento">Jogo travou / não consigo continuar</option>
+        <option value="botao">Botão não funcionou</option>
+        <option value="laboratorio">Laboratório com problema</option>
+        <option value="layout">Problema visual / tela cortada</option>
+        <option value="outro">Outro problema</option>
+      </select>
+      <textarea id="bugText" class="bug-text" maxlength="600" placeholder="Ex.: a pergunta travou, não consegui mover o item, o botão não funcionou..."></textarea>
+      <div class="modal-actions">
+        <button id="cancelBugBtn" class="btn ghost" type="button">Cancelar</button>
+        <button id="saveBugBtn" class="btn primary" type="button">Registrar bug</button>
+        <button id="finishByBugBtn" class="btn danger" type="button">Encerrar por bug</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="rescueModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="rescueModalTitle">
+    <div class="modal-card rescue-card">
+      <h2 id="rescueModalTitle">Solicite auxílio do professor</h2>
+      <p>Foram detectados alertas de integridade no Modo Prova. O professor pode liberar a continuação com uma autorização individual EduAuth.</p>
+      <label for="rescueTeacherName">Identificação do professor</label>
+      <input id="rescueTeacherName" type="text" autocomplete="off" maxlength="80" placeholder="Nome ou identificação do professor" />
+      <label for="rescueReason">Justificativa da liberação</label>
+      <textarea id="rescueReason" class="bug-text rescue-reason" maxlength="500" placeholder="Explique por que a prova foi liberada. Ex.: erro de navegador, problema no teclado, troca de equipamento..."></textarea>
+      <input id="rescuePassword" type="hidden" />
+      <p id="rescueStatus" class="mode-status"></p>
+      <div class="modal-actions">
+        <button id="confirmRescueBtn" class="btn primary" type="button">Solicitar autorização EduAuth</button>
+        <button id="forceFinishBtn" class="btn danger" type="button">Encerrar prova</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="levelTransition" class="level-transition hidden" aria-live="polite" aria-atomic="true">
+    <div class="level-transition-card">
+      <span id="levelTransitionKicker">NOVA FASE</span>
+      <strong id="levelTransitionTitle">Nível 2</strong>
+      <p id="levelTransitionMessage">Os desafios agora exigem mais análise.</p>
+      <div class="level-transition-bar"><i></i></div>
+    </div>
+  </div>
+
+  <div id="securityOverlay" class="security-overlay hidden">
+    <div>
+      <strong>⚠ ALERTA DE INTEGRIDADE</strong>
+      <p id="securityMessage">O evento foi registrado para conferência.</p>
+      <span id="securityCount" class="security-count">1/4</span>
+    </div>
+  </div>
+
+  <script src="js/eduauth/qrcode-browser.js?v=25.0"></script>
+  <script src="js/eduauth/config.js?v=25.0"></script>
+  <script src="js/eduauth/core.js?v=25.0"></script>
+  <script src="js/sanitize.js?v=25.0"></script>
+  <script src="js/profile-store.js?v=25.0"></script>
+  <script src="js/permissions.js?v=25.0"></script>
+  <script src="js/terms.js?v=25.0"></script>
+  <script src="js/eduauth/ui.js?v=25.0"></script>
+  <script src="js/schedule.js?v=25.0"></script>
+  <script src="js/platform-shell.js?v=25.0"></script>
+  <script src="js/release-notice.js?v=25.0"></script>
+  <script src="js/config.js?v=25.0"></script>
+  <script src="js/random.js?v=25.0"></script>
+  <script src="js/assessment.js?v=25.0"></script>
+  <script src="js/proficiency.js?v=25.0"></script>
+  <script src="js/bank-manifest.js?v=25.0"></script>
+  <script src="js/questions.js?v=25.0"></script>
+  <script src="js/crypto.js?v=25.0"></script>
+  <script src="js/xp-ledger.js?v=25.0"></script>
+  <script src="js/security.js?v=25.0"></script>
+  <script src="js/labs.js?v=25.0"></script>
+  <script src="js/app.js?v=25.0"></script>
+  <script src="js/guided-data.js?v=25.0"></script>
+  <script src="js/code-resources.js?v=25.0"></script>
+  <script src="js/code-center.js?v=25.0"></script>
+  <script src="js/guided.js?v=25.0"></script>
+  <script src="js/extras.js?v=25.0"></script>
+  <script src="js/offline.js?v=25.0"></script>
+  <div id="powerToast" class="power-toast hidden">POWER-UP DISPONÍVEL</div>
+</body>
+</html>

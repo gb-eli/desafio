@@ -1,0 +1,14 @@
+{
+  "portalVersion": "25.0.0",
+  "build": "security-terms-xp-ledger",
+  "releaseDate": "2026-07-30",
+  "schemaVersion": "2.0.0",
+  "profileSchemaVersion": "2.0.0",
+  "xpLedgerSchemaVersion": "1.0.0",
+  "termsVersion": "1.3.0",
+  "permissionsManifestVersion": "1.0.0",
+  "status": "stable",
+  "fixes": ["termos", "privacidade", "XSS", "importação", "integridade de XP"],
+  "improvements": ["offline", "documentação", "avaliação", "créditos"],
+  "knownIssuesFile": "KNOWN_ISSUES.md"
+}

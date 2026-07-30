@@ -1,0 +1,31 @@
+{
+  "schema": "eduauth-provisioning-template",
+  "schemaVersion": 1,
+  "platformId": "desafio-ds",
+  "requiredKeys": [
+    {
+      "type": "CLASS_HMAC_KEY",
+      "keyId": "desafio-ds-class-23-01",
+      "required": true
+    },
+    {
+      "type": "SESSION_HMAC_KEY",
+      "keyId": "desafio-ds-session-23-01",
+      "required": true
+    },
+    {
+      "type": "SIGNING_PUBLIC_KEY",
+      "keyId": "teacher-signing-23-01",
+      "required": true
+    },
+    {
+      "type": "RECOVERY_PUBLIC_KEY",
+      "keyId": "profile-generated-locally",
+      "required": false
+    }
+  ],
+  "environment": "production",
+  "productionProvisioned": true,
+  "warning": "Modelo público sem chaves privadas. Para rotação, gere novo pacote no EduAuth Professor e publique nova versão.",
+  "updatedAt": "2026-07-30"
+}

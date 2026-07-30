@@ -1,0 +1,183 @@
+[
+  {
+    "id": "challenge-start",
+    "numericCode": "01",
+    "label": "Iniciar Desafio DS",
+    "risk": "LOW",
+    "preferredMode": "CLASS_SHARED_PIN",
+    "strongerMode": null,
+    "pinLength": 8,
+    "ttlSeconds": 900,
+    "sharedAcrossClass": true,
+    "sessionBound": false,
+    "singleUse": false,
+    "requireReason": false,
+    "requireTeacherReauthentication": false,
+    "integrationPoints": [
+      {
+        "file": "js/app.js",
+        "function": "unlockMode",
+        "lineApproximation": 120
+      }
+    ]
+  },
+  {
+    "id": "assessment-start",
+    "numericCode": "02",
+    "label": "Iniciar Modo Prova",
+    "risk": "MEDIUM",
+    "preferredMode": "SESSION_SCOPED_PIN",
+    "strongerMode": null,
+    "pinLength": 8,
+    "ttlSeconds": 300,
+    "sharedAcrossClass": false,
+    "sessionBound": true,
+    "singleUse": true,
+    "requireReason": false,
+    "requireTeacherReauthentication": false,
+    "integrationPoints": [
+      {
+        "file": "js/app.js",
+        "function": "unlockMode",
+        "lineApproximation": 120
+      }
+    ]
+  },
+  {
+    "id": "lesson-start",
+    "numericCode": "03",
+    "label": "Iniciar aula guiada",
+    "risk": "LOW",
+    "preferredMode": "CLASS_SHARED_PIN",
+    "strongerMode": null,
+    "pinLength": 8,
+    "ttlSeconds": 900,
+    "sharedAcrossClass": true,
+    "sessionBound": false,
+    "singleUse": false,
+    "requireReason": false,
+    "requireTeacherReauthentication": false,
+    "integrationPoints": [
+      {
+        "file": "js/guided.js",
+        "function": "requestLesson",
+        "lineApproximation": 294
+      }
+    ]
+  },
+  {
+    "id": "early-completion",
+    "numericCode": "04",
+    "label": "Autorizar conclusão antecipada",
+    "risk": "HIGH",
+    "preferredMode": "SESSION_SCOPED_PIN",
+    "strongerMode": "SIGNED_GRANT",
+    "pinLength": 10,
+    "ttlSeconds": 180,
+    "sharedAcrossClass": false,
+    "sessionBound": true,
+    "singleUse": true,
+    "requireReason": true,
+    "requireTeacherReauthentication": false,
+    "integrationPoints": [
+      {
+        "file": "js/guided.js",
+        "function": "confirmTeacherAction",
+        "lineApproximation": 890
+      }
+    ]
+  },
+  {
+    "id": "prova-rescue",
+    "numericCode": "05",
+    "label": "Liberar continuação da prova",
+    "risk": "HIGH",
+    "preferredMode": "SESSION_SCOPED_PIN",
+    "strongerMode": "SIGNED_GRANT",
+    "pinLength": 10,
+    "ttlSeconds": 180,
+    "sharedAcrossClass": false,
+    "sessionBound": true,
+    "singleUse": true,
+    "requireReason": true,
+    "requireTeacherReauthentication": false,
+    "integrationPoints": [
+      {
+        "file": "js/app.js",
+        "function": "confirmRescue",
+        "lineApproximation": 1128
+      }
+    ]
+  },
+  {
+    "id": "teacher-audit",
+    "numericCode": "06",
+    "label": "Abrir auditoria docente",
+    "risk": "CRITICAL",
+    "preferredMode": "SIGNED_GRANT",
+    "strongerMode": null,
+    "pinLength": 0,
+    "ttlSeconds": 120,
+    "sharedAcrossClass": false,
+    "sessionBound": true,
+    "singleUse": true,
+    "requireReason": true,
+    "requireTeacherReauthentication": true,
+    "integrationPoints": [
+      {
+        "file": "js/app.js",
+        "function": "unlockMode",
+        "lineApproximation": 120
+      },
+      {
+        "file": "js/guided.js",
+        "function": "confirmTeacherAction",
+        "lineApproximation": 890
+      }
+    ]
+  },
+  {
+    "id": "profile-recovery",
+    "numericCode": "07",
+    "label": "Abrir recuperação de perfil",
+    "risk": "CRITICAL",
+    "preferredMode": "SIGNED_GRANT",
+    "strongerMode": null,
+    "pinLength": 0,
+    "ttlSeconds": 120,
+    "sharedAcrossClass": false,
+    "sessionBound": true,
+    "singleUse": true,
+    "requireReason": true,
+    "requireTeacherReauthentication": true,
+    "integrationPoints": [
+      {
+        "file": "js/profile-store.js",
+        "function": "authorizeRecovery",
+        "lineApproximation": 184
+      }
+    ]
+  },
+  {
+    "id": "profile-recovery-reset",
+    "numericCode": "08",
+    "label": "Redefinir senha do perfil",
+    "risk": "CRITICAL",
+    "preferredMode": "SIGNED_GRANT",
+    "strongerMode": null,
+    "pinLength": 0,
+    "ttlSeconds": 120,
+    "sharedAcrossClass": false,
+    "sessionBound": true,
+    "singleUse": true,
+    "requireReason": true,
+    "requireTeacherReauthentication": true,
+    "integrationPoints": [
+      {
+        "file": "js/profile-store.js",
+        "function": "recoveryResetForm submit",
+        "lineApproximation": 196
+      }
+    ]
+  }
+]
