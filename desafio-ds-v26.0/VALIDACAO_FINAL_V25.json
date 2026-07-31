@@ -1,0 +1,215 @@
+{
+  "platform": "Desafio DS",
+  "version": "25.0.0",
+  "date": "2026-07-30",
+  "checks": [
+    {
+      "name": "Sintaxe JavaScript",
+      "status": "PASS",
+      "detail": "43 arquivos válidos"
+    },
+    {
+      "name": "Arquivos JSON válidos",
+      "status": "PASS",
+      "detail": "16 arquivos válidos"
+    },
+    {
+      "name": "IDs HTML únicos",
+      "status": "PASS",
+      "detail": "180 IDs; duplicados: []"
+    },
+    {
+      "name": "Referências locais existentes",
+      "status": "PASS",
+      "detail": "30 referências; ausentes: []"
+    },
+    {
+      "name": "Aulas preservadas",
+      "status": "PASS",
+      "detail": "88 aulas"
+    },
+    {
+      "name": "Distribuição curricular",
+      "status": "PASS",
+      "detail": "{\"1DS/intro-programacao\": 14, \"1DS/analise-metodo\": 16, \"2DS/front-end\": 12, \"2DS/inovacao\": 10, \"3DS/programacao-ds\": 10, \"2DS Noite/front-end-sub\": 12, \"2DS Noite/mobile-1\": 14}"
+    },
+    {
+      "name": "Central de Código vinculada",
+      "status": "PASS",
+      "detail": "52 aulas com recursos"
+    },
+    {
+      "name": "Recursos técnicos disponíveis",
+      "status": "PASS",
+      "detail": "36 pacotes de código"
+    },
+    {
+      "name": "Arquivos e comandos da Central de Código",
+      "status": "PASS",
+      "detail": "119 arquivos; 126 comandos"
+    },
+    {
+      "name": "Documentação obrigatória",
+      "status": "PASS",
+      "detail": "18 entregáveis; ausentes: []"
+    },
+    {
+      "name": "Aceite explícito e não pré-marcado",
+      "status": "PASS",
+      "detail": "duas confirmações obrigatórias sem marcação inicial"
+    },
+    {
+      "name": "Termo versionado",
+      "status": "PASS",
+      "detail": "versão 1.3.0, hash e registro de integridade"
+    },
+    {
+      "name": "Termo incluído nas evidências",
+      "status": "PASS",
+      "detail": "Desafio e Modo Guiado"
+    },
+    {
+      "name": "Sem eval ou new Function",
+      "status": "PASS",
+      "detail": "nenhuma execução dinâmica encontrada"
+    },
+    {
+      "name": "Senhas fixas antigas ausentes",
+      "status": "PASS",
+      "detail": "encontradas: []"
+    },
+    {
+      "name": "Nenhuma chave privada EduAuth pública",
+      "status": "PASS",
+      "detail": "somente chave pública de assinatura"
+    },
+    {
+      "name": "CSP sem unsafe-eval",
+      "status": "PASS",
+      "detail": "CSP restritiva compatível com GitHub Pages"
+    },
+    {
+      "name": "Sanitização e URL segura",
+      "status": "PASS",
+      "detail": "URL, JSON, profundidade e chaves perigosas"
+    },
+    {
+      "name": "Proteção contra poluição de protótipo",
+      "status": "PASS",
+      "detail": "objetos importados validados"
+    },
+    {
+      "name": "Perfil criptografado em IndexedDB",
+      "status": "PASS",
+      "detail": "Web Crypto e envelope por perfil"
+    },
+    {
+      "name": "Importação validada",
+      "status": "PASS",
+      "detail": "tamanho e estrutura verificados"
+    },
+    {
+      "name": "Permissões contextuais",
+      "status": "PASS",
+      "detail": "manifesto e explicação antes da ação"
+    },
+    {
+      "name": "Sem câmera, microfone ou localização",
+      "status": "PASS",
+      "detail": "nenhuma permissão sensível é solicitada; itens aparecem apenas em notRequested"
+    },
+    {
+      "name": "XP derivado de extrato",
+      "status": "PASS",
+      "detail": "extrato encadeado com três estados"
+    },
+    {
+      "name": "Gamificação separada da nota",
+      "status": "PASS",
+      "detail": "relatório declara separação"
+    },
+    {
+      "name": "Amostra insuficiente protegida",
+      "status": "PASS",
+      "detail": "sem cargo ou curso com poucas respostas"
+    },
+    {
+      "name": "Loja não criada artificialmente",
+      "status": "PASS",
+      "detail": "projeto não possuía loja/inventário; aplicado somente extrato de XP"
+    },
+    {
+      "name": "Cache offline completo",
+      "status": "PASS",
+      "detail": "42 recursos; ausentes: []"
+    },
+    {
+      "name": "Manifesto PWA presente",
+      "status": "PASS",
+      "detail": "manifesto e service worker"
+    },
+    {
+      "name": "QA desktop sem overflow",
+      "status": "PASS",
+      "detail": "1366×900"
+    },
+    {
+      "name": "QA mobile sem overflow",
+      "status": "PASS",
+      "detail": "390×844"
+    },
+    {
+      "name": "Termo responsivo no celular",
+      "status": "PASS",
+      "detail": "painel rolável dentro da viewport"
+    },
+    {
+      "name": "Aceite funcional no navegador",
+      "status": "PASS",
+      "detail": "2026-07-30T22:17:48.733Z"
+    },
+    {
+      "name": "Teste XSS seguro",
+      "status": "PASS",
+      "detail": "payload exibido como texto ou removido"
+    },
+    {
+      "name": "javascript: bloqueado",
+      "status": "PASS",
+      "detail": "URL perigosa rejeitada"
+    },
+    {
+      "name": "JSON com prototype pollution rejeitado",
+      "status": "PASS",
+      "detail": "constructor rejeitado"
+    },
+    {
+      "name": "Extrato XP funcional",
+      "status": "PASS",
+      "detail": "{\"valid\": true, \"balances\": {\"available\": 100, \"pending\": 999, \"blocked\": 0}}"
+    },
+    {
+      "name": "Modo Guiado preservado",
+      "status": "PASS",
+      "detail": "navegação disponível após aceite"
+    },
+    {
+      "name": "Sem erros de console no fluxo testado",
+      "status": "PASS",
+      "detail": "0 erros"
+    },
+    {
+      "name": "EduAuth coletivo e individual",
+      "status": "PASS",
+      "detail": "{\"classPinLength\": 8, \"classValid\": true, \"decodedAction\": \"lesson-start\", \"sessionPinLength\": 10, \"sessionValid\": true, \"reuseBlocked\": true}"
+    },
+    {
+      "name": "Arquivos privados fora do GitHub",
+      "status": "PASS",
+      "detail": "expostos: []"
+    }
+  ],
+  "passed": 41,
+  "failed": 0,
+  "status": "VALID"
+}

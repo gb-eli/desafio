@@ -1,0 +1,22 @@
+{
+  "portalVersion": "26.0.0",
+  "build": "guided-cyber-analysis-inclusion",
+  "releaseDate": "2026-07-31",
+  "schemaVersion": "2.0.0",
+  "profileSchemaVersion": "2.0.0",
+  "xpLedgerSchemaVersion": "1.0.0",
+  "termsVersion": "1.3.0",
+  "permissionsManifestVersion": "1.0.0",
+  "status": "stable",
+  "fixes": [
+    "preservação integral das 88 aulas anteriores",
+    "registro EduAuth das novas aulas"
+  ],
+  "improvements": [
+    "21 novas aulas integradas",
+    "mini laboratórios de cyber segurança",
+    "auditoria de sistemas, MVP e feedback",
+    "109 aulas no Modo Guiado"
+  ],
+  "knownIssuesFile": "KNOWN_ISSUES.md"
+}

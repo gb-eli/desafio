@@ -1,0 +1,167 @@
+{
+  "schema": "desafio-ds-validation",
+  "version": "23.0.0",
+  "date": "2026-07-30",
+  "summary": {
+    "total": 28,
+    "passed": 28,
+    "failed": 0,
+    "status": "VALID"
+  },
+  "lessonCounts": {
+    "1DS:intro-programacao": 14,
+    "1DS:analise-metodo": 16,
+    "2DS:front-end": 12,
+    "2DS:inovacao": 10,
+    "3DS:programacao-ds": 10,
+    "2DS Noite:front-end-sub": 12,
+    "2DS Noite:mobile-1": 14
+  },
+  "checks": [
+    {
+      "name": "Sintaxe JavaScript pública e privada",
+      "status": "PASS",
+      "detail": "38 arquivos verificados; erros: 0"
+    },
+    {
+      "name": "Referências locais do index.html",
+      "status": "PASS",
+      "detail": "22 referências; ausentes: []"
+    },
+    {
+      "name": "IDs HTML únicos",
+      "status": "PASS",
+      "detail": "179 IDs; duplicados: []"
+    },
+    {
+      "name": "Equilíbrio estrutural do CSS",
+      "status": "PASS",
+      "detail": "aberturas=1403; fechamentos=1403"
+    },
+    {
+      "name": "Total de aulas preservado",
+      "status": "PASS",
+      "detail": "total=88; distribuição={'1DS:intro-programacao': 14, '1DS:analise-metodo': 16, '2DS:front-end': 12, '2DS:inovacao': 10, '3DS:programacao-ds': 10, '2DS Noite:front-end-sub': 12, '2DS Noite:mobile-1': 14}"
+    },
+    {
+      "name": "IDs das aulas únicos",
+      "status": "PASS",
+      "detail": "88 IDs"
+    },
+    {
+      "name": "Tempo mínimo de 25 minutos",
+      "status": "PASS",
+      "detail": "mínimo encontrado=1500s"
+    },
+    {
+      "name": "Cobertura curricular de Programação Mobile",
+      "status": "PASS",
+      "detail": "14 aulas; termos ausentes: []"
+    },
+    {
+      "name": "Cobertura curricular de Introdução à Programação",
+      "status": "PASS",
+      "detail": "14 aulas; termos ausentes: []"
+    },
+    {
+      "name": "Cobertura curricular de Programação Front-End",
+      "status": "PASS",
+      "detail": "12 aulas; termos ausentes: []"
+    },
+    {
+      "name": "Mini simuladores ligados às aulas corretas",
+      "status": "PASS",
+      "detail": "10 vínculos verificados; divergências={}"
+    },
+    {
+      "name": "Implementação: Simulador Python",
+      "status": "PASS",
+      "detail": "renderPythonSimulator"
+    },
+    {
+      "name": "Implementação: Decisões",
+      "status": "PASS",
+      "detail": "renderDecisionSimulator"
+    },
+    {
+      "name": "Implementação: Box Model",
+      "status": "PASS",
+      "detail": "renderBoxModelTool"
+    },
+    {
+      "name": "Implementação: Auditoria de interface",
+      "status": "PASS",
+      "detail": "renderUiAuditTool"
+    },
+    {
+      "name": "Implementação: Qualidade mobile",
+      "status": "PASS",
+      "detail": "renderMobileQualityTool"
+    },
+    {
+      "name": "Implementação: Prévia CSS segura",
+      "status": "PASS",
+      "detail": "createCssPreview"
+    },
+    {
+      "name": "Identificação explícita do Técnico Subsequente",
+      "status": "PASS",
+      "detail": "rótulo presente no formulário e banco"
+    },
+    {
+      "name": "Cache busting v23.0",
+      "status": "PASS",
+      "detail": "scripts e CSS versionados"
+    },
+    {
+      "name": "EduAuth provisionado para v23",
+      "status": "PASS",
+      "detail": "ambiente=production; versão=23.0.0"
+    },
+    {
+      "name": "Chaves operacionais correspondem ao validador privado",
+      "status": "PASS",
+      "detail": "class/session/publicJwk"
+    },
+    {
+      "name": "Chave privada ausente do pacote público",
+      "status": "PASS",
+      "detail": "nenhum privateJwk/configuração privada"
+    },
+    {
+      "name": "Chave privada presente somente no validador privado",
+      "status": "PASS",
+      "detail": "arquivo privado localizado fora da publicação"
+    },
+    {
+      "name": "Senhas fixas legadas ausentes do público",
+      "status": "PASS",
+      "detail": "valores legados não encontrados"
+    },
+    {
+      "name": "Chaves de desenvolvimento ausentes",
+      "status": "PASS",
+      "detail": "configuração operacional"
+    },
+    {
+      "name": "Arquivos obrigatórios EduAuth",
+      "status": "PASS",
+      "detail": "eduauth-platform-manifest.json, eduauth-action-registry.json, eduauth-integration-report.md, eduauth-test-vectors.json, eduauth-provisioning-template.json"
+    },
+    {
+      "name": "Manifest operacional consistente",
+      "status": "PASS",
+      "detail": "complete-operational-frontend"
+    },
+    {
+      "name": "Evidências visuais desktop e mobile",
+      "status": "PASS",
+      "detail": "EVIDENCIAS_QA_V23_GUIDED_desktop.png, EVIDENCIAS_QA_V23_GUIDED_mobile.png, EVIDENCIAS_QA_V23_SIMULADORES_desktop.png, EVIDENCIAS_QA_V23_SIMULADORES_mobile.png"
+    }
+  ],
+  "jsErrors": [],
+  "limitations": [
+    "Navegação direta file:// e HTTP local bloqueada por política administrativa do ambiente. A interface foi executada em Chromium por empacotamento em memória.",
+    "Como a plataforma é totalmente front-end, o material HMAC de verificação pode ser inspecionado por usuário tecnicamente avançado; EduAuth oferece proteção operacional, não segurança equivalente a backend."
+  ]
+}

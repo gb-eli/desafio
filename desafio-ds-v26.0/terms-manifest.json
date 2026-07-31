@@ -1,0 +1,20 @@
+{
+  "schema": "desafio-ds-terms-manifest",
+  "schemaVersion": 1,
+  "platformId": "desafio-ds",
+  "platformVersion": "26.0.0",
+  "terms": {
+    "id": "desafio-ds-termo-geral",
+    "version": "1.3.0",
+    "file": "TERMS.md",
+    "requiresExplicitAcceptance": true,
+    "checkboxesPreselected": false,
+    "storedInEncryptedProfile": true,
+    "sessionFallback": true
+  },
+  "documents": [
+    "PRIVACY.md",
+    "SIMULATION_NOTICE.md",
+    "EDUCATIONAL_USE.md"
+  ]
+}

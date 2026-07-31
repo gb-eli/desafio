@@ -1,0 +1,263 @@
+{
+  "version": "24.0.0",
+  "date": "2026-07-30",
+  "summary": {
+    "passed": 38,
+    "failed": 0,
+    "total": 38
+  },
+  "coverage": {
+    "totalLessons": 88,
+    "codeResources": 36,
+    "lessonsWithCodeCenter": 52,
+    "resourceFiles": 119
+  },
+  "checks": [
+    {
+      "name": "Sintaxe JavaScript",
+      "ok": true,
+      "detail": {
+        "files": 37,
+        "errors": []
+      }
+    },
+    {
+      "name": "Referências do index",
+      "ok": true,
+      "detail": {
+        "references": 24,
+        "missing": []
+      }
+    },
+    {
+      "name": "IDs HTML únicos",
+      "ok": true,
+      "detail": {
+        "count": 179,
+        "duplicates": []
+      }
+    },
+    {
+      "name": "Ordem da Central de Código",
+      "ok": true,
+      "detail": [
+        29475,
+        29526,
+        29580,
+        29631
+      ]
+    },
+    {
+      "name": "CSS equilibrado",
+      "ok": true,
+      "detail": {
+        "open": 1479,
+        "close": 1479
+      }
+    },
+    {
+      "name": "CSS contém .code-center-overlay",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém @media(max-width:760px)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém .code-files-layout",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém .code-terminal-grid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Carregamento dos dados guiados",
+      "ok": true,
+      "detail": "VM JavaScript"
+    },
+    {
+      "name": "Total de aulas preservado",
+      "ok": true,
+      "detail": 88
+    },
+    {
+      "name": "Total de recursos de código",
+      "ok": true,
+      "detail": 36
+    },
+    {
+      "name": "Cobertura intro-programacao",
+      "ok": true,
+      "detail": {
+        "lessons": 14,
+        "mapped": 14,
+        "expected": 14
+      }
+    },
+    {
+      "name": "Cobertura front-end",
+      "ok": true,
+      "detail": {
+        "lessons": 12,
+        "mapped": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "Cobertura front-end-sub",
+      "ok": true,
+      "detail": {
+        "lessons": 12,
+        "mapped": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "Cobertura mobile-1",
+      "ok": true,
+      "detail": {
+        "lessons": 14,
+        "mapped": 14,
+        "expected": 14
+      }
+    },
+    {
+      "name": "Aulas com Central de Código",
+      "ok": true,
+      "detail": 52
+    },
+    {
+      "name": "Sintaxe dos arquivos disponibilizados",
+      "ok": true,
+      "detail": {
+        "files": 119,
+        "types": {
+          ".txt": 1,
+          ".py": 14,
+          ".md": 36,
+          ".js": 20,
+          ".java": 2,
+          ".cpp": 1,
+          ".cs": 1,
+          ".html": 18,
+          ".css": 18,
+          ".xml": 2,
+          ".kt": 1,
+          ".swift": 2,
+          ".toml": 1,
+          ".rs": 1,
+          ".webmanifest": 1
+        },
+        "errors": []
+      }
+    },
+    {
+      "name": "Recurso Login responsivo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recurso Java Android",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recurso Kotlin Android",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recurso Swift",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recurso Rust",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recurso PWA e API",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recurso Python modular",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Recurso Comparação de linguagens",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Comandos de terminal presentes",
+      "ok": true,
+      "detail": 126
+    },
+    {
+      "name": "Dependências sob demanda",
+      "ok": true,
+      "detail": 6
+    },
+    {
+      "name": "FAQ e limitações em todos os recursos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Função de abertura da Central",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Atalho contextual",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Download na conclusão",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Registro do download",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Gerador ZIP interno",
+      "ok": true,
+      "detail": "sem biblioteca externa"
+    },
+    {
+      "name": "ZIP gerado pelo navegador é válido",
+      "ok": true,
+      "detail": "Archive:  /tmp/test-project.zip\n    testing: index.html               OK\n    testing: css/style.css            OK\nNo errors detected in compressed data of /tmp/test-project.zip."
+    },
+    {
+      "name": "Nenhuma chave privada EduAuth no público",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Nenhuma senha fixa nova",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Versão pública 24.0",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "limitations": [
+    "O navegador administrado do ambiente bloqueou file:// e 127.0.0.1 para captura visual. A conferência visual final deve ser feita na URL do GitHub Pages."
+  ]
+}
