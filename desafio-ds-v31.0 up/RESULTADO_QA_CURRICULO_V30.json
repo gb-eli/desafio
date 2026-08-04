@@ -1,0 +1,57 @@
+{
+  "version": "30.0.0",
+  "curriculumComparison": "approved-spreadsheet",
+  "activeDistribution": {
+    "1DS:intro-programacao": 19,
+    "1DS:analise-metodo": 15,
+    "2DS:front-end": 15,
+    "2DS:inovacao": 14,
+    "3DS:programacao-ds": 16,
+    "2DS Noite:front-end-sub": 16,
+    "2DS Noite:mobile-1": 19
+  },
+  "archivedMigration": {
+    "1DS-analise-metodo-08": "1DS-analise-metodo-04",
+    "1DS-analise-metodo-09": "1DS-analise-metodo-04",
+    "1DS-analise-metodo-10": "1DS-analise-metodo-04",
+    "1DS-analise-metodo-12": "1DS-analise-metodo-11",
+    "1DS-analise-metodo-16": "1DS-analise-metodo-20",
+    "2DS-front-end-12": "2DS-front-end-17",
+    "2DS-front-end-15": "2DS-front-end-16"
+  },
+  "codeMappings": {
+    "3DS-programacao-ds-01": "py-review-environment",
+    "3DS-programacao-ds-02": "py-modules-errors-tests",
+    "3DS-programacao-ds-12": "frontend-auth-limits",
+    "2DS Noite-front-end-sub-03": "js-data-structures",
+    "2DS Noite-front-end-sub-04": "js-dom-safe",
+    "2DS Noite-front-end-sub-10": "js-events-form",
+    "2DS Noite-mobile-1-01": "mobile-ecosystems-compare",
+    "2DS Noite-mobile-1-15": "mobile-permissions-context"
+  },
+  "sourceValidation": {
+    "errors": [],
+    "languageCounts": {
+      "Pseudocódigo": 1,
+      "Python": 24,
+      "Markdown": 61,
+      "JavaScript": 42,
+      "Java": 3,
+      "C++": 2,
+      "C#": 2,
+      "HTML": 33,
+      "CSS": 24,
+      "XML": 2,
+      "Kotlin": 1,
+      "Swift": 2,
+      "TOML": 1,
+      "Rust": 1,
+      "JSON": 4,
+      "Texto": 1,
+      "CSV": 1,
+      "C": 1,
+      "Assembly": 1
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,485 @@
+{
+  "version": "31.0",
+  "generatedAt": "2026-08-04T19:58:23.088Z",
+  "passed": 74,
+  "total": 74,
+  "failed": [],
+  "metrics": {
+    "historicalLessons": 121,
+    "activeLessons": 114,
+    "archivedLessons": 7,
+    "codeResources": 70,
+    "resourceFiles": 211,
+    "resourceCommands": 203,
+    "javascriptFiles": 49,
+    "jsonFiles": 34,
+    "classroomLinks": 7
+  },
+  "checks": [
+    {
+      "name": "Versão dos dados 31.0",
+      "ok": true,
+      "detail": "31.0-guided-support-layers"
+    },
+    {
+      "name": "Currículo dos dados identifica v31",
+      "ok": true,
+      "detail": "2026.08.04-v31"
+    },
+    {
+      "name": "121 IDs históricos preservados",
+      "ok": true,
+      "detail": 121
+    },
+    {
+      "name": "114 aulas ativas",
+      "ok": true,
+      "detail": 114
+    },
+    {
+      "name": "7 aulas legadas",
+      "ok": true,
+      "detail": 7
+    },
+    {
+      "name": "IDs únicos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "DATA.lessons sincronizado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Mínimo global de 10 minutos",
+      "ok": true,
+      "detail": 600
+    },
+    {
+      "name": "Todas ativas exigem 10 minutos",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Duração prevista entre 20 e 40 minutos",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Todas ativas têm objetivo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas ativas têm prática",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas ativas têm desafio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas ativas têm resultado esperado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas ativas têm camada de apoio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos glossários possuem termos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos passo a passo têm cinco itens",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos níveis possuem Essencial",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos níveis possuem Aplicação",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos níveis possuem Exploração",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas ferramentas têm propósito",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas ferramentas têm alternativa",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Análise e Método tem 15 aulas",
+      "ok": true,
+      "detail": 15
+    },
+    {
+      "name": "Sequência de Análise e Método contínua",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Títulos de Análise e Método correspondem ao planejamento",
+      "ok": true,
+      "detail": [
+        "O que é um sistema",
+        "Problema, objetivo, público e escopo",
+        "Planejamento inicial do sistema",
+        "Levantamento de requisitos",
+        "Requisitos funcionais",
+        "Requisitos não funcionais",
+        "Validação e priorização de requisitos",
+        "Métodos tradicionais, iterativos e ágeis",
+        "Kanban aplicado ao planejamento",
+        "Scrum revisado na prática",
+        "Histórias de usuário e critérios de aceitação",
+        "Fluxo e representação do sistema",
+        "Análise de código para analistas",
+        "Requisitos de segurança e análise de risco",
+        "Auditoria e validação de sistema"
+      ]
+    },
+    {
+      "name": "Análise e Método não repete Fliperama",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Análise de código possui pacote próprio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Laboratório de inspeção autorizado presente",
+      "ok": true,
+      "detail": 10
+    },
+    {
+      "name": "Inspeção protege dados oficiais",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Duas aulas noturnas prioritárias",
+      "ok": true,
+      "detail": [
+        "2DS Noite-front-end-sub-08",
+        "2DS Noite-mobile-1-01"
+      ]
+    },
+    {
+      "name": "70 pacotes técnicos",
+      "ok": true,
+      "detail": 70
+    },
+    {
+      "name": "Pacotes têm 211 arquivos",
+      "ok": true,
+      "detail": 211
+    },
+    {
+      "name": "Pacotes têm 203 comandos",
+      "ok": true,
+      "detail": 203
+    },
+    {
+      "name": "Todos recursos citados existem",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "JavaScript sintaticamente válido",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "JSON sintaticamente válido",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Referências locais do index existem",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Sem IDs HTML duplicados no index",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Chaves CSS balanceadas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Botões de toque mínimo 44px",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Apoios em uma coluna no celular",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Preferência por movimento reduzido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "QA responsivo registra celular",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "QA responsivo registra tablet",
+      "ok": true,
+      "detail": {
+        "clientWidth": 805,
+        "scrollWidth": 805,
+        "clientHeight": 1180,
+        "buttons": [
+          {
+            "text": "Não entendi",
+            "h": 44,
+            "w": 363.09375
+          },
+          {
+            "text": "O que significa?",
+            "h": 44,
+            "w": 363.109375
+          },
+          {
+            "text": "Ver passo a passo",
+            "h": 44,
+            "w": 363.09375
+          },
+          {
+            "text": "Ferramenta da aula",
+            "h": 44,
+            "w": 363.109375
+          },
+          {
+            "text": "Níveis de apoio",
+            "h": 44,
+            "w": 363.09375
+          }
+        ],
+        "columns": "363.094px 363.109px",
+        "overflow": false,
+        "file": "/mnt/data/desafio_ds_v31_work/EVIDENCIAS_QA_V31/apoio-tablet.png"
+      }
+    },
+    {
+      "name": "QA responsivo registra Chromebook",
+      "ok": true,
+      "detail": {
+        "clientWidth": 1351,
+        "scrollWidth": 1351,
+        "clientHeight": 768,
+        "buttons": [
+          {
+            "text": "Não entendi",
+            "h": 44,
+            "w": 124.984375
+          },
+          {
+            "text": "O que significa?",
+            "h": 44,
+            "w": 156.625
+          },
+          {
+            "text": "Ver passo a passo",
+            "h": 44,
+            "w": 172.984375
+          },
+          {
+            "text": "Ferramenta da aula",
+            "h": 44,
+            "w": 180.609375
+          },
+          {
+            "text": "Níveis de apoio",
+            "h": 44,
+            "w": 149.984375
+          }
+        ],
+        "columns": "none",
+        "overflow": false,
+        "file": "/mnt/data/desafio_ds_v31_work/EVIDENCIAS_QA_V31/apoio-chromebook.png"
+      }
+    },
+    {
+      "name": "Capturas responsivas existem",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Não entendi implementado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Glossário implementado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Passo a passo implementado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Salvamento no pagehide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Bloqueio encerra sessão guiada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Perfil válido por 10 dias",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Bloqueio automático em 15 minutos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Perfil expirado pode ser reativado",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Senha expirada orienta comentários do Classroom",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Sete turmas/disciplinas do Classroom configuradas",
+      "ok": true,
+      "detail": [
+        "https://classroom.google.com/c/ODQyMTU5MjQ3MTA1",
+        "https://classroom.google.com/c/NzkzNTA2MzQ0MjU1",
+        "https://classroom.google.com/c/ODQyMTU3NDI1MTAy",
+        "https://classroom.google.com/c/NzkzNTA2MTk2NDg4",
+        "https://classroom.google.com/c/ODQyMTU2NzEwNzc1",
+        "https://classroom.google.com/c/ODcxMDE0NTQ3NzYw",
+        "https://classroom.google.com/c/ODcxMDE0Mjg4NTU4"
+      ]
+    },
+    {
+      "name": "Links do Classroom não dependem de /u/6/",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Version manifest 31.0.0",
+      "ok": true,
+      "detail": "31.0.0"
+    },
+    {
+      "name": "EduAuth manifest plataforma 31.0.0",
+      "ok": true,
+      "detail": "31.0.0"
+    },
+    {
+      "name": "EduAuth manifest currículo 31.0",
+      "ok": true,
+      "detail": "31.0"
+    },
+    {
+      "name": "EduAuth público v31",
+      "ok": true,
+      "detail": "31.0.0"
+    },
+    {
+      "name": "EduAuth privado v31",
+      "ok": true,
+      "detail": "31.0.0"
+    },
+    {
+      "name": "Currículo EduAuth público v31",
+      "ok": true,
+      "detail": "31.0"
+    },
+    {
+      "name": "Currículo EduAuth privado v31",
+      "ok": true,
+      "detail": "31.0"
+    },
+    {
+      "name": "Chave coletiva pública/privada corresponde",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Chave individual pública/privada corresponde",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Chave pública de assinatura corresponde",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Configuração pública não contém chave privada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Pacote público não contém escalar privado conhecido",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas aulas ativas registradas no EduAuth",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "114 PINs coletivos públicos/privados correspondem",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "114 PINs têm oito dígitos",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Cache do Service Worker é v31",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos arquivos do cache existem",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

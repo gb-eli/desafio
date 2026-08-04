@@ -1,0 +1,12 @@
+{
+  "schema": "desafio-ds-xp-ledger",
+  "schemaVersion": "1.0.0",
+  "currency": "XP",
+  "financialValue": false,
+  "authoritativeField": "transactions",
+  "balances": ["available", "pending", "blocked"],
+  "transactionTypes": ["REWARD", "PENALTY", "REVERSAL", "BLOCK"],
+  "statuses": ["APPROVED", "PENDING", "UNDER_REVIEW", "BLOCKED", "REVERSED", "REJECTED"],
+  "integrity": ["sequence", "previousHash", "hash", "nonce", "balanceBefore", "balanceAfter"],
+  "limitations": "Front-end local; detecta inconsistências, mas não equivale a servidor autoritativo."
+}

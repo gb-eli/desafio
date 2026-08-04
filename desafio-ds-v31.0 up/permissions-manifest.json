@@ -1,0 +1,14 @@
+{
+  "schema": "desafio-ds-permissions-manifest",
+  "schemaVersion": 1,
+  "manifestVersion": "1.0.0",
+  "platformId": "desafio-ds",
+  "permissions": [
+    {"id":"clipboard-write","required":false,"purpose":"Copiar códigos, comprovantes e comandos após ação do usuário.","stored":false,"fallback":"Cópia manual."},
+    {"id":"file-read","required":false,"purpose":"Importar somente o arquivo selecionado.","stored":"Conforme a função e o perfil criptografado.","fallback":"Continuar sem importar."},
+    {"id":"file-download","required":false,"purpose":"Exportar evidências, backups e projetos.","stored":"Pasta definida pelo navegador.","fallback":"Copiar o conteúdo quando possível."},
+    {"id":"persistent-storage","required":false,"purpose":"Reduzir o risco de remoção automática do perfil.","stored":"No dispositivo.","fallback":"Manter backup."},
+    {"id":"fullscreen","required":false,"purpose":"Ampliar o espaço da atividade.","stored":false,"fallback":"Continuar sem tela cheia."}
+  ],
+  "notRequested": ["camera", "microphone", "geolocation", "motion-sensors", "notifications"]
+}

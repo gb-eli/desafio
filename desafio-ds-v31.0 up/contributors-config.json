@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "defaultVisibility": "collective",
+  "lead": {"displayName":"Professor Gabriel","roles":["Idealização","Desenvolvimento pedagógico","Coordenação","Validação"]},
+  "studentGroups": ["1º DS", "2º DS", "3º DS", "Técnico Subsequente noturno"],
+  "teachers": "Professores colaboradores",
+  "individualContributors": [],
+  "privacyRules": {"requireAuthorization":true,"allowFullNameByDefault":false,"allowedFormats":["primeiro nome e inicial","apelido aprovado","turma ou grupo"]}
+}

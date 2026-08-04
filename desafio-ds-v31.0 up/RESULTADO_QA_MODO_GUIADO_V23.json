@@ -1,0 +1,36 @@
+{
+  "schema": "desafio-ds-guided-qa",
+  "version": "23.0.0",
+  "date": "2026-07-30",
+  "environment": "Chromium headless com aplicação empacotada em memória",
+  "catalog": {
+    "desktop": {
+      "viewport": "1440x1000",
+      "discipline": "Programação Mobile",
+      "course": "Técnico Subsequente — 2º Semestre — Noite — A",
+      "lessonCards": 14,
+      "horizontalOverflow": false
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "discipline": "Programação Mobile",
+      "course": "Técnico Subsequente — 2º Semestre — Noite — A",
+      "lessonCards": 14,
+      "horizontalOverflow": false
+    }
+  },
+  "simulators": [
+    {"lesson": "Programação Mobile — Aula 8", "component": "Auditoria de coerência visual e continuidade", "rendered": true},
+    {"lesson": "Programação Mobile — Aula 9", "component": "Compatibilidade, disponibilidade e desempenho", "rendered": true},
+    {"lesson": "Introdução à Programação — Aula 3", "component": "Memória, variáveis e tipos", "rendered": true},
+    {"lesson": "Programação Front-End — Aula 6", "component": "Box Model", "rendered": true},
+    {"lesson": "Programação Front-End — Aula 7", "component": "Emulador responsivo", "rendered": true}
+  ],
+  "results": {
+    "browserErrors": 0,
+    "desktopHorizontalOverflow": false,
+    "mobileHorizontalOverflow": false,
+    "status": "PASS"
+  },
+  "limitation": "A política administrativa do ambiente bloqueou navegação direta por file:// e servidor HTTP local. Para a inspeção visual, os mesmos arquivos foram carregados no Chromium por empacotamento em memória."
+}

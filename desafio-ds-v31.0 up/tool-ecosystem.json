@@ -1,0 +1,68 @@
+{
+  "schema": "ds-tool-ecosystem",
+  "schemaVersion": 2,
+  "version": "2.0.0",
+  "updatedAt": "2026-08-03",
+  "tools": [
+    {
+      "id": "desafio-ds",
+      "name": "Desafio DS",
+      "status": "available",
+      "url": "",
+      "educationalRole": "Consolidar progresso, importar evidências e gerar o relatório final.",
+      "mode": "internal"
+    },
+    {
+      "id": "lab-virtual-ds",
+      "name": "Lab Virtual DS",
+      "status": "available",
+      "url": "https://gb-eli.github.io/lab-virtual/LABV2.0/lab/index.html",
+      "educationalRole": "Explorar hardware, terminal, redes, sistemas, programação e simuladores técnicos.",
+      "mode": "external-online"
+    },
+    {
+      "id": "lab-3d-vr",
+      "name": "Lab 3D / HoloMotion",
+      "status": "available",
+      "url": "https://gb-eli.github.io/LAB-DS-3D-VR/holomotion-lab-ds-3.2.0/index.html",
+      "educationalRole": "Analisar experiências 3D/360, interação espacial, desempenho e qualidade gráfica.",
+      "mode": "external-online"
+    },
+    {
+      "id": "ctf-cyber",
+      "name": "CTF Cyber",
+      "status": "available",
+      "url": "https://gb-eli.github.io/ctfds/ctfds-cyber-security-github-pages-v2.1.0/index.html",
+      "educationalRole": "Praticar segurança em ambiente educacional autorizado, com criptografia, análise e defesa.",
+      "mode": "external-online"
+    },
+    {
+      "id": "fliperama-ds",
+      "name": "Fliperama DS",
+      "status": "available",
+      "url": "https://gb-eli.github.io/Fliperama-DS/fliperama-ds-v0.21.0/index.html",
+      "educationalRole": "Aplicar lógica, física, animação, colisões, controles, UX, responsividade e desempenho em jogos.",
+      "mode": "external-online"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "status": "available",
+      "url": "https://github.com/",
+      "educationalRole": "Publicar código, documentar projetos, manter versões e compartilhar evidências.",
+      "mode": "external-online"
+    }
+  ],
+  "note": "Integrações por roteiro e evidência. Missões obrigatórias exigem correspondência de plataforma, aula, atividade, turma e disciplina ou validação docente EduAuth.",
+  "evidenceSchema": {
+    "id": "ds-evidence",
+    "version": 2,
+    "trustStates": [
+      "RECOGNIZED",
+      "TEACHER_VALIDATED",
+      "PARTIAL",
+      "MANUAL",
+      "INCOMPATIBLE"
+    ]
+  }
+}

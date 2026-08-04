@@ -1,0 +1,312 @@
+{
+  "platform": "Desafio DS",
+  "version": "28.0.0",
+  "date": "2026-08-03",
+  "status": "APPROVED",
+  "passed": 59,
+  "total": 59,
+  "checks": [
+    {
+      "name": "Sintaxe JavaScript",
+      "status": "PASS",
+      "detail": "44 arquivos verificados"
+    },
+    {
+      "name": "Arquivos JSON válidos",
+      "status": "PASS",
+      "detail": "25 arquivos verificados"
+    },
+    {
+      "name": "IDs HTML únicos",
+      "status": "PASS",
+      "detail": "192 IDs"
+    },
+    {
+      "name": "Referências locais existentes",
+      "status": "PASS",
+      "detail": "32 referências"
+    },
+    {
+      "name": "CSP sem unsafe-eval",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Scripts locais no CSP",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Objetos bloqueados no CSP",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Versão 28 nas referências",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Módulo de relatório carregado",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Painel consolidado presente",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Botão rápido de PDF presente",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Área de perfis explícita",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Ação de sair e bloquear explícita",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "121 aulas preservadas",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "IDs de aula únicos",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Quatro turmas",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Sete disciplinas",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Tempos mínimos configurados",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "73 aulas com Central de Código",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "53 pacotes técnicos",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "160 arquivos técnicos",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "148 comandos documentados",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Evidências externas estruturadas",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Lab Virtual DS integrado",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Lab 3D integrado",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "CTF Cyber integrado",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Fliperama DS integrado",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "GitHub integrado",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Relatório de sessão disponível",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Impressão para PDF disponível",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Fallback HTML disponível",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Fallback JSON disponível",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Escape de conteúdo no relatório",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Sem handler inline no relatório",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Registro de segmentos de sessão",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Camadas de autonomia presentes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Contexto de vida real presente",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Carreiras sob demanda",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Erros e ajuda sob demanda",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "EduAuth público v28",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Validador privado v28",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Todas as aulas registradas no EduAuth",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "PIN coletivo de 8 dígitos",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "PIN individual de 10 dígitos",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "PIN individual validado",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Reutilização individual bloqueada",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Chaves públicas/privadas correspondentes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Nenhuma chave privada EduAuth no público",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Nenhuma senha fixa antiga",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Sem rolagem horizontal — catalogo-desktop",
+      "status": "PASS",
+      "detail": "1351/1366"
+    },
+    {
+      "name": "Sem rolagem horizontal — catalogo-tablet",
+      "status": "PASS",
+      "detail": "1009/1024"
+    },
+    {
+      "name": "Sem rolagem horizontal — catalogo-mobile",
+      "status": "PASS",
+      "detail": "375/390"
+    },
+    {
+      "name": "Sem rolagem horizontal — lesson-desktop",
+      "status": "PASS",
+      "detail": "1351/1366"
+    },
+    {
+      "name": "Sem rolagem horizontal — lesson-mobile",
+      "status": "PASS",
+      "detail": "375/390"
+    },
+    {
+      "name": "Botões principais com toque adequado",
+      "status": "PASS",
+      "detail": "mínimo 42.0px"
+    },
+    {
+      "name": "Botão Retomar legível no celular",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Service worker v28",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Relatório incluído no cache",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Documentação v28 completa",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "limitations": [
+    "Aplicação totalmente front-end.",
+    "Confirmação de entrega no Classroom depende do próprio Classroom.",
+    "Impressão em PDF depende do diálogo de impressão do navegador.",
+    "Teste HTTP local bloqueado por política administrativa; conferir IndexedDB e service worker na URL HTTPS publicada.",
+    "URL definitiva do Fliperama DS permanece configurável."
+  ]
+}
