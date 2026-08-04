@@ -1,0 +1,15 @@
+{
+  "schema": "desafio-ds-assessment-rubric",
+  "schemaVersion": 1,
+  "rubricId": "desafio-ds-general-v1",
+  "version": "1.0.0",
+  "levels": ["não iniciado", "em desenvolvimento", "básico", "adequado", "proficiente", "avançado"],
+  "criteria": [
+    {"id":"comprehension","name":"Compreensão","weight":25,"evidenceSources":["respostas","explicações"]},
+    {"id":"application","name":"Aplicação prática","weight":25,"evidenceSources":["laboratórios","desafios"]},
+    {"id":"problem-solving","name":"Resolução de problemas","weight":20,"evidenceSources":["tentativas","correções"]},
+    {"id":"evidence","name":"Qualidade da evidência","weight":15,"evidenceSources":["exportação","documentação"]},
+    {"id":"participation","name":"Participação efetiva","weight":15,"evidenceSources":["etapas","tempo ativo coerente"]}
+  ],
+  "excludedFromGrade": ["xp", "vidas", "cartas", "ranking", "recompensas visuais", "compras", "cosméticos"]
+}

@@ -1,0 +1,454 @@
+{
+  "schema": "desafio-ds-qa",
+  "version": "32.0.0",
+  "generatedAt": "2026-08-04T22:52:40.014736+00:00",
+  "summary": {
+    "passed": 85,
+    "total": 85,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "index.html na raiz pública",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "121 IDs históricos",
+      "passed": true,
+      "detail": "121"
+    },
+    {
+      "name": "IDs únicos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "114 aulas ativas",
+      "passed": true,
+      "detail": "114"
+    },
+    {
+      "name": "7 aulas legadas",
+      "passed": true,
+      "detail": "7"
+    },
+    {
+      "name": "Quantidade ativa 1DS:intro-programacao",
+      "passed": true,
+      "detail": "19"
+    },
+    {
+      "name": "Quantidade ativa 1DS:analise-metodo",
+      "passed": true,
+      "detail": "15"
+    },
+    {
+      "name": "Quantidade ativa 2DS:front-end",
+      "passed": true,
+      "detail": "15"
+    },
+    {
+      "name": "Quantidade ativa 2DS:inovacao",
+      "passed": true,
+      "detail": "14"
+    },
+    {
+      "name": "Quantidade ativa 3DS:programacao-ds",
+      "passed": true,
+      "detail": "16"
+    },
+    {
+      "name": "Quantidade ativa 2DS Noite:front-end-sub",
+      "passed": true,
+      "detail": "16"
+    },
+    {
+      "name": "Quantidade ativa 2DS Noite:mobile-1",
+      "passed": true,
+      "detail": "19"
+    },
+    {
+      "name": "Tempo mínimo global 10 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Todas as aulas ativas com mínimo de 10 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Duração prevista entre 20 e 40 minutos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Nenhum projeto final ativo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "77 integrações ativas",
+      "passed": true,
+      "detail": "77"
+    },
+    {
+      "name": "Integrações possuem nome, atividade e passos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Integrações não armazenam URL fixa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Catálogo externo sem URL fixa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Catálogo orienta endereço do professor/Classroom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Comprovante aceita imagem/PDF/JSON/HTML/texto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Arquivo obrigatório para laboratório externo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GitHub solicitado somente de forma condicional",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Comprovante do aluno conta sem validação docente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem callback de revisão docente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dez etapas simplificadas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Modal antigo de liberação removido",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem liberação antecipada no fluxo final",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Conclusão exige apenas etapas, tempo, comprovante e GitHub quando necessário",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contém aluno, turma, disciplina e aula",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contém início, fim e tempo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF contém atividades, comprovantes, links e logs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PDF usa impressão com fallback HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GitHub validado por domínio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Salvamento ao trocar de aba",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Salvamento ao ocultar/fechar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Bloqueio do perfil encerra sessão",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: public/private class key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: public/private lesson registry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: 1 hour public",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: 1 hour private",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: 114 active lesson PINs match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: 114 current PINs verify",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: valid at 59 minutes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth: expired at 61 minutes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Fluxo coletivo esconde código-base longo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Código coletivo pedido uma vez",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Senha expirada orienta comentários do Classroom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Painel mostra validade de 1 hora",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem overflow horizontal mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem erros de console mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Cliques esquerda/centro/direita mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Botões >=44px mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem overflow horizontal tablet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem erros de console tablet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Cliques esquerda/centro/direita tablet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Botões >=44px tablet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem overflow horizontal chromebook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem erros de console chromebook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Cliques esquerda/centro/direita chromebook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Botões >=44px chromebook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem overflow horizontal panel-mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem erros de console panel-mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Cliques esquerda/centro/direita panel-mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Botões >=44px panel-mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem overflow horizontal panel-desktop",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem erros de console panel-desktop",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Cliques esquerda/centro/direita panel-desktop",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Botões >=44px panel-desktop",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS impede filhos de interceptar clique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS garante botão de 48px",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "URLs curriculares limitadas ao Classroom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sete Classrooms configurados",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Nenhum /u/6/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "70 pacotes da Central de Código",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "211 arquivos técnicos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "203 comandos técnicos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Nenhuma chave privada de assinatura na pasta pública",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Configuração privada permanece fora da pasta pública",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JavaScript, JSON, HTML e referências locais válidos",
+      "passed": true,
+      "detail": "{\n  \"errorCount\": 0,\n  \"errors\": []\n}"
+    },
+    {
+      "name": "Documentação CHANGELOG_V32.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Documentação GUIA_FLUXO_SIMPLIFICADO_V32.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Documentação GUIA_PAINEL_EDUAUTH_PROFESSOR_V32.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Documentação RELATORIO_IMPLEMENTACAO_V32.md",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "limitations": [
+    "A navegação completa por URL local foi bloqueada pelo navegador administrado. A responsividade e as áreas de clique foram testadas com o HTML representativo e o CSS real via Playwright.",
+    "Web Crypto não ficou disponível no harness about:blank do painel; os 114 PINs e a validade de 59/61 minutos foram testados separadamente em Node com Web Crypto.",
+    "Service Worker, IndexedDB, impressão nativa e abertura real do Classroom ainda exigem conferência rápida na URL HTTPS publicada."
+  ],
+  "evidence": {
+    "responsive": "EVIDENCIAS_QA_V32/qa-responsive-v32.json",
+    "auth": {
+      "passed": 8,
+      "total": 8
+    },
+    "codeResources": {
+      "packages": 70,
+      "files": 211,
+      "commands": 203
+    }
+  }
+}

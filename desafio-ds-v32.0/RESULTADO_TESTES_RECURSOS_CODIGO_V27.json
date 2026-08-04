@@ -1,0 +1,27 @@
+{
+  "python": {
+    "total": 19,
+    "errors": []
+  },
+  "javascript": {
+    "total": 33,
+    "errors": []
+  },
+  "json": {
+    "total": 3,
+    "errors": []
+  },
+  "xml": {
+    "total": 2,
+    "errors": []
+  },
+  "toml": {
+    "total": 1,
+    "errors": []
+  },
+  "css": {
+    "total": 24,
+    "errors": []
+  },
+  "status": "VALID"
+}

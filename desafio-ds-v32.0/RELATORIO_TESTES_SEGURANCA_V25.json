@@ -1,0 +1,29 @@
+{
+  "platform": "Desafio DS",
+  "version": "25.0.0",
+  "date": "2026-07-30",
+  "tests": {
+    "xss_text_escaped": true,
+    "xss_preview_sanitized": true,
+    "javascript_url_rejected": true,
+    "prototype_pollution_rejected": true,
+    "eval_absent": true,
+    "new_function_absent": true,
+    "terms_unchecked_by_default": true,
+    "terms_acceptance_recorded": true,
+    "terms_in_evidence": true,
+    "xp_ledger_reconciled": true,
+    "xp_pending_separated": true,
+    "xp_blocked_supported": true,
+    "xp_does_not_define_grade": true,
+    "insufficient_sample_has_no_career": true,
+    "eduauth_collective_pin": true,
+    "eduauth_session_pin": true,
+    "eduauth_single_use": true,
+    "private_key_absent_from_public_package": true,
+    "desktop_horizontal_overflow": false,
+    "mobile_horizontal_overflow": false,
+    "console_errors_main_flow": 0
+  },
+  "result": "PASS"
+}

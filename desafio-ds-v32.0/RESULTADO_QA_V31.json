@@ -1,0 +1,126 @@
+{
+  "version": "31.0",
+  "generatedAt": "2026-08-04T19:58:23.088Z",
+  "responsive": {
+    "mobile": {
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "clientHeight": 844,
+      "buttons": [
+        {
+          "text": "Não entendi",
+          "h": 44,
+          "w": 326
+        },
+        {
+          "text": "O que significa?",
+          "h": 44,
+          "w": 326
+        },
+        {
+          "text": "Ver passo a passo",
+          "h": 44,
+          "w": 326
+        },
+        {
+          "text": "Ferramenta da aula",
+          "h": 44,
+          "w": 326
+        },
+        {
+          "text": "Níveis de apoio",
+          "h": 44,
+          "w": 326
+        }
+      ],
+      "columns": "326px",
+      "overflow": false,
+      "file": "/mnt/data/desafio_ds_v31_work/EVIDENCIAS_QA_V32/apoio-mobile.png"
+    },
+    "tablet": {
+      "clientWidth": 805,
+      "scrollWidth": 805,
+      "clientHeight": 1180,
+      "buttons": [
+        {
+          "text": "Não entendi",
+          "h": 44,
+          "w": 363.09375
+        },
+        {
+          "text": "O que significa?",
+          "h": 44,
+          "w": 363.109375
+        },
+        {
+          "text": "Ver passo a passo",
+          "h": 44,
+          "w": 363.09375
+        },
+        {
+          "text": "Ferramenta da aula",
+          "h": 44,
+          "w": 363.109375
+        },
+        {
+          "text": "Níveis de apoio",
+          "h": 44,
+          "w": 363.09375
+        }
+      ],
+      "columns": "363.094px 363.109px",
+      "overflow": false,
+      "file": "/mnt/data/desafio_ds_v31_work/EVIDENCIAS_QA_V32/apoio-tablet.png"
+    },
+    "chromebook": {
+      "clientWidth": 1351,
+      "scrollWidth": 1351,
+      "clientHeight": 768,
+      "buttons": [
+        {
+          "text": "Não entendi",
+          "h": 44,
+          "w": 124.984375
+        },
+        {
+          "text": "O que significa?",
+          "h": 44,
+          "w": 156.625
+        },
+        {
+          "text": "Ver passo a passo",
+          "h": 44,
+          "w": 172.984375
+        },
+        {
+          "text": "Ferramenta da aula",
+          "h": 44,
+          "w": 180.609375
+        },
+        {
+          "text": "Níveis de apoio",
+          "h": 44,
+          "w": 149.984375
+        }
+      ],
+      "columns": "none",
+      "overflow": false,
+      "file": "/mnt/data/desafio_ds_v31_work/EVIDENCIAS_QA_V32/apoio-chromebook.png"
+    }
+  },
+  "limitations": [
+    "O Chromium administrado bloqueou a abertura completa por endereço local; as novas camadas foram verificadas em harness com o CSS real.",
+    "O teste final de Service Worker, IndexedDB, impressão, downloads e links externos deve ser realizado na URL HTTPS publicada."
+  ],
+  "metrics": {
+    "historicalLessons": 121,
+    "activeLessons": 114,
+    "archivedLessons": 7,
+    "codeResources": 70,
+    "resourceFiles": 211,
+    "resourceCommands": 203,
+    "javascriptFiles": 49,
+    "jsonFiles": 34,
+    "classroomLinks": 7
+  }
+}

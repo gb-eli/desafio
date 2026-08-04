@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none';" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Leitor de comprovante — Desafio DS</title>
+  <link rel="stylesheet" href="css/style.css?v=28.0" />
+  <style>
+    body{overflow:auto}.validator{min-height:100vh;display:grid;place-items:center;padding:72px 24px 24px;background:transparent}.validator-card{width:min(1100px,96vw);border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:28px;box-shadow:var(--shadow);padding:26px}.validator-card h1{font-size:42px;margin:10px 0}.validator-card textarea{width:100%;min-height:140px;border-radius:16px;border:1px solid rgba(255,255,255,.14);background:var(--surface-2);color:var(--text);padding:14px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.output{margin-top:18px;white-space:pre-wrap;background:var(--surface-2);border:1px solid var(--line);border-radius:18px;padding:16px;overflow:auto}.table{width:100%;border-collapse:collapse;margin-top:14px}.table th,.table td{border:1px solid var(--line);padding:8px;text-align:left}.table th{color:var(--accent)}
+  </style>
+</head>
+<body class="class-ds1">
+  <nav class="theme-dock" aria-label="Aparência e acessibilidade">
+    <button class="theme-btn" type="button" data-theme="dark" aria-pressed="false">Escuro</button>
+    <button class="theme-btn" type="button" data-theme="light" aria-pressed="false">Claro</button>
+    <button class="theme-btn" type="button" data-theme="system" aria-pressed="false">Aparelho</button>
+    <button id="contrastToggle" class="theme-btn" type="button" aria-pressed="false">Contraste</button>
+  </nav>
+  <main class="validator">
+    <section class="validator-card">
+      <div class="terminal-label"><span class="pulse-dot"></span> LEITURA LOCAL</div>
+      <h1>Comprovante Desafio DS</h1>
+      <p class="token-info">Cole o comprovante gerado no final do jogo para abrir o relatório. Como o sistema roda somente no GitHub Pages, este arquivo confirma que o formato é legível, mas não funciona como assinatura antifraude.</p>
+      <textarea id="tokenInput" placeholder="Cole o comprovante DDS8... aqui"></textarea>
+      <div class="result-actions"><button id="validateBtn" class="btn primary">Abrir comprovante</button><button id="clearBtn" class="btn ghost">Limpar</button></div>
+      <div id="output" class="output hidden"></div>
+    </section>
+  </main>
+  <script src="js/random.js?v=28.0"></script>
+  <script src="js/sanitize.js?v=28.0"></script>
+  <script src="js/crypto.js?v=28.0"></script>
+  <script src="js/validator.js?v=28.0"></script>
+  <script src="js/extras.js?v=28.0"></script>
+</body>
+</html>

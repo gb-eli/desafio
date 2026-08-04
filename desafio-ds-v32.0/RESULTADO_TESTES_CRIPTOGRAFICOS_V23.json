@@ -1,0 +1,35 @@
+{
+  "schema": "desafio-ds-crypto-validation",
+  "version": "23.0.0",
+  "date": "2026-07-30",
+  "summary": {
+    "total": 3,
+    "passed": 3
+  },
+  "results": [
+    {
+      "id": "class-valid",
+      "expectedPin": "57007659",
+      "actualPin": "57007659",
+      "pinMatch": true,
+      "hmacMatch": true
+    },
+    {
+      "id": "session-valid",
+      "expectedPin": "34763620",
+      "actualPin": "34763620",
+      "pinMatch": true,
+      "hmacMatch": true
+    },
+    {
+      "id": "signed-grant-roundtrip",
+      "validSignatureAccepted": true,
+      "tamperedPayloadRejected": true,
+      "publicCoordinatesMatch": true
+    }
+  ],
+  "notes": [
+    "As chaves privadas permaneceram somente no pacote privado durante o teste.",
+    "Os PINs foram recalculados a partir dos payloads e chaves operacionais v23."
+  ]
+}

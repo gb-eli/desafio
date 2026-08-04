@@ -1,0 +1,42 @@
+{
+  "testedAt": "2026-08-03T17:33:06.138Z",
+  "platformVersion": "27.0.0",
+  "tests": [
+    {
+      "name": "Configuração pública e privada usam mesma chave coletiva",
+      "passed": true
+    },
+    {
+      "name": "Configuração pública e privada usam mesma chave de sessão",
+      "passed": true
+    },
+    {
+      "name": "Chave pública corresponde à chave privada do validador",
+      "passed": true
+    },
+    {
+      "name": "PIN coletivo possui 8 dígitos",
+      "passed": true,
+      "value": "54561496"
+    },
+    {
+      "name": "PIN individual possui 10 dígitos",
+      "passed": true,
+      "value": "1245024934"
+    },
+    {
+      "name": "Registro contém 121 aulas guiadas",
+      "passed": true,
+      "count": 125
+    },
+    {
+      "name": "Ação teacher-maintenance registrada",
+      "passed": true
+    },
+    {
+      "name": "Chave privada ausente da configuração pública",
+      "passed": true
+    }
+  ],
+  "allPassed": true
+}

@@ -1,0 +1,39 @@
+{
+  "portalVersion": "31.0.0",
+  "build": "guided-support-layers-v31",
+  "releaseDate": "2026-08-04",
+  "schemaVersion": "2.0.0",
+  "profileSchemaVersion": "2.0.0",
+  "xpLedgerSchemaVersion": "1.0.0",
+  "evidenceSchemaVersion": "2.0.0",
+  "termsVersion": "1.3.0",
+  "permissionsManifestVersion": "1.0.0",
+  "status": "stable",
+  "preservedLessonRecords": 121,
+  "activeGuidedLessons": 114,
+  "archivedLegacyLessons": 7,
+  "newLessons": 0,
+  "guidedLessons": 114,
+  "fixes": [
+    "camadas Não entendi, glossário, passo a passo, ferramenta e níveis de apoio",
+    "1º DS Análise e Método reorganizado para planejamento, requisitos, Kanban, código e auditoria",
+    "tempo mínimo padronizado em 10 minutos e duração prevista limitada a 40 minutos",
+    "perfis expirados preservados e reativados pela senha correta",
+    "salvamento reforçado ao ocultar, fechar ou bloquear a sessão",
+    "senha EduAuth expirada orienta solicitação nos comentários do Classroom"
+  ],
+  "improvements": [
+    "laboratório de inspeção autorizada no 2º DS",
+    "ferramentas externas aparecem somente quando configuradas para a aula",
+    "glossário e tradução contextual em todas as aulas",
+    "aulas noturnas prioritárias preparadas para uso imediato",
+    "controles responsivos para celular, tablet e Chromebook"
+  ],
+  "curriculumMigration": {
+    "from": "30.1",
+    "to": "31.0",
+    "mode": "non-destructive",
+    "mappingFile": "MIGRACAO_CURRICULAR_V30.md"
+  },
+  "knownIssuesFile": "KNOWN_ISSUES.md"
+}
