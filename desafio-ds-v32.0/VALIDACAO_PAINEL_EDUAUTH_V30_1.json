@@ -1,0 +1,100 @@
+{
+  "version": "30.1",
+  "generatedAt": "2026-08-04T11:08:00-03:00",
+  "summary": {
+    "passed": 17,
+    "total": 17,
+    "allPassed": true
+  },
+  "checks": [
+    {
+      "name": "Versão pública 30.1",
+      "passed": true,
+      "detail": "30.1.0"
+    },
+    {
+      "name": "Versão painel 30.1",
+      "passed": true,
+      "detail": "30.1.0"
+    },
+    {
+      "name": "Chave coletiva correspondente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chave individual correspondente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chave pública de assinatura correspondente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chave privada ausente do pacote público",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "114 aulas ativas no painel",
+      "passed": true,
+      "detail": "114"
+    },
+    {
+      "name": "Gerador cobre todas as aulas ativas",
+      "passed": true,
+      "detail": "114 testadas; 0 erros"
+    },
+    {
+      "name": "PINs coletivos com 8 dígitos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Seletor de turma",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Seletor de disciplina",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Seletor de aula",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Geração direta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Launcher do professor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Auditoria separada do gerador",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Senha dinâmica explicada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Fluxo professor no modal",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "notes": [
+    "Painel v30.1 é compatível com a plataforma v30.0: registros e chaves operacionais foram mantidos.",
+    "Ações individuais e assinadas continuam exigindo o código-base da sessão do aluno."
+  ]
+}
