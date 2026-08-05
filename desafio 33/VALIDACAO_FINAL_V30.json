@@ -1,0 +1,437 @@
+{
+  "schema": "desafio-ds-validation",
+  "version": "30.0.0",
+  "generatedAt": "2026-08-03T22:30:00-03:00",
+  "summary": {
+    "passed": 57,
+    "total": 57,
+    "criticalFailures": 0
+  },
+  "curriculum": {
+    "technicalRecords": 121,
+    "activeLessons": 114,
+    "archivedLegacyLessons": 7,
+    "distribution": {
+      "1DS:intro-programacao": {
+        "active": 19,
+        "archived": 0,
+        "title": "Introdução à Programação"
+      },
+      "1DS:analise-metodo": {
+        "active": 15,
+        "archived": 5,
+        "title": "Análise e Método para Sistemas"
+      },
+      "2DS:front-end": {
+        "active": 15,
+        "archived": 2,
+        "title": "Programação Front-End"
+      },
+      "2DS:inovacao": {
+        "active": 14,
+        "archived": 0,
+        "title": "Inovação Tecnológica e Empreendedorismo"
+      },
+      "3DS:programacao-ds": {
+        "active": 16,
+        "archived": 0,
+        "title": "Programação no Desenvolvimento de Sistemas"
+      },
+      "2DS Noite:front-end-sub": {
+        "active": 16,
+        "archived": 0,
+        "title": "Programação Front-End"
+      },
+      "2DS Noite:mobile-1": {
+        "active": 19,
+        "archived": 0,
+        "title": "Programação Mobile"
+      }
+    },
+    "mandatoryFinalProjects": 0
+  },
+  "codeCenter": {
+    "resources": 69,
+    "mappedLessons": 87,
+    "files": 207,
+    "commands": 198,
+    "languages": {
+      "Pseudocódigo": 1,
+      "Python": 24,
+      "Markdown": 61,
+      "JavaScript": 42,
+      "Java": 3,
+      "C++": 2,
+      "C#": 2,
+      "HTML": 33,
+      "CSS": 24,
+      "XML": 2,
+      "Kotlin": 1,
+      "Swift": 2,
+      "TOML": 1,
+      "Rust": 1,
+      "JSON": 4,
+      "Texto": 1,
+      "CSV": 1,
+      "C": 1,
+      "Assembly": 1
+    }
+  },
+  "eduauth": {
+    "active": 114,
+    "classPins": 114,
+    "sessionSingleUse": true,
+    "signedGrant": true,
+    "errors": [],
+    "publicPrivateVersionMatch": true,
+    "registryMatch": true
+  },
+  "checks": [
+    {
+      "name": "units cover 1DS:intro-programacao",
+      "passed": true,
+      "detail": "19 active",
+      "critical": true
+    },
+    {
+      "name": "sequences continuous 1DS:intro-programacao",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "critical": true
+    },
+    {
+      "name": "units cover 1DS:analise-metodo",
+      "passed": true,
+      "detail": "15 active",
+      "critical": true
+    },
+    {
+      "name": "sequences continuous 1DS:analise-metodo",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+      "critical": true
+    },
+    {
+      "name": "units cover 2DS:front-end",
+      "passed": true,
+      "detail": "15 active",
+      "critical": true
+    },
+    {
+      "name": "sequences continuous 2DS:front-end",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+      "critical": true
+    },
+    {
+      "name": "units cover 2DS:inovacao",
+      "passed": true,
+      "detail": "14 active",
+      "critical": true
+    },
+    {
+      "name": "sequences continuous 2DS:inovacao",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+      "critical": true
+    },
+    {
+      "name": "units cover 3DS:programacao-ds",
+      "passed": true,
+      "detail": "16 active",
+      "critical": true
+    },
+    {
+      "name": "sequences continuous 3DS:programacao-ds",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+      "critical": true
+    },
+    {
+      "name": "units cover 2DS Noite:front-end-sub",
+      "passed": true,
+      "detail": "16 active",
+      "critical": true
+    },
+    {
+      "name": "sequences continuous 2DS Noite:front-end-sub",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+      "critical": true
+    },
+    {
+      "name": "units cover 2DS Noite:mobile-1",
+      "passed": true,
+      "detail": "19 active",
+      "critical": true
+    },
+    {
+      "name": "sequences continuous 2DS Noite:mobile-1",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "critical": true
+    },
+    {
+      "name": "121 technical lesson records preserved",
+      "passed": true,
+      "detail": "121",
+      "critical": true
+    },
+    {
+      "name": "114 active lessons",
+      "passed": true,
+      "detail": "114",
+      "critical": true
+    },
+    {
+      "name": "7 archived legacy lessons",
+      "passed": true,
+      "detail": "7",
+      "critical": true
+    },
+    {
+      "name": "unique lesson IDs",
+      "passed": true,
+      "detail": "121",
+      "critical": true
+    },
+    {
+      "name": "guided metadata counts",
+      "passed": true,
+      "detail": "(114, 7)",
+      "critical": true
+    },
+    {
+      "name": "active distribution matches approved plan",
+      "passed": true,
+      "detail": "{'1DS:intro-programacao': 19, '1DS:analise-metodo': 15, '2DS:front-end': 15, '2DS:inovacao': 14, '3DS:programacao-ds': 16, '2DS Noite:front-end-sub': 16, '2DS Noite:mobile-1': 19}",
+      "critical": true
+    },
+    {
+      "name": "titles and order match approved spreadsheet",
+      "passed": true,
+      "detail": "{'1DS:intro-programacao': 19, '1DS:analise-metodo': 15, '2DS:front-end': 15, '2DS:inovacao': 14, '3DS:programacao-ds': 16, '2DS Noite:front-end-sub': 16, '2DS Noite:mobile-1': 19}",
+      "critical": true
+    },
+    {
+      "name": "all active lessons have required fields",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "no mandatory final project active",
+      "passed": true,
+      "detail": "0 active final projects",
+      "critical": true
+    },
+    {
+      "name": "valid expected duration",
+      "passed": true,
+      "detail": "[20, 25, 30, 40]",
+      "critical": true
+    },
+    {
+      "name": "valid minimum active time",
+      "passed": true,
+      "detail": "[900, 1200, 1500]",
+      "critical": true
+    },
+    {
+      "name": "active lessons released v30",
+      "passed": true,
+      "detail": "Counter({'30.0': 114})",
+      "critical": true
+    },
+    {
+      "name": "migration covers every archived lesson",
+      "passed": true,
+      "detail": "{'1DS-analise-metodo-08': '1DS-analise-metodo-04', '1DS-analise-metodo-09': '1DS-analise-metodo-04', '1DS-analise-metodo-10': '1DS-analise-metodo-04', '1DS-analise-metodo-12': '1DS-analise-metodo-11', '1DS-analise-metodo-16': '1DS-analise-metodo-20', '2DS-front-end-12': '2DS-front-end-17', '2DS-front-end-15': '2DS-front-end-16'}",
+      "critical": true
+    },
+    {
+      "name": "migration targets active lessons",
+      "passed": true,
+      "detail": "{'1DS-analise-metodo-08': '1DS-analise-metodo-04', '1DS-analise-metodo-09': '1DS-analise-metodo-04', '1DS-analise-metodo-10': '1DS-analise-metodo-04', '1DS-analise-metodo-12': '1DS-analise-metodo-11', '1DS-analise-metodo-16': '1DS-analise-metodo-20', '2DS-front-end-12': '2DS-front-end-17', '2DS-front-end-15': '2DS-front-end-16'}",
+      "critical": true
+    },
+    {
+      "name": "catalog filters archived lessons",
+      "passed": true,
+      "detail": "orderedLessons active filter",
+      "critical": true
+    },
+    {
+      "name": "non-destructive migration implemented",
+      "passed": true,
+      "detail": "migration code present",
+      "critical": true
+    },
+    {
+      "name": "platform tasks coherent and recognized",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "all external URLs HTTPS",
+      "passed": true,
+      "detail": "[('desafio-ds', ''), ('lab-virtual-ds', 'https://gb-eli.github.io/lab-virtual/LABV2.0/lab/index.html'), ('lab-3d-vr', 'https://gb-eli.github.io/LAB-DS-3D-VR/holomotion-lab-ds-3.2.0/index.html'), ('ctf-cyber', 'https://gb-eli.github.io/ctfds/ctfds-cyber-security-github-pages-v2.1.0/index.html'), ('fliperama-ds', 'https://gb-eli.github.io/Fliperama-DS/fliperama-ds-v0.21.0/index.html'), ('github', 'https://github.com/')]",
+      "critical": true
+    },
+    {
+      "name": "seven Classroom discipline links",
+      "passed": true,
+      "detail": "['https://classroom.google.com/c/NzkzNTA2MTk2NDg4', 'https://classroom.google.com/c/NzkzNTA2MzQ0MjU1', 'https://classroom.google.com/c/ODQyMTU2NzEwNzc1', 'https://classroom.google.com/c/ODQyMTU3NDI1MTAy', 'https://classroom.google.com/c/ODQyMTU5MjQ3MTA1', 'https://classroom.google.com/c/ODcxMDE0Mjg4NTU4', 'https://classroom.google.com/c/ODcxMDE0NTQ3NzYw']",
+      "critical": true
+    },
+    {
+      "name": "all mapped resources exist",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "code center coverage at least 85 active lessons",
+      "passed": true,
+      "detail": "87",
+      "critical": true
+    },
+    {
+      "name": "code resources complete",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "code file names safe",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "resource scale",
+      "passed": true,
+      "detail": "{'resources': 69, 'files': 207, 'commands': 198}",
+      "critical": true
+    },
+    {
+      "name": "critical code mappings coherent",
+      "passed": true,
+      "detail": "{'3DS-programacao-ds-01': 'py-review-environment', '3DS-programacao-ds-02': 'py-modules-errors-tests', '3DS-programacao-ds-12': 'frontend-auth-limits', '2DS Noite-front-end-sub-03': 'js-data-structures', '2DS Noite-front-end-sub-04': 'js-dom-safe', '2DS Noite-front-end-sub-10': 'js-events-form', '2DS Noite-mobile-1-01': 'mobile-ecosystems-compare', '2DS Noite-mobile-1-15': 'mobile-permissions-context'}",
+      "critical": true
+    },
+    {
+      "name": "embedded source syntax/compilation",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "all JavaScript syntax valid",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "all JSON files valid",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "no duplicate HTML IDs",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "index local references exist",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "service worker cache references exist",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "v30 cache name",
+      "passed": true,
+      "detail": "cache v30",
+      "critical": true
+    },
+    {
+      "name": "CSS braces balanced",
+      "passed": true,
+      "detail": "(1777, 1777)",
+      "critical": true
+    },
+    {
+      "name": "responsive breakpoints present",
+      "passed": true,
+      "detail": "67",
+      "critical": true
+    },
+    {
+      "name": "reduced motion supported",
+      "passed": true,
+      "detail": "present",
+      "critical": true
+    },
+    {
+      "name": "private signing scalar absent from public",
+      "passed": true,
+      "detail": "not embedded",
+      "critical": true
+    },
+    {
+      "name": "public config has no private JWK",
+      "passed": true,
+      "detail": "public verify-only",
+      "critical": true
+    },
+    {
+      "name": "no executable eval/new Function in public JS",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "version manifest v30",
+      "passed": true,
+      "detail": "{'portalVersion': '30.0.0', 'build': 'curriculum-reorganization-v30', 'releaseDate': '2026-08-03', 'schemaVersion': '2.0.0', 'profileSchemaVersion': '2.0.0', 'xpLedgerSchemaVersion': '1.0.0', 'evidenceSchemaVersion': '2.0.0', 'termsVersion': '1.3.0', 'permissionsManifestVersion': '1.0.0', 'status': 'stable', 'preservedLessonRecords': 121, 'activeGuidedLessons': 114, 'archivedLegacyLessons': 7, 'newLessons': 0, 'guidedLessons': 114, 'fixes': ['retirados projetos finais obrigatórios do ciclo', 'consolidadas aulas repetidas de MVP, protótipo, feedback e Scrum', 'sequência de Front-End da manhã reorganizada para JavaScript progressivo'], 'improvements': ['segurança do 1º DS convertida em revisão enxuta', 'Inovação ampliada com estrutura empresarial, tecnologias, receitas, custos e startups', '3º DS ampliado com comandos, compilação, baixo nível, games e mini jogo guiado', 'noturno mantido com passo a passo, códigos, comandos, laboratórios e integração ao ecossistema'], 'curriculumMigration': {'from': '29.1', 'to': '30.0', 'mode': 'non-destructive', 'mappingFile': 'MIGRACAO_CURRICULAR_V30.md'}, 'knownIssuesFile': 'KNOWN_ISSUES.md'}",
+      "critical": true
+    },
+    {
+      "name": "required documentation present",
+      "passed": true,
+      "detail": "[]",
+      "critical": true
+    },
+    {
+      "name": "EduAuth 114 collective PINs and private/public compatibility",
+      "passed": true,
+      "detail": "{'active': 114, 'classPins': 114, 'sessionSingleUse': True, 'signedGrant': True, 'errors': [], 'publicPrivateVersionMatch': True, 'registryMatch': True}",
+      "critical": true
+    },
+    {
+      "name": "index loads v30 assets",
+      "passed": true,
+      "detail": "cache busting v30",
+      "critical": true
+    },
+    {
+      "name": "app config v30",
+      "passed": true,
+      "detail": "app version",
+      "critical": true
+    }
+  ],
+  "visualQa": {
+    "status": "not_completed",
+    "reason": "Chromium headless did not complete in the administratively restricted environment; final HTTPS visual check is required after publication."
+  }
+}

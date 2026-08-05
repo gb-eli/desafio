@@ -1,0 +1,2766 @@
+{
+  "version": "33.0.0-pilot",
+  "generatedAt": "2026-08-04T21:37:00-03:00",
+  "summary": {
+    "total": 549,
+    "passed": 549,
+    "failed": 0
+  },
+  "visualBrowserTest": {
+    "status": "partially_blocked",
+    "detail": "Chromium administrado não concluiu o teste interativo local. Quatro renderizações estáticas responsivas foram geradas com o CSS final; clique, IndexedDB, impressão e Service Worker exigem conferência na publicação HTTPS."
+  },
+  "checks": [
+    {
+      "name": "arquivo index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "arquivo css/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "arquivo js/guided-data.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "arquivo js/pilot-content-v33.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "arquivo js/guided.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "arquivo js/eduauth/config.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "arquivo PLANO_IMPLEMENTACAO_V33.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "121 IDs históricos",
+      "passed": true,
+      "detail": "121"
+    },
+    {
+      "name": "114 aulas ativas",
+      "passed": true,
+      "detail": "114"
+    },
+    {
+      "name": "21 aulas piloto",
+      "passed": true,
+      "detail": "21"
+    },
+    {
+      "name": "IDs piloto únicos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3 pilotos — 1DS Introdução",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3 pilotos — 1DS Análise",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3 pilotos — 2DS Front-End manhã",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3 pilotos — 2DS Inovação",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3 pilotos — 3DS Programação",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3 pilotos — Noite Front-End",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3 pilotos — Noite Mobile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "15 pilotos manhã",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "6 pilotos noite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 duração 15–25",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "name": "1DS-intro-programacao-01 title",
+      "passed": true,
+      "detail": "Algoritmos, entrada, processamento e saída"
+    },
+    {
+      "name": "1DS-intro-programacao-01 context",
+      "passed": true,
+      "detail": "Uma escola quer calcular automaticamente a média t"
+    },
+    {
+      "name": "1DS-intro-programacao-01 outcome",
+      "passed": true,
+      "detail": "Organizar um algoritmo com entrada, processamento "
+    },
+    {
+      "name": "1DS-intro-programacao-01 whatIs",
+      "passed": true,
+      "detail": "Algoritmo é uma sequência finita e organizada de i"
+    },
+    {
+      "name": "1DS-intro-programacao-01 purpose",
+      "passed": true,
+      "detail": "Antes de programar, o algoritmo ajuda a separar o "
+    },
+    {
+      "name": "1DS-intro-programacao-01 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-01 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-01 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-01 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 duração 15–25",
+      "passed": true,
+      "detail": "22"
+    },
+    {
+      "name": "1DS-intro-programacao-02 title",
+      "passed": true,
+      "detail": "Primeiro programa em Python"
+    },
+    {
+      "name": "1DS-intro-programacao-02 context",
+      "passed": true,
+      "detail": "Você precisa criar um programa que receba o nome, "
+    },
+    {
+      "name": "1DS-intro-programacao-02 outcome",
+      "passed": true,
+      "detail": "Executar um programa Python com entrada, variáveis"
+    },
+    {
+      "name": "1DS-intro-programacao-02 whatIs",
+      "passed": true,
+      "detail": "Python é uma linguagem de programação de propósito"
+    },
+    {
+      "name": "1DS-intro-programacao-02 purpose",
+      "passed": true,
+      "detail": "Python é usado para aprender programação, automati"
+    },
+    {
+      "name": "1DS-intro-programacao-02 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-02 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-02 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-02 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 duração 15–25",
+      "passed": true,
+      "detail": "25"
+    },
+    {
+      "name": "1DS-intro-programacao-17 title",
+      "passed": true,
+      "detail": "Python comparado com JavaScript, C e Java"
+    },
+    {
+      "name": "1DS-intro-programacao-17 context",
+      "passed": true,
+      "detail": "Uma equipe precisa escolher uma linguagem para aut"
+    },
+    {
+      "name": "1DS-intro-programacao-17 outcome",
+      "passed": true,
+      "detail": "Comparar sintaxe, execução e uso de Python, JavaSc"
+    },
+    {
+      "name": "1DS-intro-programacao-17 whatIs",
+      "passed": true,
+      "detail": "Linguagens de programação oferecem formas diferent"
+    },
+    {
+      "name": "1DS-intro-programacao-17 purpose",
+      "passed": true,
+      "detail": "Comparar linguagens ajuda a entender por que um me"
+    },
+    {
+      "name": "1DS-intro-programacao-17 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-17 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-17 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-intro-programacao-17 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 duração 15–25",
+      "passed": true,
+      "detail": "22"
+    },
+    {
+      "name": "1DS-analise-metodo-05 title",
+      "passed": true,
+      "detail": "Levantamento de requisitos"
+    },
+    {
+      "name": "1DS-analise-metodo-05 context",
+      "passed": true,
+      "detail": "Uma clínica registra consultas em papel, enfrenta "
+    },
+    {
+      "name": "1DS-analise-metodo-05 outcome",
+      "passed": true,
+      "detail": "Escolher técnicas de levantamento e criar pergunta"
+    },
+    {
+      "name": "1DS-analise-metodo-05 whatIs",
+      "passed": true,
+      "detail": "Levantamento de requisitos é o processo de descobr"
+    },
+    {
+      "name": "1DS-analise-metodo-05 purpose",
+      "passed": true,
+      "detail": "Ele reduz o risco de desenvolver funções desnecess"
+    },
+    {
+      "name": "1DS-analise-metodo-05 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-05 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-05 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-05 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 duração 15–25",
+      "passed": true,
+      "detail": "23"
+    },
+    {
+      "name": "1DS-analise-metodo-06 title",
+      "passed": true,
+      "detail": "Requisitos funcionais"
+    },
+    {
+      "name": "1DS-analise-metodo-06 context",
+      "passed": true,
+      "detail": "Uma biblioteca escolar precisa controlar cadastro,"
+    },
+    {
+      "name": "1DS-analise-metodo-06 outcome",
+      "passed": true,
+      "detail": "Escrever requisitos funcionais claros, separados e"
+    },
+    {
+      "name": "1DS-analise-metodo-06 whatIs",
+      "passed": true,
+      "detail": "Requisito funcional descreve uma ação, serviço ou "
+    },
+    {
+      "name": "1DS-analise-metodo-06 purpose",
+      "passed": true,
+      "detail": "Ele orienta desenvolvimento e testes. Um requisito"
+    },
+    {
+      "name": "1DS-analise-metodo-06 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-06 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-06 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-06 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 duração 15–25",
+      "passed": true,
+      "detail": "23"
+    },
+    {
+      "name": "1DS-analise-metodo-07 title",
+      "passed": true,
+      "detail": "Requisitos não funcionais"
+    },
+    {
+      "name": "1DS-analise-metodo-07 context",
+      "passed": true,
+      "detail": "A biblioteca já sabe quais funções precisa, mas ta"
+    },
+    {
+      "name": "1DS-analise-metodo-07 outcome",
+      "passed": true,
+      "detail": "Escrever requisitos não funcionais mensuráveis de "
+    },
+    {
+      "name": "1DS-analise-metodo-07 whatIs",
+      "passed": true,
+      "detail": "Requisito não funcional descreve uma qualidade, re"
+    },
+    {
+      "name": "1DS-analise-metodo-07 purpose",
+      "passed": true,
+      "detail": "Ele define como a solução deve operar. Para ser út"
+    },
+    {
+      "name": "1DS-analise-metodo-07 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-07 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-07 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "1DS-analise-metodo-07 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 duração 15–25",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "name": "2DS-front-end-03 title",
+      "passed": true,
+      "detail": "HTML semântico aplicado"
+    },
+    {
+      "name": "2DS-front-end-03 context",
+      "passed": true,
+      "detail": "Um portal escolar foi construído somente com `div`"
+    },
+    {
+      "name": "2DS-front-end-03 outcome",
+      "passed": true,
+      "detail": "Reorganizar uma página com elementos semânticos e "
+    },
+    {
+      "name": "2DS-front-end-03 whatIs",
+      "passed": true,
+      "detail": "HTML semântico usa elementos cujo nome comunica a "
+    },
+    {
+      "name": "2DS-front-end-03 purpose",
+      "passed": true,
+      "detail": "Ele melhora estrutura, acessibilidade, manutenção "
+    },
+    {
+      "name": "2DS-front-end-03 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-03 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-03 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-03 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 duração 15–25",
+      "passed": true,
+      "detail": "23"
+    },
+    {
+      "name": "2DS-front-end-07 title",
+      "passed": true,
+      "detail": "CSS responsivo aplicado"
+    },
+    {
+      "name": "2DS-front-end-07 context",
+      "passed": true,
+      "detail": "Um catálogo escolar funciona em notebook, mas cria"
+    },
+    {
+      "name": "2DS-front-end-07 outcome",
+      "passed": true,
+      "detail": "Corrigir largura, grade, texto e área de toque par"
+    },
+    {
+      "name": "2DS-front-end-07 whatIs",
+      "passed": true,
+      "detail": "Design responsivo adapta layout e interação ao esp"
+    },
+    {
+      "name": "2DS-front-end-07 purpose",
+      "passed": true,
+      "detail": "Ele permite usar a mesma base de conteúdo em telas"
+    },
+    {
+      "name": "2DS-front-end-07 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-07 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-07 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-07 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 duração 15–25",
+      "passed": true,
+      "detail": "24"
+    },
+    {
+      "name": "2DS-front-end-08 title",
+      "passed": true,
+      "detail": "Variáveis, tipos e operadores em JavaScript"
+    },
+    {
+      "name": "2DS-front-end-08 context",
+      "passed": true,
+      "detail": "Um sistema de orçamento precisa calcular subtotal,"
+    },
+    {
+      "name": "2DS-front-end-08 outcome",
+      "passed": true,
+      "detail": "Usar `const`, `let`, tipos e operadores para calcu"
+    },
+    {
+      "name": "2DS-front-end-08 whatIs",
+      "passed": true,
+      "detail": "Variável é uma referência nomeada a um valor. Java"
+    },
+    {
+      "name": "2DS-front-end-08 purpose",
+      "passed": true,
+      "detail": "Variáveis permitem guardar dados de formulário, re"
+    },
+    {
+      "name": "2DS-front-end-08 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-08 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-08 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-front-end-08 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 duração 15–25",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "name": "2DS-inovacao-02 title",
+      "passed": true,
+      "detail": "Tecnologias de mercado e problemas reais"
+    },
+    {
+      "name": "2DS-inovacao-02 context",
+      "passed": true,
+      "detail": "Uma empresa digita pedidos manualmente, perde info"
+    },
+    {
+      "name": "2DS-inovacao-02 outcome",
+      "passed": true,
+      "detail": "Comparar automação, nuvem, IA, IoT, análise de dad"
+    },
+    {
+      "name": "2DS-inovacao-02 whatIs",
+      "passed": true,
+      "detail": "Tecnologia de mercado é uma combinação de ferramen"
+    },
+    {
+      "name": "2DS-inovacao-02 purpose",
+      "passed": true,
+      "detail": "Inovação não significa usar a tecnologia mais nova"
+    },
+    {
+      "name": "2DS-inovacao-02 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-02 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-02 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-02 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 duração 15–25",
+      "passed": true,
+      "detail": "23"
+    },
+    {
+      "name": "2DS-inovacao-03 title",
+      "passed": true,
+      "detail": "Startup real: problema, produto e evolução"
+    },
+    {
+      "name": "2DS-inovacao-03 context",
+      "passed": true,
+      "detail": "Você analisará como uma empresa brasileira de tecn"
+    },
+    {
+      "name": "2DS-inovacao-03 outcome",
+      "passed": true,
+      "detail": "Identificar problema inicial, público, proposta de"
+    },
+    {
+      "name": "2DS-inovacao-03 whatIs",
+      "passed": true,
+      "detail": "Startup é uma organização que busca um modelo de n"
+    },
+    {
+      "name": "2DS-inovacao-03 purpose",
+      "passed": true,
+      "detail": "Analisar uma empresa real ajuda a separar narrativ"
+    },
+    {
+      "name": "2DS-inovacao-03 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-03 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-03 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-03 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 duração 15–25",
+      "passed": true,
+      "detail": "22"
+    },
+    {
+      "name": "2DS-inovacao-04 title",
+      "passed": true,
+      "detail": "Estrutura de uma empresa tecnológica"
+    },
+    {
+      "name": "2DS-inovacao-04 context",
+      "passed": true,
+      "detail": "Uma equipe cresceu de quatro para doze pessoas. Bu"
+    },
+    {
+      "name": "2DS-inovacao-04 outcome",
+      "passed": true,
+      "detail": "Organizar áreas, responsabilidades e fluxo de comu"
+    },
+    {
+      "name": "2DS-inovacao-04 whatIs",
+      "passed": true,
+      "detail": "Estrutura empresarial define responsabilidades, re"
+    },
+    {
+      "name": "2DS-inovacao-04 purpose",
+      "passed": true,
+      "detail": "Uma boa organização reduz retrabalho, conflitos e "
+    },
+    {
+      "name": "2DS-inovacao-04 explicação progressiva",
+      "passed": true,
+      "detail": "5"
+    },
+    {
+      "name": "2DS-inovacao-04 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-04 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS-inovacao-04 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 duração 15–25",
+      "passed": true,
+      "detail": "25"
+    },
+    {
+      "name": "3DS-programacao-ds-02 title",
+      "passed": true,
+      "detail": "Python estruturado: módulos, erros e testes"
+    },
+    {
+      "name": "3DS-programacao-ds-02 context",
+      "passed": true,
+      "detail": "Uma calculadora começou com poucas linhas, cresceu"
+    },
+    {
+      "name": "3DS-programacao-ds-02 outcome",
+      "passed": true,
+      "detail": "Reorganizar código em funções e módulos, tratar er"
+    },
+    {
+      "name": "3DS-programacao-ds-02 whatIs",
+      "passed": true,
+      "detail": "Módulo é um arquivo Python reutilizável. Teste aut"
+    },
+    {
+      "name": "3DS-programacao-ds-02 purpose",
+      "passed": true,
+      "detail": "Estrutura e testes tornam alterações mais seguras,"
+    },
+    {
+      "name": "3DS-programacao-ds-02 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-02 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-02 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-02 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 duração 15–25",
+      "passed": true,
+      "detail": "25"
+    },
+    {
+      "name": "3DS-programacao-ds-04 title",
+      "passed": true,
+      "detail": "Linguagem C e compilação"
+    },
+    {
+      "name": "3DS-programacao-ds-04 context",
+      "passed": true,
+      "detail": "Você precisa compreender como o código-fonte é tra"
+    },
+    {
+      "name": "3DS-programacao-ds-04 outcome",
+      "passed": true,
+      "detail": "Compilar um programa C simples, interpretar mensag"
+    },
+    {
+      "name": "3DS-programacao-ds-04 whatIs",
+      "passed": true,
+      "detail": "C é uma linguagem compilada de propósito geral, cr"
+    },
+    {
+      "name": "3DS-programacao-ds-04 purpose",
+      "passed": true,
+      "detail": "C permite controle explícito de tipos, memória e i"
+    },
+    {
+      "name": "3DS-programacao-ds-04 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-04 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-04 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-04 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 duração 15–25",
+      "passed": true,
+      "detail": "25"
+    },
+    {
+      "name": "3DS-programacao-ds-14 title",
+      "passed": true,
+      "detail": "Game loop, delta time e física 2D"
+    },
+    {
+      "name": "3DS-programacao-ds-14 context",
+      "passed": true,
+      "detail": "Um personagem se move mais rápido em um computador"
+    },
+    {
+      "name": "3DS-programacao-ds-14 outcome",
+      "passed": true,
+      "detail": "Usar game loop, estado, velocidade, delta time e l"
+    },
+    {
+      "name": "3DS-programacao-ds-14 whatIs",
+      "passed": true,
+      "detail": "Game loop é o ciclo que processa entrada, atualiza"
+    },
+    {
+      "name": "3DS-programacao-ds-14 purpose",
+      "passed": true,
+      "detail": "Delta time representa o tempo entre quadros. Multi"
+    },
+    {
+      "name": "3DS-programacao-ds-14 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-14 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-14 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "3DS-programacao-ds-14 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 duração 15–25",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 title",
+      "passed": true,
+      "detail": "JavaScript aplicado a orçamento profissional"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 context",
+      "passed": true,
+      "detail": "Uma pessoa autônoma precisa calcular serviço, hora"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 outcome",
+      "passed": true,
+      "detail": "Criar uma calculadora de orçamento com tipos, cálc"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 whatIs",
+      "passed": true,
+      "detail": "JavaScript adiciona lógica e interação às páginas."
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 purpose",
+      "passed": true,
+      "detail": "Essa base pode ser usada em orçamentos, pedidos, e"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 duração 15–25",
+      "passed": true,
+      "detail": "23"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 title",
+      "passed": true,
+      "detail": "DOM aplicado a cadastro de clientes"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 context",
+      "passed": true,
+      "detail": "Um pequeno negócio precisa registrar clientes em u"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 outcome",
+      "passed": true,
+      "detail": "Capturar formulário, validar campos, criar element"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 whatIs",
+      "passed": true,
+      "detail": "DOM é a representação em objetos da estrutura HTML"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 purpose",
+      "passed": true,
+      "detail": "Com DOM e eventos, formulários podem atualizar tab"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 duração 15–25",
+      "passed": true,
+      "detail": "25"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 title",
+      "passed": true,
+      "detail": "API aplicada à consulta de dados"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 context",
+      "passed": true,
+      "detail": "Um formulário de atendimento precisa consultar dad"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 outcome",
+      "passed": true,
+      "detail": "Entender requisição, resposta, status, JSON e trat"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 whatIs",
+      "passed": true,
+      "detail": "API é uma interface que permite a comunicação entr"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 purpose",
+      "passed": true,
+      "detail": "Aplicações usam APIs para consultar endereços, pro"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 duração 15–25",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 title",
+      "passed": true,
+      "detail": "Tipos de aplicações mobile e escolha tecnológica"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 context",
+      "passed": true,
+      "detail": "Uma empresa precisa disponibilizar um sistema de a"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 outcome",
+      "passed": true,
+      "detail": "Comparar quatro abordagens e recomendar a mais ade"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 whatIs",
+      "passed": true,
+      "detail": "Aplicação mobile pode ser uma experiência web resp"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 purpose",
+      "passed": true,
+      "detail": "A escolha afeta acesso a recursos, distribuição, c"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 duração 15–25",
+      "passed": true,
+      "detail": "22"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 title",
+      "passed": true,
+      "detail": "Mobile-first aplicado a serviço profissional"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 context",
+      "passed": true,
+      "detail": "Um técnico em campo precisa registrar visita usand"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 outcome",
+      "passed": true,
+      "detail": "Priorizar conteúdo e ações para celular e expandir"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 whatIs",
+      "passed": true,
+      "detail": "Mobile-first é uma estratégia que começa pelas res"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 purpose",
+      "passed": true,
+      "detail": "Ela ajuda a definir o essencial, reduzir distraçõe"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 duração 15–25",
+      "passed": true,
+      "detail": "25"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 title",
+      "passed": true,
+      "detail": "PWA, cache e funcionamento offline"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 context",
+      "passed": true,
+      "detail": "Uma equipe de campo precisa consultar e preencher "
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 outcome",
+      "passed": true,
+      "detail": "Entender manifesto, service worker, cache e limite"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 whatIs",
+      "passed": true,
+      "detail": "PWA é uma aplicação criada com tecnologias web e a"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 purpose",
+      "passed": true,
+      "detail": "Manifesto descreve como o aplicativo aparece e ini"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 explicação progressiva",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 glossário",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 exemplo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 prática guiada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 laboratório interno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 quatro questões",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 questões válidas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 atividade específica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 quatro critérios",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 retomada",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 erros comuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 sem frase genérica",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 aplicado na grade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 sem plataforma externa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 mínimo técnico 10 min",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 previsto coerente",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 cartão histórico",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 cartão histórico",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 cartão histórico",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 cartão histórico",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 cartão histórico",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 guia VS Code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "diversidade de simuladores",
+      "passed": true,
+      "detail": "api,code,compileSim,decisionMatrix,domApp,flow,gameLoop,htmlPreview,interviewBuilder,languageCompare,metricBuilder,mobileCompare,processFlow,pwa,requirementBuilder,responsive,timeline"
+    },
+    {
+      "name": "ao menos 20 exemplos de código",
+      "passed": true,
+      "detail": "23"
+    },
+    {
+      "name": "códigos com nome de arquivo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sintaxe Python dos exemplos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sintaxe JavaScript dos exemplos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sintaxe C dos exemplos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "46 arquivos JavaScript válidos",
+      "passed": true,
+      "detail": "46 arquivos; erros=[]"
+    },
+    {
+      "name": "sem new Function",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sem execução eval",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "iframe de prévia isolado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "script piloto carregado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ordem guided-data → piloto → guided",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "referências locais do index",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "CSS balanceado",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém .v33-lesson-opening",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém .v33-code-lab textarea",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém .v33-quiz fieldset",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém min-height:48px",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém @media (max-width: 600px)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS contém prefers-reduced-motion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "appVersion v33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shell v33 piloto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth público/privado versão",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth janela coletiva 1h",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth registros iguais",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EduAuth chaves HMAC iguais",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chave privada ausente do público",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chave privada presente somente no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-01 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-02 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-intro-programacao-17 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-05 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-06 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1DS-analise-metodo-07 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-03 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-07 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-front-end-08 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-02 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-03 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS-inovacao-04 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-02 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-04 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3DS-programacao-ds-14 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-08 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-04 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-front-end-sub-11 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-01 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-02 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2DS Noite-mobile-1-17 título no painel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pasta privada ausente do público",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "21 PINs coletivos EduAuth verificados",
+      "passed": true,
+      "detail": "8 dígitos; janela coletiva de 3600 segundos"
+    }
+  ],
+  "staticRenderEvidence": [
+    "EVIDENCIAS_QA_V33/piloto-mobile-python.png",
+    "EVIDENCIAS_QA_V33/piloto-tablet-front-end.png",
+    "EVIDENCIAS_QA_V33/piloto-chromebook-inovacao.png",
+    "EVIDENCIAS_QA_V33/piloto-mobile-noite.png"
+  ]
+}

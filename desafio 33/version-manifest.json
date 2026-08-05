@@ -1,0 +1,50 @@
+{
+  "portalVersion": "33.0.0-pilot",
+  "build": "real-content-pilot-v33",
+  "releaseDate": "2026-08-04",
+  "schemaVersion": "2.0.0",
+  "profileSchemaVersion": "2.0.0",
+  "xpLedgerSchemaVersion": "1.0.0",
+  "evidenceSchemaVersion": "2.0.0",
+  "termsVersion": "1.3.0",
+  "permissionsManifestVersion": "1.0.0",
+  "status": "pilot",
+  "preservedLessonRecords": 121,
+  "activeGuidedLessons": 114,
+  "archivedLegacyLessons": 7,
+  "pilotLessons": 21,
+  "nonPilotLessons": 93,
+  "guidedLessons": 114,
+  "expectedDurationMinutes": {
+    "minimum": 15,
+    "maximum": 25
+  },
+  "technicalMinimumActiveMinutes": 10,
+  "organization": [
+    "Manhã / 1º DS / Introdução à Programação",
+    "Manhã / 1º DS / Análise e Método para Sistemas",
+    "Manhã / 2º DS / Programação Front-End",
+    "Manhã / 2º DS / Inovação Tecnológica e Empreendedorismo",
+    "Manhã / 3º DS / Programação no Desenvolvimento de Sistemas",
+    "Noite / 2º DS Subsequente / Programação Front-End",
+    "Noite / 2º DS Subsequente / Programação Mobile"
+  ],
+  "features": [
+    "conteúdo real em 21 aulas piloto",
+    "laboratórios internos",
+    "quatro questões com feedback por piloto",
+    "códigos copiáveis e baixáveis",
+    "guias de VS Code e dependências",
+    "experiência diferenciada manhã/noite",
+    "prática principal sem plataforma externa"
+  ],
+  "compatibility": {
+    "from": "32.0",
+    "mode": "non-destructive",
+    "lessonIdsPreserved": true,
+    "progressPreserved": true,
+    "eduauthClassWindowSeconds": 3600,
+    "extraAuthenticationDuringLesson": false
+  },
+  "knownIssuesFile": "KNOWN_ISSUES.md"
+}

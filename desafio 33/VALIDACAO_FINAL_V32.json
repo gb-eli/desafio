@@ -1,0 +1,26 @@
+{
+  "version": "32.0.0",
+  "status": "APPROVED",
+  "generatedAt": "2026-08-04T22:52:40.014736+00:00",
+  "passed": 85,
+  "total": 85,
+  "failedChecks": [],
+  "scope": [
+    "currículo",
+    "fluxo simplificado",
+    "EduAuth 1 hora",
+    "comprovantes",
+    "PDF final",
+    "sessão",
+    "responsividade",
+    "botões",
+    "Classroom",
+    "segurança pública",
+    "Central de Código"
+  ],
+  "limitations": [
+    "A navegação completa por URL local foi bloqueada pelo navegador administrado. A responsividade e as áreas de clique foram testadas com o HTML representativo e o CSS real via Playwright.",
+    "Web Crypto não ficou disponível no harness about:blank do painel; os 114 PINs e a validade de 59/61 minutos foram testados separadamente em Node com Web Crypto.",
+    "Service Worker, IndexedDB, impressão nativa e abertura real do Classroom ainda exigem conferência rápida na URL HTTPS publicada."
+  ]
+}
