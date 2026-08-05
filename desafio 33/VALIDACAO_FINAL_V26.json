@@ -1,0 +1,220 @@
+{
+  "schema": "desafio-ds-validation",
+  "version": "26.0.0",
+  "generatedAt": "2026-07-31T13:37:00-03:00",
+  "summary": {
+    "status": "PASS",
+    "passed": 32,
+    "total": 32
+  },
+  "counts": {
+    "previousLessons": 88,
+    "addedLessons": 21,
+    "totalLessons": 109,
+    "cyberLessons": 14,
+    "systemAnalysisLessons": 7,
+    "codeCenterLessons": 61
+  },
+  "checks": [
+    {
+      "name": "Sintaxe JavaScript",
+      "status": "PASS",
+      "detail": "42 arquivos válidos"
+    },
+    {
+      "name": "Aulas anteriores preservadas",
+      "status": "PASS",
+      "detail": "88 de 88 aulas idênticas à v25"
+    },
+    {
+      "name": "Total de aulas",
+      "status": "PASS",
+      "detail": "109 aulas"
+    },
+    {
+      "name": "Inclusões novas",
+      "status": "PASS",
+      "detail": "21 novas aulas"
+    },
+    {
+      "name": "Cyber Segurança",
+      "status": "PASS",
+      "detail": "14 mini laboratórios contextualizados"
+    },
+    {
+      "name": "Análise de sistemas",
+      "status": "PASS",
+      "detail": "7 auditorias com MVP, validação e feedback"
+    },
+    {
+      "name": "Tempo mínimo",
+      "status": "PASS",
+      "detail": "21 aulas com mínimo de 25 minutos ativos"
+    },
+    {
+      "name": "Escopo educacional",
+      "status": "PASS",
+      "detail": "Aviso presente em todas as novas aulas"
+    },
+    {
+      "name": "Contagem por disciplina",
+      "status": "PASS",
+      "detail": {
+        "1DS/intro-programacao": 17,
+        "1DS/analise-metodo": 19,
+        "2DS/front-end": 15,
+        "2DS/inovacao": 13,
+        "3DS/programacao-ds": 13,
+        "2DS Noite/front-end-sub": 15,
+        "2DS Noite/mobile-1": 17
+      }
+    },
+    {
+      "name": "IDs únicos",
+      "status": "PASS",
+      "detail": "109 IDs únicos"
+    },
+    {
+      "name": "Central de Código",
+      "status": "PASS",
+      "detail": "61 aulas com recurso técnico ou exemplos"
+    },
+    {
+      "name": "Renderizador Cyber",
+      "status": "PASS",
+      "detail": "presente"
+    },
+    {
+      "name": "Renderizador de análise",
+      "status": "PASS",
+      "detail": "presente"
+    },
+    {
+      "name": "Roteamento Cyber",
+      "status": "PASS",
+      "detail": "presente"
+    },
+    {
+      "name": "Roteamento de análise",
+      "status": "PASS",
+      "detail": "presente"
+    },
+    {
+      "name": "Desafio binário",
+      "status": "PASS",
+      "detail": "SEGURANCA"
+    },
+    {
+      "name": "Cifra de César",
+      "status": "PASS",
+      "detail": "VHJXUDQFD"
+    },
+    {
+      "name": "Hash de teste",
+      "status": "PASS",
+      "detail": "b6c13bcd153897c5…"
+    },
+    {
+      "name": "Versão EduAuth",
+      "status": "PASS",
+      "detail": "26.0.0"
+    },
+    {
+      "name": "Registro EduAuth",
+      "status": "PASS",
+      "detail": "113 registros (4 gerais + 109 aulas)"
+    },
+    {
+      "name": "Todas as aulas no EduAuth",
+      "status": "PASS",
+      "detail": "109 de 109 registradas"
+    },
+    {
+      "name": "Chave privada ausente no config público",
+      "status": "PASS",
+      "detail": "somente chave pública de assinatura"
+    },
+    {
+      "name": "Pastas privadas ausentes",
+      "status": "PASS",
+      "detail": "nenhuma pasta privada no pacote público"
+    },
+    {
+      "name": "Referências do HTML",
+      "status": "PASS",
+      "detail": "nenhum arquivo ausente"
+    },
+    {
+      "name": "IDs HTML",
+      "status": "PASS",
+      "detail": "180 IDs sem duplicação"
+    },
+    {
+      "name": "Cache bust v26",
+      "status": "PASS",
+      "detail": "referências atualizadas"
+    },
+    {
+      "name": "Arquivos JSON",
+      "status": "PASS",
+      "detail": "16 arquivos válidos"
+    },
+    {
+      "name": "Estrutura CSS",
+      "status": "PASS",
+      "detail": "1567 blocos equilibrados"
+    },
+    {
+      "name": "Responsividade dos novos laboratórios",
+      "status": "PASS",
+      "detail": "layout móvel específico presente"
+    },
+    {
+      "name": "Manifesto de versão",
+      "status": "PASS",
+      "detail": {
+        "portalVersion": "26.0.0",
+        "build": "guided-cyber-analysis-inclusion",
+        "releaseDate": "2026-07-31",
+        "schemaVersion": "2.0.0",
+        "profileSchemaVersion": "2.0.0",
+        "xpLedgerSchemaVersion": "1.0.0",
+        "termsVersion": "1.3.0",
+        "permissionsManifestVersion": "1.0.0",
+        "status": "stable",
+        "fixes": [
+          "preservação integral das 88 aulas anteriores",
+          "registro EduAuth das novas aulas"
+        ],
+        "improvements": [
+          "21 novas aulas integradas",
+          "mini laboratórios de cyber segurança",
+          "auditoria de sistemas, MVP e feedback",
+          "109 aulas no Modo Guiado"
+        ],
+        "knownIssuesFile": "KNOWN_ISSUES.md"
+      }
+    },
+    {
+      "name": "Documentação v26",
+      "status": "PASS",
+      "detail": [
+        "CHANGELOG_V26.md",
+        "RELATORIO_INCLUSAO_AULAS_V26.md",
+        "README.md",
+        "SECURITY.md",
+        "TERMS.md",
+        "PRIVACY.md"
+      ]
+    },
+    {
+      "name": "Senhas fixas antigas",
+      "status": "PASS",
+      "detail": "ausentes"
+    }
+  ],
+  "limitations": [
+    "Teste visual completo deve ser repetido na URL HTTPS publicada no GitHub Pages.",
+    "A proteção offline no frontend não equivale a uma autoridade central com backend."
+  ]
+}

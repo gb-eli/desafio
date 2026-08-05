@@ -1,0 +1,12 @@
+{
+  "name": "Desafio DS",
+  "short_name": "Desafio DS",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "pt-BR",
+  "description": "Desafio DS com 21 aulas piloto de conteúdo real, organizadas por turma e disciplina.",
+  "icons": []
+}

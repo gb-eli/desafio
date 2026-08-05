@@ -1,0 +1,72 @@
+{
+  "version": "28.1.0",
+  "date": "2026-08-03",
+  "baseVersion": "28.0.0",
+  "changeType": "PATCH",
+  "summary": "Configuração do endereço oficial do Fliperama DS no ecossistema e nas aulas integradas.",
+  "preservedLessons": 121,
+  "newLessons": 0,
+  "fliperamaLessons": 4,
+  "url": "https://gb-eli.github.io/Fliperama-DS/fliperama-ds-v0.21.0/index.html",
+  "checks": [
+    {
+      "name": "URL presente no catálogo JSON",
+      "passed": true
+    },
+    {
+      "name": "Fliperama marcado como available",
+      "passed": true
+    },
+    {
+      "name": "URL presente no catálogo JavaScript",
+      "passed": true
+    },
+    {
+      "name": "URL presente no catálogo visual",
+      "passed": true
+    },
+    {
+      "name": "Abertura segura em nova guia preservada",
+      "passed": true
+    },
+    {
+      "name": "121 aulas preservadas",
+      "passed": true
+    },
+    {
+      "name": "4 aulas vinculadas ao Fliperama DS",
+      "passed": true
+    },
+    {
+      "name": "EduAuth sem alteração de chaves",
+      "passed": true
+    },
+    {
+      "name": "Nenhuma chave privada publicada",
+      "passed": true
+    },
+    {
+      "name": "Cache atualizado para v28.1",
+      "passed": true
+    },
+    {
+      "name": "Parâmetros de cache dos assets atualizados",
+      "passed": true
+    },
+    {
+      "name": "Documentação atualizada",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "eduauth": {
+    "keysChanged": false,
+    "registriesChanged": false,
+    "privateKeyInPublicPackage": false
+  },
+  "limitations": [
+    "A URL não pôde ser consultada externamente pelo ambiente de construção devido a restrição de rede. A conferência final deve ser feita na URL publicada."
+  ],
+  "status": "VALID"
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "ds-tool-ecosystem",
+  "schemaVersion": 3,
+  "version": "3.0.0",
+  "updatedAt": "2026-08-04",
+  "tools": [
+    {
+      "id": "desafio-ds",
+      "name": "Desafio DS",
+      "status": "available",
+      "url": "",
+      "educationalRole": "Consolidar progresso, importar evidências e gerar o relatório final.",
+      "mode": "internal"
+    },
+    {
+      "id": "lab-virtual-ds",
+      "name": "Lab Virtual DS",
+      "status": "teacher-provided",
+      "url": "",
+      "educationalRole": "Explorar hardware, terminal, redes, sistemas, programação e simuladores técnicos.",
+      "mode": "external-proof"
+    },
+    {
+      "id": "lab-3d-vr",
+      "name": "Lab 3D / HoloMotion",
+      "status": "teacher-provided",
+      "url": "",
+      "educationalRole": "Analisar experiências 3D/360, interação espacial, desempenho e qualidade gráfica.",
+      "mode": "external-proof"
+    },
+    {
+      "id": "ctf-cyber",
+      "name": "CTF Cyber",
+      "status": "teacher-provided",
+      "url": "",
+      "educationalRole": "Praticar segurança em ambiente educacional autorizado, com criptografia, análise e defesa.",
+      "mode": "external-proof"
+    },
+    {
+      "id": "fliperama-ds",
+      "name": "Fliperama DS",
+      "status": "teacher-provided",
+      "url": "",
+      "educationalRole": "Aplicar lógica, física, animação, colisões, controles, UX, responsividade e desempenho em jogos.",
+      "mode": "external-proof"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "status": "teacher-provided",
+      "url": "",
+      "educationalRole": "Publicar código, documentar projetos, manter versões e compartilhar evidências.",
+      "mode": "external-proof"
+    }
+  ],
+  "note": "As atividades mostram somente o nome da plataforma. O endereço atualizado é informado pelo professor ou no Classroom. Atividades externas exigem comprovante do aluno; GitHub exige link quando indicado.",
+  "evidenceSchema": {
+    "id": "ds-evidence",
+    "version": 3,
+    "trustStates": [
+      "MANUAL",
+      "REVIEW_REQUIRED",
+      "INCOMPATIBLE"
+    ]
+  }
+}

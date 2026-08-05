@@ -1,0 +1,183 @@
+{
+  "version": "29.1.0",
+  "generatedAt": "2026-08-03T21:08:35.038674+00:00",
+  "summary": {
+    "total": 30,
+    "passed": 30,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Sintaxe JavaScript",
+      "status": "PASS",
+      "details": "45 arquivos; falhas=[]"
+    },
+    {
+      "name": "Arquivos JSON válidos",
+      "status": "PASS",
+      "details": "28 arquivos; falhas=[]"
+    },
+    {
+      "name": "121 aulas preservadas",
+      "status": "PASS",
+      "details": "antigas=121 novas=121"
+    },
+    {
+      "name": "IDs das aulas preservados",
+      "status": "PASS",
+      "details": "IDs únicos=121"
+    },
+    {
+      "name": "Conteúdo pedagógico inalterado",
+      "status": "PASS",
+      "details": "diferenças fora de classroomUrl=[]"
+    },
+    {
+      "name": "Sete Classrooms vinculados por disciplina",
+      "status": "PASS",
+      "details": "1DS/intro-programacao: 19 aulas -> https://classroom.google.com/c/ODQyMTU5MjQ3MTA1 [True]; 1DS/analise-metodo: 20 aulas -> https://classroom.google.com/c/NzkzNTA2MzQ0MjU1 [True]; 2DS/front-end: 17 aulas -> https://classroom.google.com/c/ODQyMTU3NDI1MTAy [True]; 2DS/inovacao: 14 aulas -> https://classroom.google.com/c/NzkzNTA2MTk2NDg4 [True]; 3DS/programacao-ds: 16 aulas -> https://classroom.google.com/c/ODQyMTU2NzEwNzc1 [True]; 2DS Noite/front-end-sub: 16 aulas -> https://classroom.google.com/c/ODcxMDE0NTQ3NzYw [True]; 2DS Noite/mobile-1: 19 aulas -> https://classroom.google.com/c/ODcxMDE0Mjg4NTU4 [True]"
+    },
+    {
+      "name": "Destino genérico desativado",
+      "status": "PASS",
+      "details": "defaultClassroom=''"
+    },
+    {
+      "name": "IDs confirmados no arquivo salvo do Classroom",
+      "status": "PASS",
+      "details": "ausentes=[]"
+    },
+    {
+      "name": "Seletor contextual instalado",
+      "status": "PASS",
+      "details": "API DS_Classroom encontrada"
+    },
+    {
+      "name": "Filtro pelas quatro turmas",
+      "status": "PASS",
+      "details": "4 turmas esperadas"
+    },
+    {
+      "name": "URLs independentes da conta Google",
+      "status": "PASS",
+      "details": "nenhum /u/6 em JS público"
+    },
+    {
+      "name": "Allowlist do domínio Classroom",
+      "status": "PASS",
+      "details": "HTTPS e hostname verificados"
+    },
+    {
+      "name": "Disciplina atual destacada",
+      "status": "PASS",
+      "details": "selo visual encontrado"
+    },
+    {
+      "name": "Abertura sem confirmação automática de entrega",
+      "status": "PASS",
+      "details": "status explícito"
+    },
+    {
+      "name": "Registro de turma e disciplina",
+      "status": "PASS",
+      "details": "campos de auditoria encontrados"
+    },
+    {
+      "name": "Acesso global ao Classroom",
+      "status": "PASS",
+      "details": "botão na barra global"
+    },
+    {
+      "name": "IDs HTML sem duplicidade",
+      "status": "PASS",
+      "details": "total=193 duplicados=0"
+    },
+    {
+      "name": "Referências locais do index existentes",
+      "status": "PASS",
+      "details": "33 referências; ausentes=[]"
+    },
+    {
+      "name": "classroom.js carregado",
+      "status": "PASS",
+      "details": "script presente"
+    },
+    {
+      "name": "CSS atualizado",
+      "status": "PASS",
+      "details": "cache-busting 29.1"
+    },
+    {
+      "name": "Cache offline íntegro",
+      "status": "PASS",
+      "details": "108 recursos; ausentes=[]"
+    },
+    {
+      "name": "classroom.js no cache offline",
+      "status": "PASS",
+      "details": "recurso incluído"
+    },
+    {
+      "name": "Cache versionado v29.1",
+      "status": "PASS",
+      "details": "nome do cache"
+    },
+    {
+      "name": "CSS balanceado",
+      "status": "PASS",
+      "details": "aberturas=1771 fechamentos=1771"
+    },
+    {
+      "name": "Seletor responsivo",
+      "status": "PASS",
+      "details": "breakpoint mobile"
+    },
+    {
+      "name": "Redução de movimento",
+      "status": "PASS",
+      "details": "fallback presente"
+    },
+    {
+      "name": "QA visual desktop gerado",
+      "status": "PASS",
+      "details": "/mnt/data/desafio_ds_v29_1_work/EVIDENCIAS_QA_V29_1/classroom-desktop.png"
+    },
+    {
+      "name": "QA visual mobile gerado",
+      "status": "PASS",
+      "details": "/mnt/data/desafio_ds_v29_1_work/EVIDENCIAS_QA_V29_1/classroom-mobile.png"
+    },
+    {
+      "name": "Nenhuma chave privada serializada no público",
+      "status": "PASS",
+      "details": "hits=[]"
+    },
+    {
+      "name": "Versão pública 29.1.0",
+      "status": "PASS",
+      "details": "manifest=29.1.0"
+    }
+  ],
+  "browserHarness": {
+    "desktop": {
+      "viewport": "1366x900",
+      "cards": 2,
+      "currentHighlighted": 1,
+      "horizontalOverflow": false,
+      "opened": "https://classroom.google.com/c/NzkzNTA2MzQ0MjU1",
+      "consoleErrors": 0
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "cards": 2,
+      "currentHighlighted": 1,
+      "horizontalOverflow": false,
+      "opened": "https://classroom.google.com/c/NzkzNTA2MzQ0MjU1",
+      "consoleErrors": 0
+    },
+    "withoutProfile": {
+      "groups": 4,
+      "disciplineCards": 7
+    }
+  }
+}

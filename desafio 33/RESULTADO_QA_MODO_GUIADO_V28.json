@@ -1,0 +1,270 @@
+{
+  "platform": "Desafio DS",
+  "version": "28.0.0",
+  "date": "2026-08-03",
+  "status": "approved",
+  "viewports": {
+    "catalogDesktop": {
+      "scrollWidth": 1351,
+      "clientWidth": 1366,
+      "height": 1440,
+      "buttons": [
+        {
+          "text": "Ir para Desafio DS",
+          "w": 175.4375,
+          "h": 45.1875
+        },
+        {
+          "text": "Perfis, turma e dados",
+          "w": 204.765625,
+          "h": 45.1875
+        },
+        {
+          "text": "Salvar, sair e bloquear",
+          "w": 211.625,
+          "h": 45.1875
+        },
+        {
+          "text": "Como realizar as aulas",
+          "w": 166.609375,
+          "h": 42
+        },
+        {
+          "text": "Baixar relatório HTML",
+          "w": 160.953125,
+          "h": 42
+        },
+        {
+          "text": "Baixar dados JSON",
+          "w": 144.484375,
+          "h": 42
+        },
+        {
+          "text": "Gerar relatório PDF",
+          "w": 141.609375,
+          "h": 42
+        },
+        {
+          "text": "Retomar",
+          "w": 100.046875,
+          "h": 44
+        },
+        {
+          "text": "Continuar",
+          "w": 112.75,
+          "h": 44
+        }
+      ]
+    },
+    "catalogTablet": {
+      "scrollWidth": 1009,
+      "clientWidth": 1024,
+      "height": 1575,
+      "buttons": [
+        {
+          "text": "Ir para Desafio DS",
+          "w": 175.4375,
+          "h": 45.1875
+        },
+        {
+          "text": "Perfis, turma e dados",
+          "w": 204.765625,
+          "h": 45.1875
+        },
+        {
+          "text": "Salvar, sair e bloquear",
+          "w": 211.625,
+          "h": 45.1875
+        },
+        {
+          "text": "Como realizar as aulas",
+          "w": 166.609375,
+          "h": 42
+        },
+        {
+          "text": "Baixar relatório HTML",
+          "w": 160.953125,
+          "h": 42
+        },
+        {
+          "text": "Baixar dados JSON",
+          "w": 144.484375,
+          "h": 42
+        },
+        {
+          "text": "Gerar relatório PDF",
+          "w": 141.609375,
+          "h": 42
+        },
+        {
+          "text": "Retomar",
+          "w": 100.046875,
+          "h": 44
+        },
+        {
+          "text": "Continuar",
+          "w": 112.75,
+          "h": 44
+        }
+      ]
+    },
+    "catalogMobile": {
+      "scrollWidth": 375,
+      "clientWidth": 390,
+      "height": 2810,
+      "buttons": [
+        {
+          "text": "Ir para Desafio DS",
+          "w": 351,
+          "h": 45.1875
+        },
+        {
+          "text": "Perfis, turma e dados",
+          "w": 351,
+          "h": 45.1875
+        },
+        {
+          "text": "Salvar, sair e bloquear",
+          "w": 351,
+          "h": 45.1875
+        },
+        {
+          "text": "Como realizar as aulas",
+          "w": 323,
+          "h": 42
+        },
+        {
+          "text": "Baixar relatório HTML",
+          "w": 323,
+          "h": 42
+        },
+        {
+          "text": "Baixar dados JSON",
+          "w": 323,
+          "h": 42
+        },
+        {
+          "text": "Gerar relatório PDF",
+          "w": 323,
+          "h": 42
+        },
+        {
+          "text": "Retomar",
+          "w": 100.046875,
+          "h": 44
+        },
+        {
+          "text": "Continuar",
+          "w": 302.21875,
+          "h": 44
+        }
+      ]
+    },
+    "lessonDesktop": {
+      "scrollWidth": 1351,
+      "clientWidth": 1366,
+      "details": [
+        324.25,
+        324.25,
+        324.25,
+        324.25
+      ],
+      "buttons": [
+        {
+          "t": "Voltar às aulas",
+          "h": 45.1875,
+          "w": 152.484375
+        },
+        {
+          "t": "Salvar e sair",
+          "h": 45.1875,
+          "w": 132.25
+        },
+        {
+          "t": "Gerar PDF da sessão",
+          "h": 45.1875,
+          "w": 197.109375
+        },
+        {
+          "t": "Preciso de outra explicação",
+          "h": 45.1875,
+          "w": 254.546875
+        },
+        {
+          "t": "Código e execução",
+          "h": 45.1875,
+          "w": 320.75
+        },
+        {
+          "t": "Abrir ferramenta relacionada",
+          "h": 45.1875,
+          "w": 320.75
+        },
+        {
+          "t": "Concluir etapa",
+          "h": 44,
+          "w": 320.75
+        }
+      ]
+    },
+    "lessonMobile": {
+      "scrollWidth": 375,
+      "clientWidth": 390,
+      "details": [
+        351,
+        351,
+        351,
+        351
+      ],
+      "buttons": [
+        {
+          "t": "Voltar às aulas",
+          "h": 45.1875,
+          "w": 351
+        },
+        {
+          "t": "Salvar e sair",
+          "h": 45.1875,
+          "w": 351
+        },
+        {
+          "t": "Gerar PDF da sessão",
+          "h": 45.1875,
+          "w": 197.109375
+        },
+        {
+          "t": "Preciso de outra explicação",
+          "h": 45.1875,
+          "w": 254.546875
+        },
+        {
+          "t": "Código e execução",
+          "h": 45.1875,
+          "w": 349
+        },
+        {
+          "t": "Abrir ferramenta relacionada",
+          "h": 45.1875,
+          "w": 349
+        },
+        {
+          "t": "Concluir etapa",
+          "h": 44,
+          "w": 349
+        }
+      ]
+    }
+  },
+  "checks": [
+    "Catálogo sem rolagem horizontal",
+    "Painel da disciplina responsivo",
+    "Botões de relatório acessíveis no celular",
+    "Papel pedagógico das ferramentas visível",
+    "Ação atual destacada",
+    "Informações adicionais recolhíveis",
+    "Botões principais com área de toque adequada",
+    "Botão Retomar corrigido em tela estreita",
+    "Tela interna sem rolagem horizontal"
+  ],
+  "limitation": "Teste por harness visual devido a bloqueio administrativo de localhost no Chromium."
+}

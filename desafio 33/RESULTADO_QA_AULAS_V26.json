@@ -1,0 +1,251 @@
+{
+  "schema": "guided-cyber-analysis-qa",
+  "version": "26.0.0",
+  "status": "PASS",
+  "preservation": {
+    "previousLessons": 88,
+    "changedPreviousLessons": 0,
+    "removedLessons": 0
+  },
+  "summary": {
+    "added": 21,
+    "cyberLabs": 14,
+    "systemReviews": 7,
+    "total": 109
+  },
+  "disciplines": [
+    {
+      "course": "1DS",
+      "discipline": "intro-programacao",
+      "label": "Introdução à Programação",
+      "totalLessons": 17,
+      "newLessons": [
+        {
+          "number": 15,
+          "id": "1DS-intro-programacao-15",
+          "title": "Cyber básica: binário, bytes e representação da informação",
+          "toolType": "cyber-lab",
+          "mode": "binary",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 16,
+          "id": "1DS-intro-programacao-16",
+          "title": "Cyber básica: Cifra de César, hash e verificação",
+          "toolType": "cyber-lab",
+          "mode": "caesar-hash",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 17,
+          "id": "1DS-intro-programacao-17",
+          "title": "Análise aplicada: testar uma plataforma e produzir feedback",
+          "toolType": "system-review",
+          "mode": null,
+          "minimumMinutes": 25
+        }
+      ]
+    },
+    {
+      "course": "1DS",
+      "discipline": "analise-metodo",
+      "label": "Análise e Método para Sistemas",
+      "totalLessons": 19,
+      "newLessons": [
+        {
+          "number": 17,
+          "id": "1DS-analise-metodo-17",
+          "title": "Requisitos de segurança: dados, acesso e integridade",
+          "toolType": "cyber-lab",
+          "mode": "requirements-security",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 18,
+          "id": "1DS-analise-metodo-18",
+          "title": "Modelagem de ameaça leve: cifra, hash e fluxo de dados",
+          "toolType": "cyber-lab",
+          "mode": "threat-flow",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 19,
+          "id": "1DS-analise-metodo-19",
+          "title": "Auditoria educacional: MVP, protótipo, teste e feedback",
+          "toolType": "system-review",
+          "mode": null,
+          "minimumMinutes": 25
+        }
+      ]
+    },
+    {
+      "course": "2DS",
+      "discipline": "front-end",
+      "label": "Programação Front-End",
+      "totalLessons": 15,
+      "newLessons": [
+        {
+          "number": 13,
+          "id": "2DS-front-end-13",
+          "title": "Segurança Web: entrada do usuário, XSS e renderização segura",
+          "toolType": "cyber-lab",
+          "mode": "xss",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 14,
+          "id": "2DS-front-end-14",
+          "title": "Segurança Web: sessão, armazenamento e hash",
+          "toolType": "cyber-lab",
+          "mode": "storage-auth",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 15,
+          "id": "2DS-front-end-15",
+          "title": "Auditoria de interface Web: segurança, responsividade e feedback",
+          "toolType": "system-review",
+          "mode": null,
+          "minimumMinutes": 25
+        }
+      ]
+    },
+    {
+      "course": "2DS",
+      "discipline": "inovacao",
+      "label": "Inovação Tecnológica e Empreendedorismo",
+      "totalLessons": 13,
+      "newLessons": [
+        {
+          "number": 11,
+          "id": "2DS-inovacao-11",
+          "title": "Inovação responsável: privacidade, segurança e confiança",
+          "toolType": "cyber-lab",
+          "mode": "permissions",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 12,
+          "id": "2DS-inovacao-12",
+          "title": "Simulação de incidente: detectar, comunicar e melhorar",
+          "toolType": "cyber-lab",
+          "mode": "incident",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 13,
+          "id": "2DS-inovacao-13",
+          "title": "Validação de produto educacional: análise, MVP e feedback",
+          "toolType": "system-review",
+          "mode": null,
+          "minimumMinutes": 25
+        }
+      ]
+    },
+    {
+      "course": "3DS",
+      "discipline": "programacao-ds",
+      "label": "Programação no Desenvolvimento de Sistemas",
+      "totalLessons": 13,
+      "newLessons": [
+        {
+          "number": 11,
+          "id": "3DS-programacao-ds-11",
+          "title": "Representação e criptografia aplicada: binário, hexadecimal, Base64 e hash",
+          "toolType": "cyber-lab",
+          "mode": "encoding-advanced",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 12,
+          "id": "3DS-programacao-ds-12",
+          "title": "Código seguro: validação, autenticação e limites do front-end",
+          "toolType": "cyber-lab",
+          "mode": "secure-code",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 13,
+          "id": "3DS-programacao-ds-13",
+          "title": "Auditoria técnica: código, testes, desempenho e relatório",
+          "toolType": "system-review",
+          "mode": null,
+          "minimumMinutes": 25
+        }
+      ]
+    },
+    {
+      "course": "2DS Noite",
+      "discipline": "front-end-sub",
+      "label": "Programação Front-End",
+      "totalLessons": 15,
+      "newLessons": [
+        {
+          "number": 13,
+          "id": "2DS Noite-front-end-sub-13",
+          "title": "Segurança Front-End: formulário, XSS e conteúdo não confiável",
+          "toolType": "cyber-lab",
+          "mode": "xss",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 14,
+          "id": "2DS Noite-front-end-sub-14",
+          "title": "Sessão, armazenamento e integridade em aplicações Web",
+          "toolType": "cyber-lab",
+          "mode": "storage-auth",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 15,
+          "id": "2DS Noite-front-end-sub-15",
+          "title": "Análise de sistema Web: protótipo, teste e feedback",
+          "toolType": "system-review",
+          "mode": null,
+          "minimumMinutes": 25
+        }
+      ]
+    },
+    {
+      "course": "2DS Noite",
+      "discipline": "mobile-1",
+      "label": "Programação Mobile",
+      "totalLessons": 17,
+      "newLessons": [
+        {
+          "number": 15,
+          "id": "2DS Noite-mobile-1-15",
+          "title": "Segurança Mobile: permissões, dados e alternativas",
+          "toolType": "cyber-lab",
+          "mode": "permissions",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 16,
+          "id": "2DS Noite-mobile-1-16",
+          "title": "Dados Mobile: API, armazenamento, hash e funcionamento offline",
+          "toolType": "cyber-lab",
+          "mode": "api-mobile",
+          "minimumMinutes": 25
+        },
+        {
+          "number": 17,
+          "id": "2DS Noite-mobile-1-17",
+          "title": "Auditoria de aplicativo Mobile: UX, segurança e compatibilidade",
+          "toolType": "system-review",
+          "mode": null,
+          "minimumMinutes": 25
+        }
+      ]
+    }
+  ],
+  "functionalVectors": {
+    "binaryChallenge": "SEGURANCA",
+    "caesarShift3": "VHJXUDQFD",
+    "sha256AtividadeDs": "b6c13bcd153897c5cdde8bde1a25dd2d722200c46cbc7aed4d684094c993e729"
+  },
+  "visualTesting": {
+    "status": "ENVIRONMENT_BLOCKED",
+    "note": "O Chromium administrado permaneceu bloqueado durante a captura local. Repetir a conferência visual na URL HTTPS do GitHub Pages."
+  }
+}

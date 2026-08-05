@@ -1,0 +1,12 @@
+DESAFIO DS v33.0 PILOTO — PUBLICAÇÃO NO GITHUB PAGES
+
+1. Publique somente o conteúdo desta pasta.
+2. Mantenha index.html na raiz.
+3. Não publique PROFESSOR_PRIVADO_NAO_PUBLICAR.
+4. Abra a URL HTTPS em janela anônima e confirme “33.0 piloto”.
+5. Teste ao menos uma aula piloto de cada disciplina.
+6. As 21 aulas piloto estão marcadas no catálogo.
+7. As outras 93 aulas permanecem no padrão v32 para comparação.
+8. O código coletivo de oito dígitos vale uma hora e é solicitado somente para iniciar.
+9. Nenhuma aula piloto depende de plataforma externa na prática principal.
+10. Confira PDF, downloads, IndexedDB e offline na URL HTTPS antes do uso em aula.

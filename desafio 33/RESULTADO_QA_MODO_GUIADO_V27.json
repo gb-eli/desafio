@@ -1,0 +1,107 @@
+{
+  "schema": "desafio-ds-guided-qa",
+  "version": "27.0.0",
+  "generatedAt": "2026-08-03T17:45:07.021Z",
+  "status": "APPROVED",
+  "lessonPreservation": {
+    "expected": 109,
+    "actual": 109
+  },
+  "lessonAddition": {
+    "expected": 12,
+    "actual": 12,
+    "ids": [
+      "1DS-intro-programacao-18",
+      "1DS-intro-programacao-19",
+      "1DS-analise-metodo-20",
+      "2DS-front-end-16",
+      "2DS-front-end-17",
+      "2DS-inovacao-14",
+      "3DS-programacao-ds-14",
+      "3DS-programacao-ds-15",
+      "3DS-programacao-ds-16",
+      "2DS Noite-front-end-sub-16",
+      "2DS Noite-mobile-1-18",
+      "2DS Noite-mobile-1-19"
+    ]
+  },
+  "structure": {
+    "unitsAndSequence": true,
+    "courseCounts": {
+      "1DS/intro-programacao": 19,
+      "1DS/analise-metodo": 20,
+      "2DS/front-end": 17,
+      "2DS/inovacao": 14,
+      "3DS/programacao-ds": 16,
+      "2DS Noite/front-end-sub": 16,
+      "2DS Noite/mobile-1": 19
+    },
+    "minimumTimeIssues": []
+  },
+  "integrations": {
+    "catalog": [
+      "desafio-ds",
+      "lab-virtual-ds",
+      "lab-3d-vr",
+      "ctf-cyber",
+      "fliperama-ds",
+      "github"
+    ],
+    "taskIssues": [],
+    "requiredEvidenceLessons": [
+      "1DS-intro-programacao-18",
+      "1DS-intro-programacao-19",
+      "1DS-analise-metodo-20",
+      "2DS-front-end-16",
+      "2DS-front-end-17",
+      "2DS-inovacao-14",
+      "3DS-programacao-ds-14",
+      "3DS-programacao-ds-15",
+      "3DS-programacao-ds-16",
+      "2DS Noite-front-end-sub-16",
+      "2DS Noite-mobile-1-18",
+      "2DS Noite-mobile-1-19"
+    ]
+  },
+  "codeCenter": {
+    "resourceCount": 53,
+    "mappedLessonCount": 73,
+    "fileCount": 160,
+    "commandCount": 148,
+    "issues": []
+  },
+  "profiles": {
+    "switchUser": true,
+    "lockUser": true,
+    "deleteProfile": true,
+    "exportProfile": true,
+    "importProfile": true
+  },
+  "schedule": {
+    "timezone": "America/Sao_Paulo",
+    "morningClasses": 6,
+    "nightClasses": 5
+  },
+  "eduauth": {
+    "lessonRegistry": 125,
+    "teacherMaintenanceAction": true,
+    "privateValidatorMatched": true
+  },
+  "visualQA": {
+    "fullHttpRuntime": false,
+    "reason": "Política administrativa do Chromium bloqueou 127.0.0.1.",
+    "visualHarness": true,
+    "viewports": [
+      "1366x900",
+      "1024x768",
+      "390x844"
+    ],
+    "horizontalOverflow": false
+  },
+  "limitations": [
+    "Integração entre origens GitHub Pages usa arquivo de evidência ou registro manual; IndexedDB/localStorage não são compartilhados entre domínios.",
+    "Abrir o Google Classroom não confirma entrega.",
+    "A segurança offline no frontend não equivale a uma autoridade de backend.",
+    "O link definitivo do Fliperama DS deve ser configurado pelo professor quando publicado."
+  ]
+}

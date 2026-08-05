@@ -1,0 +1,460 @@
+{
+  "schema": "desafio-ds-validation",
+  "version": "27.0.0",
+  "generatedAt": "2026-08-03T17:45:07.021Z",
+  "source": {
+    "uploaded": "desafio-main(3).zip",
+    "detectedVersion": "26.0",
+    "oldLessons": 109
+  },
+  "result": {
+    "status": "VALID",
+    "passed": 38,
+    "failed": 0,
+    "total": 38
+  },
+  "curriculum": {
+    "totalLessons": 121,
+    "preservedLessons": 109,
+    "newLessons": 12,
+    "countsByDiscipline": {
+      "1DS/intro-programacao": 19,
+      "1DS/analise-metodo": 20,
+      "2DS/front-end": 17,
+      "2DS/inovacao": 14,
+      "3DS/programacao-ds": 16,
+      "2DS Noite/front-end-sub": 16,
+      "2DS Noite/mobile-1": 19
+    },
+    "codeResources": 53,
+    "lessonsWithCode": 73,
+    "resourceFiles": 160,
+    "documentedCommands": 148,
+    "externalToolIds": [
+      "desafio-ds",
+      "lab-virtual-ds",
+      "lab-3d-vr",
+      "ctf-cyber",
+      "fliperama-ds",
+      "github"
+    ]
+  },
+  "eduauth": {
+    "environment": "production",
+    "productionProvisioned": true,
+    "registeredLessons": 125,
+    "actions": [
+      "challenge-start",
+      "assessment-start",
+      "lesson-start",
+      "early-completion",
+      "prova-rescue",
+      "teacher-audit",
+      "profile-recovery",
+      "profile-recovery-reset",
+      "teacher-maintenance"
+    ],
+    "integrationStatus": "EDUAUTH PLATFORM INTEGRATION: VALID"
+  },
+  "browserQA": {
+    "fullHttpRuntime": false,
+    "reason": "Política administrativa do Chromium bloqueou 127.0.0.1.",
+    "visualHarness": true,
+    "viewports": [
+      "1366x900",
+      "1024x768",
+      "390x844"
+    ],
+    "horizontalOverflow": false
+  },
+  "checks": [
+    {
+      "name": "Sintaxe JavaScript",
+      "ok": true,
+      "details": {
+        "files": 46,
+        "errors": []
+      }
+    },
+    {
+      "name": "JSON válidos",
+      "ok": true,
+      "details": {
+        "files": 24,
+        "errors": []
+      }
+    },
+    {
+      "name": "Contagem de aulas",
+      "ok": true,
+      "details": {
+        "old": 109,
+        "new": 121,
+        "added": 12
+      }
+    },
+    {
+      "name": "IDs únicos",
+      "ok": true,
+      "details": {
+        "unique": 121,
+        "total": 121
+      }
+    },
+    {
+      "name": "Todos os IDs antigos preservados",
+      "ok": true,
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "name": "Conteúdo pedagógico antigo preservado",
+      "ok": true,
+      "details": {
+        "differences": [],
+        "count": 0
+      }
+    },
+    {
+      "name": "Doze novas aulas",
+      "ok": true,
+      "details": {
+        "ids": [
+          "1DS-intro-programacao-18",
+          "1DS-intro-programacao-19",
+          "1DS-analise-metodo-20",
+          "2DS-front-end-16",
+          "2DS-front-end-17",
+          "2DS-inovacao-14",
+          "3DS-programacao-ds-14",
+          "3DS-programacao-ds-15",
+          "3DS-programacao-ds-16",
+          "2DS Noite-front-end-sub-16",
+          "2DS Noite-mobile-1-18",
+          "2DS Noite-mobile-1-19"
+        ]
+      }
+    },
+    {
+      "name": "Contagem por disciplina",
+      "ok": true,
+      "details": {
+        "expected": {
+          "1DS/intro-programacao": 19,
+          "1DS/analise-metodo": 20,
+          "2DS/front-end": 17,
+          "2DS/inovacao": 14,
+          "3DS/programacao-ds": 16,
+          "2DS Noite/front-end-sub": 16,
+          "2DS Noite/mobile-1": 19
+        },
+        "actual": {
+          "1DS/intro-programacao": 19,
+          "1DS/analise-metodo": 20,
+          "2DS/front-end": 17,
+          "2DS/inovacao": 14,
+          "3DS/programacao-ds": 16,
+          "2DS Noite/front-end-sub": 16,
+          "2DS Noite/mobile-1": 19
+        }
+      }
+    },
+    {
+      "name": "Unidades e sequência completas",
+      "ok": true,
+      "details": {
+        "issues": []
+      }
+    },
+    {
+      "name": "Tempo pedagógico configurado",
+      "ok": true,
+      "details": {
+        "issues": []
+      }
+    },
+    {
+      "name": "Integrações referenciam ferramentas cadastradas",
+      "ok": true,
+      "details": {
+        "catalog": [
+          "desafio-ds",
+          "lab-virtual-ds",
+          "lab-3d-vr",
+          "ctf-cyber",
+          "fliperama-ds",
+          "github"
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "URLs externas seguras",
+      "ok": true,
+      "details": {
+        "issues": []
+      }
+    },
+    {
+      "name": "Central de Código conectada",
+      "ok": true,
+      "details": {
+        "resources": 53,
+        "mappedLessons": 73,
+        "files": 160,
+        "commands": 148,
+        "issues": []
+      }
+    },
+    {
+      "name": "EduAuth público carregado",
+      "ok": true,
+      "details": {
+        "keys": [
+          "schemaVersion",
+          "protocolVersion",
+          "coreVersion",
+          "environment",
+          "productionProvisioned",
+          "platform",
+          "keys",
+          "timePolicy",
+          "security",
+          "registries",
+          "actions"
+        ]
+      }
+    },
+    {
+      "name": "EduAuth privado carregado",
+      "ok": true,
+      "details": {
+        "windowKeys": [
+          "window",
+          "crypto",
+          "sessionStorage",
+          "localStorage",
+          "TextEncoder",
+          "TextDecoder",
+          "btoa",
+          "atob",
+          "EDUAUTH_VALIDATOR_CONFIG"
+        ]
+      }
+    },
+    {
+      "name": "Todas as aulas registradas no EduAuth",
+      "ok": true,
+      "details": {
+        "lessonRegistry": 125,
+        "lessons": 121,
+        "missing": []
+      }
+    },
+    {
+      "name": "Ação de manutenção docente cadastrada",
+      "ok": true,
+      "details": {
+        "action": {
+          "id": "teacher-maintenance",
+          "label": "Executar manutenção individual do progresso",
+          "risk": "CRITICAL",
+          "preferredMode": "SIGNED_GRANT",
+          "pinLength": 0,
+          "ttlSeconds": 180,
+          "singleUse": true,
+          "requireReason": true
+        }
+      }
+    },
+    {
+      "name": "Nenhuma chave privada no pacote público",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "Chave pública corresponde ao validador",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "Chave privada existe somente no validador",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "Chaves HMAC correspondem",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "PIN coletivo determinístico e decodificável",
+      "ok": true,
+      "details": {
+        "pinLength": 8,
+        "decoded": {
+          "classId": "1DS",
+          "subjectId": "1DS:intro-programacao",
+          "lessonId": "1DS-intro-programacao-01",
+          "activityId": "aula-guiada",
+          "actionId": "lesson-start"
+        }
+      }
+    },
+    {
+      "name": "PIN individual válido, de 10 dígitos e uso único",
+      "ok": true,
+      "details": {
+        "length": 10,
+        "reusedRejected": true
+      }
+    },
+    {
+      "name": "HTML sem IDs duplicados",
+      "ok": true,
+      "details": {
+        "ids": 181,
+        "duplicates": []
+      }
+    },
+    {
+      "name": "Referências locais do HTML existem",
+      "ok": true,
+      "details": {
+        "refs": 31,
+        "missing": []
+      }
+    },
+    {
+      "name": "Cache offline referencia arquivos existentes",
+      "ok": true,
+      "details": {
+        "cached": 90,
+        "missing": []
+      }
+    },
+    {
+      "name": "Controles essenciais de perfil presentes",
+      "ok": true,
+      "details": {
+        "required": [
+          "createProfile",
+          "unlockProfile",
+          "lockProfile",
+          "deleteProfile",
+          "exportProfile",
+          "importProfile"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "name": "Horário escolar completo",
+      "ok": true,
+      "details": {
+        "classPeriods": 11
+      }
+    },
+    {
+      "name": "Importação e validação de evidências conectadas",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "Conclusão antecipada depende de autorização docente",
+      "ok": true,
+      "details": {}
+    },
+    {
+      "name": "Senhas fixas antigas ausentes",
+      "ok": true,
+      "details": {
+        "hits": []
+      }
+    },
+    {
+      "name": "Manifestos identificam v27",
+      "ok": true,
+      "details": {
+        "versionManifest": "27.0.0",
+        "eduauth": "27.0.0"
+      }
+    },
+    {
+      "name": "Sintaxe dos exemplos Python",
+      "ok": true,
+      "details": {
+        "total": 19,
+        "errors": []
+      }
+    },
+    {
+      "name": "Sintaxe dos exemplos JavaScript",
+      "ok": true,
+      "details": {
+        "total": 33,
+        "errors": []
+      }
+    },
+    {
+      "name": "Estrutura dos exemplos JSON",
+      "ok": true,
+      "details": {
+        "total": 3,
+        "errors": []
+      }
+    },
+    {
+      "name": "Estrutura dos exemplos XML",
+      "ok": true,
+      "details": {
+        "total": 2,
+        "errors": []
+      }
+    },
+    {
+      "name": "Estrutura dos exemplos TOML",
+      "ok": true,
+      "details": {
+        "total": 1,
+        "errors": []
+      }
+    },
+    {
+      "name": "Estrutura dos exemplos CSS",
+      "ok": true,
+      "details": {
+        "total": 24,
+        "errors": []
+      }
+    }
+  ],
+  "codeResourceValidation": {
+    "python": {
+      "total": 19,
+      "errors": []
+    },
+    "javascript": {
+      "total": 33,
+      "errors": []
+    },
+    "json": {
+      "total": 3,
+      "errors": []
+    },
+    "xml": {
+      "total": 2,
+      "errors": []
+    },
+    "toml": {
+      "total": 1,
+      "errors": []
+    },
+    "css": {
+      "total": 24,
+      "errors": []
+    },
+    "status": "VALID"
+  }
+}

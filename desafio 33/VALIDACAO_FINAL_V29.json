@@ -1,0 +1,221 @@
+{
+  "version": "29.0.0",
+  "generatedAt": "2026-08-03T20:30:00-03:00",
+  "summary": {
+    "passed": 41,
+    "total": 41,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "121 aulas preservadas",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "IDs das aulas preservados",
+      "ok": true,
+      "details": "121 IDs"
+    },
+    {
+      "name": "Conteúdo pedagógico preservado",
+      "ok": true,
+      "details": "somente versão técnica alterada"
+    },
+    {
+      "name": "IDs únicos",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "JavaScript válido",
+      "ok": true,
+      "details": "45 arquivos; sem erros"
+    },
+    {
+      "name": "JSONs públicos válidos",
+      "ok": true,
+      "details": "27 arquivos"
+    },
+    {
+      "name": "Referências locais do index",
+      "ok": true,
+      "details": "32 referências; faltando: []"
+    },
+    {
+      "name": "IDs HTML sem duplicidade",
+      "ok": true,
+      "details": "193 IDs"
+    },
+    {
+      "name": "Estado de evidência RECOGNIZED",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Estado de evidência TEACHER_VALIDATED",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Estado de evidência PARTIAL",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Estado de evidência MANUAL",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Estado de evidência INCOMPATIBLE",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Schema de evidência v2",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Correspondência contextual",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Deduplicação global",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Validação docente EduAuth",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Desafio DS como ação interna",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Missão obrigatória exige confiança válida",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Testes dinâmicos de evidência",
+      "ok": true,
+      "details": "[{'name': 'exact', 'status': 'RECOGNIZED'}, {'name': 'old', 'status': 'PARTIAL'}, {'name': 'manual', 'status': 'MANUAL'}, {'name': 'internal', 'status': 'RECOGNIZED'}, {'name': 'mismatch', 'status': 'INCOMPATIBLE'}, {'name': 'teacher', 'status': 'TEACHER_VALIDATED'}]"
+    },
+    {
+      "name": "Progresso de etapas separado",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Evidências e exportações separadas",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Relatório inclui confiança",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Catálogo de ferramentas v2",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Links de ferramentas seguros",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Fliperama DS configurado",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "EduAuth v29 correspondente",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Chaves públicas/privadas correspondentes",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Sem chave privada no config público",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Validador privado fora da pasta pública",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Cache offline sem arquivos ausentes",
+      "ok": true,
+      "details": "104 recursos; faltando []"
+    },
+    {
+      "name": "Cache v29",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "CSS com chaves balanceadas",
+      "ok": true,
+      "details": "1737 blocos"
+    },
+    {
+      "name": "Selos responsivos de evidência",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Manifesto v29",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Documento CHANGELOG_V29.md",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Documento RELATORIO_FASE1_EVIDENCIAS_V29.md",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Documento MIGRACAO_EVIDENCIAS_V29.md",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Documento README.md",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Documento KNOWN_ISSUES.md",
+      "ok": true,
+      "details": ""
+    },
+    {
+      "name": "Limitação Classroom documentada",
+      "ok": true,
+      "details": "121 links genéricos"
+    }
+  ],
+  "limitations": [
+    "Teste visual completo deve ser repetido na URL HTTPS publicada.",
+    "Links específicos do Classroom e GitHub permanecem para a fase de integrações.",
+    "Segurança front-end não equivale a servidor autoritativo."
+  ]
+}

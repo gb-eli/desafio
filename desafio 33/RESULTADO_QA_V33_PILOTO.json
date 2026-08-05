@@ -1,0 +1,61 @@
+{
+  "version": "33.0.0-pilot",
+  "generatedAt": "2026-08-04T21:37:00-03:00",
+  "scope": {
+    "historicalLessonIds": 121,
+    "activeLessons": 114,
+    "legacyLessons": 7,
+    "pilotLessons": 21,
+    "morningPilots": 15,
+    "nightPilots": 6,
+    "disciplines": 7,
+    "nonPilotLessonsPreserved": 93
+  },
+  "content": {
+    "durationRangeMinutes": [
+      20,
+      25
+    ],
+    "questionsPerPilot": 4,
+    "externalDependencyRequired": false,
+    "internalPracticeInEveryPilot": true,
+    "finalActivityInEveryPilot": true,
+    "feedbackInEveryQuestion": true,
+    "vscodeGuideWhenApplicable": true,
+    "copyAndDownloadWhenApplicable": true
+  },
+  "compatibility": {
+    "lessonIdsPreserved": true,
+    "profileProgressPreserved": true,
+    "sessionFlowPreserved": true,
+    "classroomPreserved": true,
+    "finalReceiptPreserved": true,
+    "eduauthOneHourClassPinPreserved": true,
+    "extraAuthenticationDuringLesson": false
+  },
+  "technical": {
+    "javascriptFilesChecked": 46,
+    "javascriptSyntaxPassed": 46,
+    "cssBracesBalanced": true,
+    "pythonExamplesPassed": true,
+    "javascriptExamplesPassed": true,
+    "representativeCExamplesPassed": true,
+    "pilotPinsTested": 21,
+    "pilotPinsPassed": 21,
+    "privateKeyAbsentFromPublicPackage": true
+  },
+  "responsiveEvidence": [
+    "EVIDENCIAS_QA_V33/piloto-mobile-python.png",
+    "EVIDENCIAS_QA_V33/piloto-tablet-front-end.png",
+    "EVIDENCIAS_QA_V33/piloto-chromebook-inovacao.png",
+    "EVIDENCIAS_QA_V33/piloto-mobile-noite.png"
+  ],
+  "browserAutomation": {
+    "status": "partially_blocked",
+    "detail": "O Chromium administrado não concluiu a automação interativa por endereço local. Renderizações estáticas responsivas foram geradas; Service Worker, IndexedDB, impressão, downloads e interações completas devem ser testados após publicação em HTTPS."
+  },
+  "result": {
+    "checksPassed": 549,
+    "checksFailed": 0
+  }
+}

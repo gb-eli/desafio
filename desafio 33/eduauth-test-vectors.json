@@ -1,0 +1,80 @@
+{
+  "schema": "eduauth-test-vectors",
+  "schemaVersion": 1,
+  "protocolVersion": 1,
+  "platformId": "desafio-ds",
+  "platformVersion": "28.0.0",
+  "environment": "production-test-vectors-with-nonsecret-context",
+  "note": "Os vetores usam a configuração v28. Não contêm chave privada.",
+  "vectors": [
+    {
+      "id": "class-valid",
+      "description": "Código coletivo válido para 1º DS e aula de hardware",
+      "context": {
+        "mode": "CLASS_SHARED_PIN",
+        "classId": "1DS",
+        "subjectId": "1DS:intro-programacao",
+        "lessonId": "1DS-intro-programacao-18",
+        "activityId": "aula-guiada",
+        "actionId": "lesson-start",
+        "timeSlot": 2000000
+      },
+      "requestCode": "EA1-C1-K01-040G-2082-0G00-C0R3-00F8-9001-J6QD-0Q8",
+      "payloadB64": "AQEBAQIEAAYDAwAehIAB",
+      "expectedPin": "54561496"
+    },
+    {
+      "id": "session-valid",
+      "description": "Conclusão antecipada individual",
+      "context": {
+        "mode": "SESSION_SCOPED_PIN",
+        "classId": "3DS",
+        "subjectId": "3DS:programacao-ds",
+        "lessonId": "3DS-programacao-ds-15",
+        "activityId": "aula-guiada",
+        "actionId": "early-completion",
+        "timeSlot": 2000000,
+        "expiresAt": 1800000300
+      },
+      "requestCode": "EA1-S1-K01-0410-2084-1005-G0R4-00F8-9001-0410-613B-979J-R186-0W40-J2GB-1HMN-TBB4",
+      "payloadB64": "AQIBAQQIAFgDBAAehIABAQIDBGtJ0ywFBgcICQoLDA",
+      "expectedPin": "1245024934",
+      "singleUse": true
+    },
+    {
+      "id": "signed-valid",
+      "description": "Manutenção individual assinada",
+      "context": {
+        "mode": "SIGNED_GRANT",
+        "actionId": "teacher-maintenance",
+        "lessonId": "painel-professor"
+      },
+      "requestCode": "EA1-G1-K01-041G-2085-1800-61G9-00F8-9001-1M70-Y43B-9797-G48J-2CA1-A5GQ-30NH-SRW9",
+      "token": "EA1-G1.eyJwcm90b2NvbCI6IkVEVUFVVEgiLCJ2ZXJzaW9uIjoxLCJwbGF0Zm9ybUlkIjoiZGVzYWZpby1kcyIsImFjdGlvbklkIjoidGVhY2hlci1tYWludGVuYW5jZSIsImxlc3NvbklkIjoicGFpbmVsLXByb2Zlc3NvciIsInJlc291cmNlSWQiOiJwZXJmaWwtdGVzdGUiLCJyZXNvdXJjZVRhZyI6IjE1MTYxNzE4IiwicmVxdWVzdFRhZyI6IjBkMGUwZjEwIiwic2Vzc2lvblRhZyI6IjExMTIxMzE0IiwiZ3JhbnRlZEF0IjoxODAwMDAwMDAwLCJleHBpcmVzQXQiOjE4MDAwMDAxODAsInJlYXNvbiI6IlZldG9yIGRlIHRlc3RlIHYyNyJ9.HB0ukzqJt-3LA0XFNYS3Dgb5tV6ZlqxjcIjrXpf_syh8dKgM-pI5nhPsoGewOCzo2go3uju-x-yfwi7oVCTYvQ",
+      "signatureVerified": true
+    }
+  ],
+  "invalidExamples": [
+    {
+      "id": "checksum-invalid",
+      "mutation": "EA1-C1-K01-040G-2082-0G00-C0R3-00F8-9001-J6QD-0QA",
+      "expected": "rejeitar checksum"
+    },
+    {
+      "id": "other-class",
+      "description": "Alterar turma modifica o PIN esperado"
+    },
+    {
+      "id": "other-session",
+      "description": "Nonce, sessão ou recurso diferente deve ser rejeitado"
+    },
+    {
+      "id": "replay",
+      "description": "Autorização individual consumida deve ser rejeitada"
+    },
+    {
+      "id": "tampered-signed-token",
+      "description": "Alterar payload ou assinatura deve falhar"
+    }
+  ]
+}
